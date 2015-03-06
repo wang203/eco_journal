@@ -1245,7 +1245,7 @@ To summarize, the main contributions of this paper include:
 
 A variety of recent work has studied how to apply computational
 techniques to analyze online social datasets in order to aid research
-in other disciplines~\cite{lazer09}. Much of this work has studied
+in many disciplines~\cite{lazer09}. Much of this work has studied
 questions in sociology and human interaction, such as how friendships
 form~\cite{feedback08kdd}, how information flows through social
 networks~\cite{libennowell08}, how people move through
@@ -1278,12 +1278,10 @@ distribution of a phenomenon (e.g. snow) across an entire continent
 each day for several years.
 
 
-\xhdr{Crowd-sourcing from social media} Several recent studies have
-shown the power of social media  for observing
-the world itself, as a special case of
-`social sensing'~\cite{Aggarwal:2013vh}.
-This
-work includes using Twitter data to measure collective emotional
+\xhdr{Crowd-sourcing from social media.} 
+Several recent studies have shown the power of social media  for observing
+the world itself, as a special case of `social sensing'~\cite{Aggarwal:2013vh}.
+This work includes using Twitter data to measure collective emotional
 state~\cite{Golder:2011cy} (which, in turn, has found to
 be predictive of stock  moves~\cite{bollen11twitter}),
 predicting product adoption rates and political election
@@ -1293,11 +1291,11 @@ earthquakes and other natural disasters~\cite{Sakaki:2010uv}.
 %tags, query search terms, and English words in large
 %datasets~\cite{singh10socialpixels,
 %vlachos2004identifying,chien2005semantic,Backstrom:2008tv,Vadrevu2008,ginsberg09flu,Sadilek:2012wp,Cook:2012wj,Michel:2011gm,radinsky2011word,Radinsky:2012ta};
+
 Particularly striking examples include Ginsberg
 \textit{et al}~\cite{ginsberg09flu}, who show that 
 geo-temporal properties of web search queries can
-predict the spread of flu, and 
-Sadilek \textit{et al}~\cite{Sadilek:2012wp} who show that
+predict the spread of flu, and Sadilek \textit{et al}~\cite{Sadilek:2012wp} who show that
 Twitter feeds can predict when a given person will
 fall ill.
 
@@ -1310,8 +1308,7 @@ who show that by monitoring the geospatial distribution of search
 engine queries related to flu symptoms, the spread of the H1N1
 flu can be estimated several days before the official statistics produced by traditional
 means.
-DeLongueville \textit{et
-  al}~\cite{delongueville09} study tweets related to a major fire in
+DeLongueville \textit{etal}~\cite{delongueville09} study tweets related to a major fire in
 France, but their analysis is at a very small scale (a few dozen
 tweets) and their focus is more on human reactions to the fire as
 opposed to using these tweets to estimate the fire's position and
@@ -1328,14 +1325,18 @@ any ground truth.
 Over all the images on Flickr.com, XX\% (only a small subset) of them come with geo and temporal data.
 ?Among these data, XX\% of them are accurate enough.
 ?Flickr provides the geo-location accuracy according to the camera device, and GPS precision.
+
 Meanwhile, a lot of works are trying to correct estimate or correct geo-location of Flickr images.
-~\cite{Geo-Clustering of Images With Missing GeoTags} estimates where images are taken for those missing geo-tags. They are optimizing a graph clustering problem. Attributes in their graph include textual tags, timestamps and vision content. It's inspired by an earlier work
-~\cite{Mapping the world’s photos}.
-~\cite{Geo-Location Estimation of Flickr Images: Social
-Web Based Enrichment} consider textual meta-data to correct geo tags. 
+%~\cite{Geo-Clustering of Images With Missing GeoTags} 
+~\cite{singh2010geo}estimates where images are taken for those missing geo-tags. They are optimizing a graph clustering problem. Attributes in their graph include textual tags, timestamps and vision content. It's inspired by an earlier work ~\cite{crandall2009mapping}.
+%~\cite{Geo-Location Estimation of Flickr Images: SocialWeb Based Enrichment} 
+
+~\cite{hauff2012geo} consider textual meta-data to correct geo tags. 
 They also found for users active on both Flickr and Twitter, the Twitter post at around the same time the images are taken can be a reliable reference to estimate the approximate location.
 
-Timestamp is harder to be accurate due to the same reason of geo-tags and the time-zone problem. In paper ~\cite{Who's Time is it anyway?}, there is a detail analysis in disagreement of camera time and GPS time. They also estimate a more accurate timestamp when users taking multiple images in a short timespan.
+Timestamp is harder to be accurate due to the same reason of geo-tags and the time-zone problem. 
+%In paper %~\cite{Who's Time is it anyway?}, 
+Thomee et.al.~\cite{thomee_time2014}  show  a detailed analysis in disagreement of camera time and GPS time. They also estimate a more accurate timestamp when users taking multiple images in a short timespan.
 
 
 
@@ -1413,6 +1414,37 @@ is not sufficient for our purposes.
 
 
 
+
+
+
+\xhdr{added - Vegetation classification.}
+%http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=5&ved=0CEkQFjAE&url=http%3A%2F%2Fhomes.cs.washington.edu%2F~neeraj%2Fpapers%2Fnk_eccv2012_leafsnap.pdf&ei=W9n8U5z7JoOTyATZloLICA&usg=AFQjCNHzDMozsenIFTdGySrMk0Vw8nhLhA&sig2=CPxNj5C0S-b3YDpR7-jPHg&bvm=bv.73612305,d.aWw
+
+%~\cite{Leafsnap: A Computer Vision System for Automatic Plant Species Identification} 
+
+~\cite{kumar2012leafsnap}identifies plant species by leaf images. They focus on accurate leaf segmentation according to color difference of leaf and background, curvature distribution over scale, and nearest neighbor matching.
+
+%~\cite{Comparisons of Gist Models in Rapid Scene categorization tasks}
+
+~\cite{siagian2008comparison}introduces multiple Gist models in scene classification. There happen to be a test set of vegetation shows gist feature works great on vegetation classification.
+
+%~\cite{Detecting subpixel woody vegetation in digital imagery using two artificial intelligence approaches}
+
+~\cite{foschi1997detecting}This one may be a little too old
+It's using man-made mask and neural networks.
+(could be compared with deep learning)
+
+a lot of works use remote sensing 
+
+%http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0CDMQFjAC&url=http%3A%2F%2Fwww.researchgate.net%2Fpublication%2F4309074_Greenery_Image_and_Non-greenery_Image_Classification_Using_Adaptive_Neuro-Fuzzy_Inference_System%2Flinks%2F09e4150ddce7a3514d000000&ei=Edr8U6yzJMOAygSg4YGAAw&usg=AFQjCNGXbvsw1sd1aZA1vAnk_f-4n5bwGA&sig2=62HbvxAtNQXCkCH_raYdig&bvm=bv.73612305,d.aWw
+This paper ~\cite{balamurugan2007greenery}
+%~\cite{greenery and non-greenery image classification using adaptive neuro-guzzy inference system}
+is the closest one to our purpose.
+They consider
+color, texture features in images and get good result. But they only test on a very limited dataset where the positive images are either with one tree in the center or full of trees or meadow. This is so not enough when we are working with  complex and very large number of public shared images.
+%200 imgs (50*50)
+
+
 \xhdr{Citizen science.}
 While some volunteer-based biology efforts like the Lost Ladybug
 Project~\cite{lostladybug} and the Great Sunflower
@@ -1435,33 +1467,9 @@ can handle incomplete and incorrect observations.
 
 
 
-
-
-\xhdr{added - Vegetation classification.}
-%http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=5&ved=0CEkQFjAE&url=http%3A%2F%2Fhomes.cs.washington.edu%2F~neeraj%2Fpapers%2Fnk_eccv2012_leafsnap.pdf&ei=W9n8U5z7JoOTyATZloLICA&usg=AFQjCNHzDMozsenIFTdGySrMk0Vw8nhLhA&sig2=CPxNj5C0S-b3YDpR7-jPHg&bvm=bv.73612305,d.aWw
-~\cite{Leafsnap: A Computer Vision System for
-Automatic Plant Species Identification} identifies plant species by leaf images. They focus on accurate leaf segmentation according to color difference of leaf and background, curvature distribution over scale, and nearest neighbor matching.
-
-~\cite{Comparisons of Gist Models in Rapid Scene categorization tasks}
-introduces multiple Gist models in scene classification. There happen to be a test set of vegetation shows gist feature works great on vegetation classification.
-
-~\cite{Detecting subpixel woody vegetation in digital imagery using two artificial intelligence approaches}
-This one may be a little too old
-It's using man-made mask and neural networks.
-(could be compared with deep learning)
-
-a lot of works use remote sensing 
-
-%http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0CDMQFjAC&url=http%3A%2F%2Fwww.researchgate.net%2Fpublication%2F4309074_Greenery_Image_and_Non-greenery_Image_Classification_Using_Adaptive_Neuro-Fuzzy_Inference_System%2Flinks%2F09e4150ddce7a3514d000000&ei=Edr8U6yzJMOAygSg4YGAAw&usg=AFQjCNGXbvsw1sd1aZA1vAnk_f-4n5bwGA&sig2=62HbvxAtNQXCkCH_raYdig&bvm=bv.73612305,d.aWw
-This paper ~\cite{greenery and non-greenery image classification using adaptive neuro-guzzy inference system}
-is the closest one to our purpose.
-They consider
-color, texture features in images and get good result. But they only test on a very limited dataset where the positive images are either with one tree in the center or full of trees or meadow. This is so not enough when we are working with  complex and very large number of public shared images.
-%200 imgs (50*50)
-
-
 \section{method}
 \label{sec:method}
+
 
 
 
@@ -1585,6 +1593,10 @@ To show the diversity of our Flickr image dataset, in figure ~\ref{fig:dataset} 
 
 
 
+
+
+
+
 \begin{figure*}[th]
 {\small{
 \begin{center}
@@ -1633,6 +1645,24 @@ Negative images like winter trees without leaves, or indoor images capturing a p
 
 In continental-scale prediction, we only look at images on Flickr.com in year 2007 to 2010, with no tag limitation. We filter out the photos with inaccurate timestamps and geotags. We only use images with geotag precision no less than 13. ( what's that mean?) 
 
+I paste this from David's email. The only thing is we use geotag precision >= 13 rather than 11. 
+
+[For geotags, there is an
+accuracy number right after the GPS coordinate in the merge\_files; we
+should ignore any photos with a number less than about 11. That means
+that the precision is less than about a city-scale. For timestamps,
+one thing that happens a lot is that people upload photos to Flickr
+that do not have timestamps -- e.g. scanned images. By default, Flickr
+gives this photo a timestamp of the day and time that it was
+*uploaded*. The first date in the merge\_files is the taken time and
+the second is the upload time. So if these two are the same, it means
+the taken time is probably not right and we should ignore the photo.
+Now one complication is that the two timestamps are in different time
+zones -- taken time is in the user's timezone while upload time is in
+Flickr's time zone (pacific time I think). So a simple rule is to
+simply remove any photos whose minutes and seconds are exactly the
+same for both taken time and upload time. That will unnecessarily
+remove about 1/(60*60)=1/3600 photos, but is a good simple rule.]
 
 
 
@@ -1651,6 +1681,101 @@ snow or not, and then use these classifier outputs to compute the
 number of positive and non-positive photos in each bin (i.e., to
 compute $m$ and $n$ in the likelihood ratio described in the last
 section).
+
+
+
+
+
+\subsubsection{not using tag in vegetation case}
+
+
+We tested the performance of using only tags to make vegetation coverage prediction ~\cite{ecology2012www}. The performance shows tag
+feature is not going to improve the result of using visual evidence.
+
+%%%%%%%%%%%    why this part     %%%%%%%%%%%%%%%%%
+%This is the result of vegetation case in www paper.
+%I guess this might help us to explain why we don't use tag in vege case in this paper.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%
+%As shown in Figure~\ref{fig:greenery}, both curves outperform a random baseline for greenery prediction, but the estimates
+%are not as accurate as those observed during in snow predictions. 
+%% djc: conserving space...
+%%For no greenery
+%%predictions, when the threshold is 0, both combinations have
+%%precisions above baselines. 50\% and 1\% threshold combination has
+%%99.6\% for recall and 75.1\% for precision comparing to the 74.4\%
+%%precision baseline, while 50\% and 5\% threshold combination has
+%%99.6\% for recall and 84.6\% for precision comparing to the 84.2\%
+%%precision baseline. However, the precisions drop when the absolute
+%%values of the thresholds go up as shown in
+%%Figure~\ref{fig:no_greenery}.  For the 50\% and 5\% threshold
+%%combination, the curve is not smooth towards the left end as there are
+%%very few predictions made which cause the precision to be unstable.
+%%
+%%
+%There seem to be several reasons for this drop in performance.
+%%The reason for this is yet to be explored. 
+%One is that the boundary between greenery and no greenery
+%seems more vague than the snow/no-snow boundary. 
+%%Also, when it
+%%snows people are more likely to tag with the term ``snow,''  comparing to tagging
+%%"leaves" when leaves are green on a daily basis. For the 50\% and 1\%
+%%threshold combination, p(greenery user|there is greenery) = 0.10 and
+%%p(greenery user|there is no greenery) = 0.08, which is unlike that of
+%%the snow data: when there is no snow, people seldom tag "snow".
+%Moreover, the greenery ground truth data has a much coarser temporal resolution (16 days).
+%Finally, it's less clear which tags should be used to estimate greenery; using color analysis of the visual content of images may be a better approach, which we leave for future work.
+%%
+%%
+%%
+%%#################################mk#################################################
+%We also tried a learned classifier to predict greenery/non-greenery
+%bins based on the set of tags used by all users in each bin and on
+%each day.  We used the LibLinear classifier~\cite{Fan2008}
+%because it performed well in case of snow classification. 
+%Figure~\ref{fig:liblinear_greenery} presents the ROC curve for this classification task,
+%showing an equal-error rate of about 91.6\%.
+%%our data set for
+%%vegetation classification task consists of 33611 exemplars, each of
+%%which represents one bin in one day.  Of these samples only 3223
+%%exemplars contains tags.  we evaluate the results by using 10 fold
+%%cross validation and also by dividing the data into training set
+%%contains exemplars from 2007 and 2008 years and testing set contains
+%%exemplars from 2009 and 2010. table ~\ref{tab:classifier_greenerybins}
+%%shows the results for both cases.
+%
+%\begin{figure}
+%\begin{center}
+%\begin{tabular}{cc}
+%%%hp cr
+%\includegraphics[width=0.35\textwidth]{plots/greenery.png}
+%%%\includegraphics[width=0.35\textwidth,trim=1cm 0.5cm 1cm 1cm,clip]{plots/greenery.png}
+%\end{tabular}
+%\end{center}
+%\vspace{-12pt}
+%\caption{Greenery precision-recall curve using two different ground truth thresholds.}
+%\label{fig:greenery}
+%\end{figure}
+%
+%\begin{figure}
+%\begin{center}
+%\begin{tabular}{cc}
+%\includegraphics[width=0.35\textwidth]{plots/greenery_LibLinear_Snow_1_curves_ROC.png}
+%\end{tabular}
+%\end{center}
+%%%hp cr
+%\vspace{-12pt}
+%\caption{ROC curve for classifying greenery of bins, using tag features and LibLinear classifier.}
+%\label{fig:liblinear_greenery}
+%\end{figure}
+%\vspace{-12pt}
+%
+
+
+
+
+
 
 \subsection{Extracting semantics using images from individual images}
 
@@ -1802,17 +1927,12 @@ hand and then running a machine learning algorithm, a single unified
 algorithm should learn both the low-level features and the
 high-classifier simultaneously. 
 
-We apply CNN to detect snow and vegetation on image level. We followed Oquab~\cite{Oquab14} et al. and started with a model
-pre-trained on the huge ImageNet dataset then we train our models using hand-labeled data sets.
+We apply CNN to detect snow and vegetation on image level. We followed Oquab~\cite{Oquab14} et al. and started with a model pre-trained on the huge ImageNet dataset then we train our models using hand-labeled data sets.
  
 
 
 
 \subsection{Combining evidence together across users}
-\textit{( by user or by images)}
-\textit{
-To make prediction with tags only, we suppose the main error comes from users. Users describe the images from their own prospective without any limitation. So we collect tag evidence per-user based. When we consider images only, we have a visual image classifier to determine the images are positive or negative to the scene. Users may not be able to control the contents of the images as much as they do in tags. So we collect visual evidence per-image based.
-}
 
 Our goal is to estimate the presence or absence of a given ecological
 phenomenon (like a species of plant or flower, or a meteorological
@@ -1951,7 +2071,7 @@ data entirely (having no Flickr photos in that bin on that day).
 %different variance values.  We tried smoothing with many
 %different parameters, including smoothing both forward and backwards
 %in time, or in only one direction.
-% ---------------------------------------------------------------------------
+
 % I really suggest we take this off. Not get any help from time and location data, and not do any 
 %post-process to is a selling point of our paper. And we are not doing this after WWW paper
 %any more.
@@ -2075,9 +2195,14 @@ As an example, Figure~\ref{fig:samplemap} shows raw satellite snow data from one
 
 
 
+
+
 \section{experiments and results}
 \label{sec:experiments}
 
+
+
+\section{experiments and results}
 
 
 
@@ -4833,6 +4958,11 @@ We use prediction results to recreate vegetation coverage maps for each 16-days 
 %\end{figure}
 %\vspace{-12pt}
 %
+
+
+
+
+
 
 
 
