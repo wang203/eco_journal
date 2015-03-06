@@ -2202,11 +2202,6 @@ As an example, Figure~\ref{fig:samplemap} shows raw satellite snow data from one
 
 
 
-\section{experiments and results}
-
-
-
-
 \subsection{Snow Case}
 
 \subsubsection{Single Image classification}
@@ -2480,34 +2475,34 @@ Figure ~\ref{fig:snowcurve} shows the precision and recall curve of snow predict
 %{\small{
 \begin{center}
 
-\includegraphics[width=0.5\textwidth]{snowcurve.jpg}
-
+\includegraphics[width=0.23\textwidth]{figs/PR-snow.jpg}
+\includegraphics[width=0.23\textwidth]{figs/PR-nonsnow.jpg}
 %\includegraphics[width=0.5\textwidth,height=1.4in,clip,trim=0 0.5in 0in 0.6in]{plots/chicago_noaa_vs_prediction_prev_3.png} 
 
 \end{center}
 %}}
 \vspace{-24pt}
-\caption{Precision and recall curve of snow prediction in continental scale.}
+\caption{Precision and recall curve of snow prediction (left) and nonsnow (right) in continental scale.}
 \label{fig:snowcurve}
 \vspace{-12pt}
 \end{figure}
 Figure ~\ref{fig:snowcurve} shows the precision and recall curve of snow prediction in continental-scale.
 % bar plot of 2 places
-\begin{figure}
-%{\small{
-\begin{center}
-
-\includegraphics[width=0.5\textwidth]{nonsnowcurve.jpg}
-
-%\includegraphics[width=0.5\textwidth,height=1.4in,clip,trim=0 0.5in 0in 0.6in]{plots/chicago_noaa_vs_prediction_prev_3.png} 
-
-\end{center}
-%}}
-\vspace{-24pt}
-\caption{Precision and recall curve of nonsnow prediction in continental scale.}
-\label{fig:nonsnowcurve}
-\vspace{-12pt}
-\end{figure}
+%\begin{figure}
+%%{\small{
+%\begin{center}
+%
+%\includegraphics[width=0.5\textwidth]{nonsnowcurve.jpg}
+%
+%%\includegraphics[width=0.5\textwidth,height=1.4in,clip,trim=0 0.5in 0in 0.6in]{plots/chicago_noaa_vs_prediction_prev_3.png} 
+%
+%\end{center}
+%%}}
+%\vspace{-24pt}
+%\caption{Precision and recall curve of nonsnow prediction in continental scale.}
+%\label{fig:nonsnowcurve}
+%\vspace{-12pt}
+%\end{figure}
 Here we limit our predictions for the bins which have photos, we do this by keeping the bins have ground truth and photos at the same time. 
 We computed our confidence scores based on tags and image-classification, then we trained simple decision tree to learn the correct thresholds to make final prediction. We achieve almost 0.5\% over the baseline (cutting the error rate by more than 20\%), the baseline in our case is the majority class which predicts now snow all the time.  
   
