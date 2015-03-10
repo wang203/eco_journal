@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  10 MAR 2015 15:14
 entering extended mode
  restricted \write18 enabled.
@@ -16,6 +17,21 @@ kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
  polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
 lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
 welsh, loaded.
+=======
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2014.9.3)  10 MAR 2015 13:34
+entering extended mode
+ %&-line parsing enabled.
+**bare_adv.tex
+(./bare_adv.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
+erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
+ french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
+us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
+tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
+turkish, ukenglish, ukrainian, loaded.
+>>>>>>> 37f2b374a59fd59257f84df9e458a4515c9d71e3
 (./IEEEtran.cls
 Document Class: IEEEtran 2014/09/17 V1.8a by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
@@ -30,7 +46,11 @@ Document Class: IEEEtran 2014/09/17 V1.8a by Michael Shell
 -- Using IEEE Computer Society mode.
 LaTeX Font Info:    Try loading font information for OT1+ppl on input line 458.
 
+<<<<<<< HEAD
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+=======
+(/usr/share/texmf/tex/latex/psnfss/ot1ppl.fd
+>>>>>>> 37f2b374a59fd59257f84df9e458a4515c9d71e3
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -125,6 +145,7 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <24.09> not available
 \@IEEEtmpitemindent=\dimen124
 \c@IEEEbiography=\count93
 \@IEEEtranrubishbin=\box27
+<<<<<<< HEAD
 ) (/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
@@ -187,10 +208,24 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
+=======
+) (/usr/share/texmf/tex/latex/html/url.sty
+Package: url 1999/03/02  ver 1.4  Verb mode for urls, email addresses, and file
+ names
+)
+(/usr/share/texmf/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2007/02/07 v6.75r Hypertext links for LaTeX
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+>>>>>>> 37f2b374a59fd59257f84df9e458a4515c9d71e3
 \@linkdim=\dimen125
 \Hy@linkcounter=\count94
 \Hy@pagecounter=\count95
 
+<<<<<<< HEAD
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
 )
@@ -246,10 +281,58 @@ Package: times 2005/04/12 PSNFSS-v9.2a (SPQR)
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
+=======
+(/usr/share/texmf/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2007/02/07 v6.75r Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texmf/tex/latex/config/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+(/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2006/08/22 v2.4 Connects package keyval with LaTeX options (
+HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 2288.
+Package hyperref Info: Link nesting OFF on input line 2293.
+Package hyperref Info: Hyper index ON on input line 2296.
+Package hyperref Info: Plain pages OFF on input line 2303.
+Package hyperref Info: Backreferencing OFF on input line 2308.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 2444.
+LaTeX Info: Redefining \url on input line 2599.
+\Fld@menulength=\count96
+\Field@Width=\dimen126
+\Fld@charsize=\dimen127
+\Choice@toks=\toks16
+\Field@toks=\toks17
+Package hyperref Info: Hyper figures OFF on input line 3102.
+Package hyperref Info: Link nesting OFF on input line 3107.
+Package hyperref Info: Hyper index ON on input line 3110.
+Package hyperref Info: backreferencing OFF on input line 3117.
+Package hyperref Info: Link coloring OFF on input line 3122.
+\Hy@abspage=\count97
+\c@Item=\count98
+\c@Hfootnote=\count99
+)
+*hyperref using default driver hpdftex*
+(/usr/share/texmf/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2007/02/07 v6.75r Hyperref driver for pdfTeX
+\Fld@listcount=\count100
+)
+(/usr/share/texmf/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/share/texmf/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texmf/tex/latex/config/color.cfg
+>>>>>>> 37f2b374a59fd59257f84df9e458a4515c9d71e3
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 
+<<<<<<< HEAD
 (/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \Gread@gobject=\count104
@@ -261,12 +344,26 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \verbatim@in@stream=\read1
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/bbm-macros/bbm.sty
+=======
+(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
+\Gread@gobject=\count101
+))
+(/usr/share/texmf/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks18
+\verbatim@line=\toks19
+\verbatim@in@stream=\read1
+)
+(/usr/share/texmf/tex/latex/bbm/bbm.sty
+>>>>>>> 37f2b374a59fd59257f84df9e458a4515c9d71e3
 Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
 LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
 (Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
 )
+<<<<<<< HEAD
 (/usr/local/texlive/2012/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen128
 )
@@ -283,10 +380,29 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
+=======
+(/usr/share/texmf/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen128
+)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+>>>>>>> 37f2b374a59fd59257f84df9e458a4515c9d71e3
 )
 \Gin@req@height=\dimen129
 \Gin@req@width=\dimen130
 )
+<<<<<<< HEAD
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip45
@@ -314,6 +430,35 @@ LaTeX Info: Redefining \frac on input line 211.
 LaTeX Info: Redefining \overline on input line 307.
 \classnum@=\count108
 \DOTSCASE@=\count109
+=======
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks20
+\ex@=\dimen131
+))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen132
+)
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count102
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count103
+\leftroot@=\count104
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count105
+\DOTSCASE@=\count106
+>>>>>>> 37f2b374a59fd59257f84df9e458a4515c9d71e3
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
@@ -322,6 +467,7 @@ LaTeX Info: Redefining \cdots on input line 467.
 \big@size=\dimen133
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+<<<<<<< HEAD
 \macc@depth=\count110
 \c@MaxMatrixCols=\count111
 \dotsspace@=\muskip11
@@ -332,12 +478,25 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \column@=\count115
 \maxfields@=\count116
 \andhelp@=\toks20
+=======
+\macc@depth=\count107
+\c@MaxMatrixCols=\count108
+\dotsspace@=\muskip10
+\c@parentequation=\count109
+\dspbrk@lvl=\count110
+\tag@help=\toks21
+\row@=\count111
+\column@=\count112
+\maxfields@=\count113
+\andhelp@=\toks22
+>>>>>>> 37f2b374a59fd59257f84df9e458a4515c9d71e3
 \eqnshift@=\dimen134
 \alignsep@=\dimen135
 \tagshift@=\dimen136
 \tagwidth@=\dimen137
 \totwidth@=\dimen138
 \lineht@=\dimen139
+<<<<<<< HEAD
 \@envbody=\toks21
 \multlinegap=\skip46
 \multlinetaggap=\skip47
@@ -355,15 +514,39 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/fixltx2e.sty
 Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+=======
+\@envbody=\toks23
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf/tex/latex/tools/array.sty
+Package: array 2005/08/23 v2.4b Tabular extension package (FMi)
+\col@sep=\dimen140
+\extrarowheight=\dimen141
+\NC@list=\toks25
+\extratabsurround=\skip47
+\backup@length=\skip48
+)
+(/usr/share/texmf/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2006/03/24 v1.1n fixes to LaTeX
+>>>>>>> 37f2b374a59fd59257f84df9e458a4515c9d71e3
 LaTeX Info: Redefining \em on input line 420.
 LaTeX Info: The control sequence `\[' is already robust on input line 471.
 LaTeX Info: The control sequence `\]' is already robust on input line 472.
 )
+<<<<<<< HEAD
 (/usr/local/texlive/2012/texmf-dist/tex/generic/thumbpdf/thumbpdf.sty
 Package: thumbpdf 2012/04/18 v3.15 Inclusion of thumbnails (HO)
 
 
 Package thumbpdf Warning: Compressed PDF objects of PDF 1.5 are not supported.
+=======
+(/usr/share/texmf/tex/generic/thumbpdf/thumbpdf.sty
+Package: thumbpdf 2005/07/06 v3.8 Inclusion of thumbnails (HO)
+>>>>>>> 37f2b374a59fd59257f84df9e458a4515c9d71e3
 
 
 Package thumbpdf Warning: Thumbnail data file `bare_adv.tpt' not found.
@@ -387,8 +570,12 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 539.
 LaTeX Font Info:    ... okay on input line 539.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 539.
 
+<<<<<<< HEAD
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+=======
+ (/usr/share/texmf/tex/latex/psnfss/ot1ptm.fd
+>>>>>>> 37f2b374a59fd59257f84df9e458a4515c9d71e3
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.01874> not available
@@ -435,6 +622,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24.09> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 539.
 
 -- Lines per column: 61 (exact).
+<<<<<<< HEAD
 \AtBeginShipoutBox=\box30
 Package hyperref Info: Link coloring OFF on input line 539.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -523,20 +711,97 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <11.04124> not available
 (Font)              Font shape `OT1/phv/b/sc' tried instead on input line 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 44--46
+=======
+Package hyperref Info: Link coloring OFF on input line 539.
+(/usr/share/texmf/tex/latex/hyperref/nameref.sty
+Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
+
+(/usr/share/texmf/tex/latex/oberdiek/refcount.sty
+Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
+)
+\c@section@level=\count114
+)
+LaTeX Info: Redefining \ref on input line 539.
+LaTeX Info: Redefining \pageref on input line 539.
+ (./bare_adv.out)
+(./bare_adv.out)
+\@outlinefile=\write3
+\openout3 = `bare_adv.out'.
+
+ (/usr/share/texmf/tex/context/base/supp-pdf.tex
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count115
+\scratchdimen=\dimen142
+\scratchbox=\box30
+\nofMPsegments=\count116
+\nofMParguments=\count117
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen143
+\MPnumerator=\count119
+\everyMPtoPDFconversion=\toks26
+)
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 741.
+
+ (/usr/share/texmf/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <11.04124> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 741.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8.03> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 741.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9.53561> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 741.
+LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 741.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8.03> on input line 741.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5.62097> on input line 741.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <4.015> on input line 741.
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 74
+1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <11.04124> on input line 741.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7.72884> on input line 741.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5.52061> on input line 741.
+LaTeX Font Info:    Try loading font information for U+pzd on input line 741.
+
+(/usr/share/texmf/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <11.04124> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 758.
+LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <11.04124> not available
+
+(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 758.
+
+Underfull \hbox (badness 10000) in paragraph at lines 800--802
+>>>>>>> 37f2b374a59fd59257f84df9e458a4515c9d71e3
 
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 44--46
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 800--802
+>>>>>>> 37f2b374a59fd59257f84df9e458a4515c9d71e3
 
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 47--49
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 803--805
+>>>>>>> 37f2b374a59fd59257f84df9e458a4515c9d71e3
 
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 47--49
 
  []
@@ -554,15 +819,39 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 56--61
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 803--805
+
+ []
+
+LaTeX Font Info:    Calculating math sizes for size <7.02625> on input line 811
+.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7.02625> on input line 811.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <4.91833> on input line 811.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <3.51312> on input line 811.
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 812--817
+>>>>>>> 37f2b374a59fd59257f84df9e458a4515c9d71e3
 
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 56--61
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 812--817
+>>>>>>> 37f2b374a59fd59257f84df9e458a4515c9d71e3
 
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 56--61
 
  []
@@ -575,16 +864,92 @@ Package pdftex.def Info: figs/natural-images.pdf used on input line 78.
 (pdftex.def)             Requested size: 217.53174pt x 170.8668pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 186--191
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 812--817
+
+ []
+
+<figs/natural-images.pdf, id=146, 794.97pt x 614.295pt>
+File: figs/natural-images.pdf Graphic file (type pdf)
+
+<use figs/natural-images.pdf>
+
+LaTeX Warning: Citation `greatsunflower' on page 2 undefined on input line 867.
+
+
+
+LaTeX Warning: Citation `ebirds' on page 2 undefined on input line 867.
+
+
+LaTeX Warning: Citation `king09snowtweets' on page 2 undefined on input line 86
+8.
+
+
+LaTeX Warning: Citation `jin10prediction' on page 2 undefined on input line 872
+.
+
+
+LaTeX Warning: Citation `digrazia13' on page 2 undefined on input line 872.
+
+
+LaTeX Warning: Citation `bollen11twitter' on page 2 undefined on input line 873
+.
+
+
+LaTeX Warning: Citation `ginsberg09flu' on page 2 undefined on input line 874.
+
+
+LaTeX Warning: Citation `Sakaki:2010uv' on page 2 undefined on input line 874.
+
+
+LaTeX Warning: Citation `meteo' on page 2 undefined on input line 875.
+
+
+LaTeX Warning: Citation `ecology2012www' on page 2 undefined on input line 897.
+
+
+
+LaTeX Warning: Citation `modissnow' on page 2 undefined on input line 906.
+
+
+LaTeX Warning: Citation `XiaoHEOT10' on page 2 undefined on input line 921.
+
+
+LaTeX Warning: Citation `li2007event' on page 2 undefined on input line 921.
+
+
+LaTeX Warning: Citation `li2009totalscene' on page 2 undefined on input line 92
+1.
+
+
+LaTeX Warning: Citation `luo2003spatialcontext' on page 2 undefined on input li
+ne 923.
+
+
+LaTeX Warning: Citation `boutell2006semanticfeature' on page 2 undefined on inp
+ut line 923.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 942--947
+>>>>>>> 37f2b374a59fd59257f84df9e458a4515c9d71e3
 
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 186--191
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 942--947
+>>>>>>> 37f2b374a59fd59257f84df9e458a4515c9d71e3
 
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 186--191
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 942--947
+>>>>>>> 37f2b374a59fd59257f84df9e458a4515c9d71e3
 
  []
 
@@ -592,6 +957,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 186--191
 Underfull \vbox (badness 3386) has occurred while \output is active []
 
  [2 <./figs/natural-images.pdf>]
+<<<<<<< HEAD
 LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 245
 .
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -623,10 +989,63 @@ Package pdftex.def Info: figs/flickr-dec212009.png used on input line 249.
 (pdftex.def)             Requested size: 162.51021pt x 76.17975pt.
 
 Overfull \hbox (25.99559pt too wide) in paragraph at lines 245--251
+=======
+
+LaTeX Warning: Citation `Kremerskothen11' on page 3 undefined on input line 955
+.
+
+
+LaTeX Warning: Citation `ginsberg09flu' on page 3 undefined on input line 968.
+
+
+LaTeX Warning: Citation `delongueville09' on page 3 undefined on input line 969
+.
+
+
+LaTeX Warning: Citation `jin10prediction' on page 3 undefined on input line 970
+.
+
+
+LaTeX Warning: Citation `oconnor10mood' on page 3 undefined on input line 971.
+
+
+LaTeX Warning: Citation `bollen11twitter' on page 3 undefined on input line 971
+.
+
+
+LaTeX Warning: Citation `oconnor10mood' on page 3 undefined on input line 975.
+
+
+LaTeX Warning: Citation `bollen11twitter' on page 3 undefined on input line 976
+.
+
+LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 100
+1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9.53561> on input line 1001.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6.6749> on input line 1001.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <4.7678> on input line 1001.
+<figs/newsat-12212009.png, id=247, 1197.47375pt x 593.21625pt>
+File: figs/newsat-12212009.png Graphic file (type png)
+
+<use figs/newsat-12212009.png>
+<figs/sat-dec212009.png, id=248, 688.5725pt x 324.21124pt>
+File: figs/sat-dec212009.png Graphic file (type png)
+
+<use figs/sat-dec212009.png>
+<figs/flickr-dec212009.png, id=249, 691.58376pt x 324.21124pt>
+File: figs/flickr-dec212009.png Graphic file (type png)
+
+<use figs/flickr-dec212009.png>
+Overfull \hbox (25.99559pt too wide) in paragraph at lines 1001--1007
+>>>>>>> 37f2b374a59fd59257f84df9e458a4515c9d71e3
  [] 
  []
 
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8.03> not available
+<<<<<<< HEAD
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 263.
 [3]) (./related.tex
 
@@ -787,10 +1206,371 @@ Package pdftex.def Info: plots/city_cmp_snow_ROC.png used on input line 196.
 (pdftex.def)             Requested size: 258.9675pt x 204.21413pt.
 
 Overfull \hbox (8.92218pt too wide) in paragraph at lines 192--204
+=======
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 1019.
+
+
+LaTeX Warning: Citation `ipcc2007climate' on page 3 undefined on input line 103
+7.
+
+
+LaTeX Warning: Citation `modisveg' on page 3 undefined on input line 1091.
+
+
+LaTeX Warning: Citation `modissnow' on page 3 undefined on input line 1091.
+
+[3]
+
+LaTeX Warning: Citation `lazer09' on page 4 undefined on input line 1248.
+
+
+LaTeX Warning: Citation `feedback08kdd' on page 4 undefined on input line 1250.
+
+
+
+LaTeX Warning: Citation `libennowell08' on page 4 undefined on input line 1251.
+
+
+
+LaTeX Warning: Citation `brockmann06' on page 4 undefined on input line 1252.
+
+
+LaTeX Warning: Citation `anagnostpopoulos08' on page 4 undefined on input line 
+1253.
+
+
+LaTeX Warning: Citation `bollen11twitter' on page 4 undefined on input line 126
+1.
+
+
+LaTeX Warning: Citation `jin10prediction' on page 4 undefined on input line 126
+8.
+
+
+LaTeX Warning: Citation `Aggarwal:2013vh' on page 4 undefined on input line 128
+3.
+
+
+LaTeX Warning: Citation `Golder:2011cy' on page 4 undefined on input line 1285.
+
+
+
+LaTeX Warning: Citation `bollen11twitter' on page 4 undefined on input line 128
+6.
+
+
+LaTeX Warning: Citation `jin10prediction' on page 4 undefined on input line 128
+8.
+
+
+LaTeX Warning: Citation `Sakaki:2010uv' on page 4 undefined on input line 1289.
+
+
+
+LaTeX Warning: Citation `ginsberg09flu' on page 4 undefined on input line 1296.
+
+
+
+LaTeX Warning: Citation `Sadilek:2012wp' on page 4 undefined on input line 1298
+.
+
+
+LaTeX Warning: Citation `ginsberg09flu' on page 4 undefined on input line 1306.
+
+
+
+LaTeX Warning: Citation `delongueville09' on page 4 undefined on input line 131
+1.
+
+
+LaTeX Warning: Citation `singh10socialpixels' on page 4 undefined on input line
+ 1316.
+
+
+LaTeX Warning: Citation `Who’s Time Is It Anyway? yahoo' on page 4 undefined 
+on input line 1325.
+
+
+LaTeX Warning: Citation `singh2010geo' on page 4 undefined on input line 1330.
+
+
+LaTeX Warning: Citation `crandall2009mapping' on page 4 undefined on input line
+ 1330.
+
+
+LaTeX Warning: Citation `thomee_time2014' on page 4 undefined on input line 133
+6.
+
+
+LaTeX Warning: Citation `hauff2012geo' on page 4 undefined on input line 1337.
+
+[4 <./figs/newsat-12212009.png> <./figs/sat-dec212009.png> <./figs/flickr-dec21
+2009.png>]
+
+LaTeX Warning: Citation `meteo' on page 5 undefined on input line 1349.
+
+
+LaTeX Warning: Citation `ecology2012www' on page 5 undefined on input line 1351
+.
+
+
+LaTeX Warning: Citation `singh10socialpixels' on page 5 undefined on input line
+ 1355.
+
+
+LaTeX Warning: Citation `Leung:2010wa' on page 5 undefined on input line 1363.
+
+
+LaTeX Warning: Citation `murdock' on page 5 undefined on input line 1365.
+
+
+LaTeX Warning: Citation `greatsunflower' on page 5 undefined on input line 1377
+.
+
+
+LaTeX Warning: Citation `ebirds' on page 5 undefined on input line 1377.
+
+
+LaTeX Warning: Citation `king09snowtweets' on page 5 undefined on input line 13
+77.
+
+
+LaTeX Warning: Citation `singhal2003spatialcontext' on page 5 undefined on inpu
+t line 1385.
+
+
+LaTeX Warning: Citation `luo2003spatialcontext' on page 5 undefined on input li
+ne 1385.
+
+
+LaTeX Warning: Citation `boutell2006semanticfeature' on page 5 undefined on inp
+ut line 1396.
+
+
+LaTeX Warning: Citation `boutell2005exploiting' on page 5 undefined on input li
+ne 1396.
+
+
+LaTeX Warning: Citation `rain2009IJCV' on page 5 undefined on input line 1398.
+
+
+LaTeX Warning: Citation `li2009totalscene' on page 5 undefined on input line 14
+05.
+
+
+LaTeX Warning: Citation `li2007event' on page 5 undefined on input line 1405.
+
+
+LaTeX Warning: Citation `XiaoHEOT10' on page 5 undefined on input line 1408.
+
+
+LaTeX Warning: Citation `kumar2012leafsnap' on page 5 undefined on input line 1
+424.
+
+
+LaTeX Warning: Citation `siagian2008comparison' on page 5 undefined on input li
+ne 1428.
+
+
+LaTeX Warning: Citation `foschi1997detecting' on page 5 undefined on input line
+ 1432.
+
+
+LaTeX Warning: Citation `balamurugan2007greenery' on page 5 undefined on input 
+line 1439.
+
+
+LaTeX Warning: Citation `lostladybug' on page 5 undefined on input line 1449.
+
+
+LaTeX Warning: Citation `greatsunflower' on page 5 undefined on input line 1450
+.
+
+
+LaTeX Warning: Citation `ghcn' on page 5 undefined on input line 1495.
+
+
+LaTeX Warning: Citation `modissnow' on page 5 undefined on input line 1506.
+
+
+LaTeX Warning: Citation `modisveg' on page 5 undefined on input line 1507.
+
+[5]
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.53561> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 1517.
+
+
+
+LaTeX Warning: Citation `hays' on page 6 undefined on input line 1539.
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 1584--1586
+\OT1/ptm/m/n/9.53561 We build a data set with over 10000 im-ages. They are
+ []
+
+LaTeX Font Info:    Calculating math sizes for size <9.03374> on input line 160
+2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9.03374> on input line 1602.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6.32358> on input line 1602.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <4.51686> on input line 1602.
+<imggrid/datasetposi/6.jpg, id=271, 68.55325pt x 103.24286pt>
+File: imggrid/datasetposi/6.jpg Graphic file (type jpg)
+
+<use imggrid/datasetposi/6.jpg>
+<imggrid/datasetposi/7.jpg, id=272, 150.5625pt x 100.27463pt>
+File: imggrid/datasetposi/7.jpg Graphic file (type jpg)
+
+<use imggrid/datasetposi/7.jpg>
+<imggrid/datasetposi/8.jpg, id=273, 100.375pt x 66.649pt>
+File: imggrid/datasetposi/8.jpg Graphic file (type jpg)
+
+<use imggrid/datasetposi/8.jpg>
+<imggrid/datasetposi/9.jpg, id=274, 120.45pt x 85.7604pt>
+File: imggrid/datasetposi/9.jpg Graphic file (type jpg)
+
+<use imggrid/datasetposi/9.jpg>
+<imggrid/datasetposi/10.jpg, id=275, 90.3375pt x 60.7068pt>
+File: imggrid/datasetposi/10.jpg Graphic file (type jpg)
+
+<use imggrid/datasetposi/10.jpg>
+<imggrid/datasetnega/6.jpg, id=276, 80.2197pt x 120.45pt>
+File: imggrid/datasetnega/6.jpg Graphic file (type jpg)
+
+<use imggrid/datasetnega/6.jpg>
+<imggrid/datasetnega/7.jpg, id=277, 376.40625pt x 237.88875pt>
+File: imggrid/datasetnega/7.jpg Graphic file (type jpg)
+
+<use imggrid/datasetnega/7.jpg>
+<imggrid/datasetnega/8.jpg, id=278, 150.5625pt x 100.57574pt>
+File: imggrid/datasetnega/8.jpg Graphic file (type jpg)
+
+<use imggrid/datasetnega/8.jpg>
+<imggrid/datasetnega/9.jpg, id=279, 501.875pt x 376.40625pt>
+File: imggrid/datasetnega/9.jpg Graphic file (type jpg)
+
+<use imggrid/datasetnega/9.jpg>
+<imggrid/datasetnega/10.jpg, id=280, 501.875pt x 334.24875pt>
+File: imggrid/datasetnega/10.jpg Graphic file (type jpg)
+
+<use imggrid/datasetnega/10.jpg>
+
+LaTeX Warning: Citation `ecology2012www' on page 6 undefined on input line 1691
+.
+
+[6]
+
+LaTeX Warning: Citation `XiaoHEOT10' on page 7 undefined on input line 1814.
+
+
+LaTeX Warning: Citation `torralba2008tiny' on page 7 undefined on input line 18
+24.
+
+
+LaTeX Warning: Citation `korayem2012solving' on page 7 undefined on input line 
+1863.
+
+
+LaTeX Warning: Citation `oliva2001modeling' on page 7 undefined on input line 1
+871.
+
+
+LaTeX Warning: Citation `douze2009evaluation' on page 7 undefined on input line
+ 1874.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1901--1904
+
+ []
+
+
+LaTeX Warning: Citation `krizhevsky2012imagenet' on page 7 undefined on input l
+ine 1910.
+
+
+LaTeX Warning: Citation `ilsvrcarxiv14' on page 7 undefined on input line 1910.
+
+
+
+LaTeX Warning: Citation `krizhevsky2012imagenet' on page 7 undefined on input l
+ine 1914.
+
+[7 <./imggrid/datasetposi/6.jpg> <./imggrid/datasetposi/7.jpg> <./imggrid/datas
+etposi/8.jpg> <./imggrid/datasetposi/9.jpg> <./imggrid/datasetposi/10.jpg> <./i
+mggrid/datasetnega/6.jpg> <./imggrid/datasetnega/7.jpg> <./imggrid/datasetnega/
+8.jpg> <./imggrid/datasetnega/9.jpg> <./imggrid/datasetnega/10.jpg>]
+
+LaTeX Warning: Citation `Oquab14' on page 8 undefined on input line 1928.
+
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 1996.
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 2025
+.
+(/usr/share/texmf/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9.53561> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2025.
+
+
+
+LaTeX Warning: Reference `sec:results' on page 8 undefined on input line 2044.
+
+[8] <plots/precvotes.png, id=306, 578.16pt x 433.62pt>
+File: plots/precvotes.png Graphic file (type png)
+
+<use plots/precvotes.png>
+
+LaTeX Warning: Citation `singhal2003spatialcontext' on page 9 undefined on inpu
+t line 2207.
+
+
+LaTeX Warning: Citation `XiaoHEOT10' on page 9 undefined on input line 2210.
+
+
+LaTeX Warning: Reference `fig:fp' on page 9 undefined on input line 2260.
+
+<figs/ROC-curves.jpg, id=310, 803.0pt x 602.25pt>
+File: figs/ROC-curves.jpg Graphic file (type jpg)
+ <use figs/ROC-curves.jpg>
+<figs/PR-curves.jpg, id=311, 803.0pt x 602.25pt>
+File: figs/PR-curves.jpg Graphic file (type jpg)
+ <use figs/PR-curves.jpg>
+<plots/nyc_stations.png, id=314, 586.44093pt x 197.98969pt>
+File: plots/nyc_stations.png Graphic file (type png)
+
+<use plots/nyc_stations.png>
+Overfull \hbox (12.98376pt too wide) in paragraph at lines 2356--2373
+ [] 
+ []
+
+
+LaTeX Warning: Citation `auc' on page 9 undefined on input line 2390.
+
+[9 <./plots/precvotes.png>]
+<plots/nyc_snow_ROC.png, id=332, 602.25pt x 406.51875pt>
+File: plots/nyc_snow_ROC.png Graphic file (type png)
+
+<use plots/nyc_snow_ROC.png>
+<plots/city_cmp_snow_ROC.png, id=334, 602.25pt x 406.51875pt>
+File: plots/city_cmp_snow_ROC.png Graphic file (type png)
+
+<use plots/city_cmp_snow_ROC.png>
+Overfull \hbox (8.92218pt too wide) in paragraph at lines 2409--2421
+>>>>>>> 37f2b374a59fd59257f84df9e458a4515c9d71e3
 []   []
  []
 
 
+<<<<<<< HEAD
 LaTeX Warning: Reference `sec:results' on page 9 undefined on input line 245.
 
 [9 <./plots/precvotes.png>]
@@ -1117,4 +1897,201 @@ PDF statistics:
  475 compressed objects within 5 object streams
  118 named destinations out of 1000 (max. 500000)
  502 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+LaTeX Warning: Reference `sec:results' on page 10 undefined on input line 2462.
+
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+<figs/PR-snow.jpg, id=336, 803.0pt x 602.25pt>
+File: figs/PR-snow.jpg Graphic file (type jpg)
+ <use figs/PR-snow.jpg>
+<figs/PR-nonsnow.jpg, id=337, 803.0pt x 602.25pt>
+File: figs/PR-nonsnow.jpg Graphic file (type jpg)
+ <use figs/PR-nonsnow.jpg>
+[10 <./figs/ROC-curves.jpg> <./figs/PR-curves.jpg> <./plots/nyc_stations.png>]
+<curvevege.jpg, id=350, 1124.2pt x 421.575pt>
+File: curvevege.jpg Graphic file (type jpg)
+ <use curvevege.jpg>
+Overfull \hbox (6.0225pt too wide) in paragraph at lines 2602--2603
+ [] 
+ []
+
+<imggrid/falseposi/1.jpg, id=351, 501.875pt x 335.2525pt>
+File: imggrid/falseposi/1.jpg Graphic file (type jpg)
+
+<use imggrid/falseposi/1.jpg>
+<imggrid/falseposi/2.jpg, id=352, 501.875pt x 334.24875pt>
+File: imggrid/falseposi/2.jpg Graphic file (type jpg)
+
+<use imggrid/falseposi/2.jpg>
+<imggrid/falseposi/3.jpg, id=353, 334.24875pt x 501.875pt>
+File: imggrid/falseposi/3.jpg Graphic file (type jpg)
+
+<use imggrid/falseposi/3.jpg>
+<imggrid/falseposi/4.jpg, id=354, 251.43938pt x 376.40625pt>
+File: imggrid/falseposi/4.jpg Graphic file (type jpg)
+
+<use imggrid/falseposi/4.jpg>
+<imggrid/falseposi/5.jpg, id=355, 282.30469pt x 376.40625pt>
+File: imggrid/falseposi/5.jpg Graphic file (type jpg)
+
+<use imggrid/falseposi/5.jpg>
+<imggrid/falseposi/6.jpg, id=356, 376.40625pt x 281.55188pt>
+File: imggrid/falseposi/6.jpg Graphic file (type jpg)
+
+<use imggrid/falseposi/6.jpg>
+<imggrid/falseposi/7.jpg, id=357, 376.40625pt x 281.55188pt>
+File: imggrid/falseposi/7.jpg Graphic file (type jpg)
+
+<use imggrid/falseposi/7.jpg>
+<imggrid/falseposi/8.jpg, id=358, 376.40625pt x 281.55188pt>
+File: imggrid/falseposi/8.jpg Graphic file (type jpg)
+
+<use imggrid/falseposi/8.jpg>
+<imggrid/falseposi/9.jpg, id=359, 501.875pt x 376.40625pt>
+File: imggrid/falseposi/9.jpg Graphic file (type jpg)
+
+<use imggrid/falseposi/9.jpg>
+<imggrid/falseposi/10.jpg, id=360, 501.875pt x 335.2525pt>
+File: imggrid/falseposi/10.jpg Graphic file (type jpg)
+
+<use imggrid/falseposi/10.jpg>
+<imggrid/falseposi/11.jpg, id=361, 376.40625pt x 501.875pt>
+File: imggrid/falseposi/11.jpg Graphic file (type jpg)
+
+<use imggrid/falseposi/11.jpg>
+<imggrid/falseposi/12.jpg, id=362, 376.40625pt x 501.875pt>
+File: imggrid/falseposi/12.jpg Graphic file (type jpg)
+
+<use imggrid/falseposi/12.jpg>
+<imggrid/falseposi/13.jpg, id=363, 501.875pt x 375.4025pt>
+File: imggrid/falseposi/13.jpg Graphic file (type jpg)
+
+<use imggrid/falseposi/13.jpg>
+<imggrid/falseposi/14.jpg, id=364, 501.875pt x 376.40625pt>
+File: imggrid/falseposi/14.jpg Graphic file (type jpg)
+
+<use imggrid/falseposi/14.jpg>
+<imggrid/falseposi/15.jpg, id=365, 333.245pt x 501.875pt>
+File: imggrid/falseposi/15.jpg Graphic file (type jpg)
+
+<use imggrid/falseposi/15.jpg>
+<imggrid/falseposi/16.jpg, id=366, 157.10869pt x 117.83153pt>
+File: imggrid/falseposi/16.jpg Graphic file (type jpg)
+
+<use imggrid/falseposi/16.jpg>
+<imggrid/falseposi/17.jpg, id=367, 501.875pt x 376.40625pt>
+File: imggrid/falseposi/17.jpg Graphic file (type jpg)
+
+<use imggrid/falseposi/17.jpg>
+<imggrid/falseposi/18.jpg, id=368, 200.75pt x 150.5625pt>
+File: imggrid/falseposi/18.jpg Graphic file (type jpg)
+
+<use imggrid/falseposi/18.jpg>
+<imggrid/falseposi/19.jpg, id=369, 376.40625pt x 501.875pt>
+File: imggrid/falseposi/19.jpg Graphic file (type jpg)
+
+<use imggrid/falseposi/19.jpg>
+<imggrid/falseposi/20.jpg, id=370, 501.875pt x 335.2525pt>
+File: imggrid/falseposi/20.jpg Graphic file (type jpg)
+
+<use imggrid/falseposi/20.jpg> [11 <./plots/nyc_snow_ROC.png> <./plots/city_cmp
+_snow_ROC.png> <./figs/PR-snow.jpg> <./figs/PR-nonsnow.jpg> <./curvevege.jpg>]
+<bar/8560.jpg, id=383, 674.52pt x 505.89pt>
+File: bar/8560.jpg Graphic file (type jpg)
+ <use bar/8560.jpg>
+<bar/8561.jpg, id=384, 674.52pt x 505.89pt>
+File: bar/8561.jpg Graphic file (type jpg)
+ <use bar/8561.jpg>
+<bar/8881.jpg, id=385, 674.52pt x 505.89pt>
+File: bar/8881.jpg Graphic file (type jpg)
+ <use bar/8881.jpg>
+<bar/8911.jpg, id=386, 674.52pt x 505.89pt>
+File: bar/8911.jpg Graphic file (type jpg)
+ <use bar/8911.jpg>
+<bar/9705.jpg, id=387, 674.52pt x 505.89pt>
+File: bar/9705.jpg Graphic file (type jpg)
+ <use bar/9705.jpg>
+<bar/10816.jpg, id=388, 674.52pt x 505.89pt>
+File: bar/10816.jpg Graphic file (type jpg)
+ <use bar/10816.jpg>
+Overfull \hbox (0.58673pt too wide) in paragraph at lines 2732--2744
+ [] 
+ []
+
+<map/72.png, id=390, 1608.0075pt x 1206.5075pt>
+File: map/72.png Graphic file (type png)
+ <use map/72.png>
+<map/77.png, id=391, 1608.0075pt x 1206.5075pt>
+File: map/77.png Graphic file (type png)
+ <use map/77.png>
+<map/78.png, id=392, 1608.0075pt x 1206.5075pt>
+File: map/78.png Graphic file (type png)
+ <use map/78.png>
+<map/79.png, id=393, 1608.0075pt x 1206.5075pt>
+File: map/79.png Graphic file (type png)
+ <use map/79.png>
+<map/82.png, id=394, 1608.0075pt x 1206.5075pt>
+File: map/82.png Graphic file (type png)
+ <use map/82.png>
+<map/83.png, id=395, 1608.0075pt x 1206.5075pt>
+File: map/83.png Graphic file (type png)
+ <use map/83.png>
+<map/84.png, id=396, 1608.0075pt x 1206.5075pt>
+File: map/84.png Graphic file (type png)
+ <use map/84.png>
+<map/91.png, id=397, 1608.0075pt x 1206.5075pt>
+File: map/91.png Graphic file (type png)
+ <use map/91.png>
+Overfull \hbox (2.2416pt too wide) in paragraph at lines 2761--2776
+ [] 
+ []
+
+[12 <./imggrid/falseposi/1.jpg> <./imggrid/falseposi/2.jpg> <./imggrid/falsepos
+i/3.jpg> <./imggrid/falseposi/4.jpg> <./imggrid/falseposi/5.jpg> <./imggrid/fal
+seposi/6.jpg> <./imggrid/falseposi/7.jpg> <./imggrid/falseposi/8.jpg> <./imggri
+d/falseposi/9.jpg> <./imggrid/falseposi/10.jpg> <./imggrid/falseposi/11.jpg> <.
+/imggrid/falseposi/12.jpg> <./imggrid/falseposi/13.jpg> <./imggrid/falseposi/14
+.jpg> <./imggrid/falseposi/15.jpg> <./imggrid/falseposi/16.jpg> <./imggrid/fals
+eposi/17.jpg> <./imggrid/falseposi/18.jpg> <./imggrid/falseposi/19.jpg> <./imgg
+rid/falseposi/20.jpg> <./bar/8560.jpg> <./bar/8561.jpg> <./bar/8881.jpg> <./bar
+/8911.jpg> <./bar/9705.jpg> <./bar/10816.jpg> <./map/72.png (PNG copy)> <./map/
+77.png (PNG copy)> <./map/78.png (PNG copy)> <./map/79.png (PNG copy)> <./map/8
+2.png (PNG copy)> <./map/83.png (PNG copy)> <./map/84.png (PNG copy)> <./map/91
+.png (PNG copy)>] [13] (./bare_adv.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5056 strings out of 256216
+ 76627 string characters out of 1917085
+ 134824 words of memory out of 1500000
+ 8142 multiletter control sequences out of 10000+200000
+ 79999 words of font info for 146 fonts, out of 1200000 for 2000
+ 648 hyphenation exceptions out of 8191
+ 32i,13n,50p,873b,362s stack positions out of 5000i,500n,6000p,200000b,15000s
+{/usr/share/texmf/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/b
+luesky/cm/cmex10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/
+share/texmf/fonts/type1/bluesky/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/blue
+sky/cm/cmmi8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi9.pfb></usr/share
+/texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/c
+m/cmr6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr7.pfb></usr/share/texmf/
+fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy
+7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/texmf/font
+s/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf/fonts/type1/urw/helvetic/uhvr
+8a.pfb></usr/share/texmf/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texmf
+/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf/fonts/type1/urw/times/utmbi
+8a.pfb></usr/share/texmf/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf/fon
+ts/type1/urw/times/utmri8a.pfb></usr/share/texmf/fonts/type1/urw/zapfding/uzdr.
+pfb>
+Output written on bare_adv.pdf (13 pages, 22773425 bytes).
+PDF statistics:
+ 492 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 131072)
+ 574 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> 37f2b374a59fd59257f84df9e458a4515c9d71e3
 
