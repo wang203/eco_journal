@@ -1321,22 +1321,21 @@ and for creating visualizations. They do not consider how to produce
 accurate predictions from these visualizations, nor do they compare to
 any ground truth.
 
-\xhdr{added - Accuracy of geo and temporal data on Flickr.}
-Over all the images on Flickr.com, XX\% (only a small subset) of them come with geo and temporal data.
-?Among these data, XX\% of them are accurate enough.
-?Flickr provides the geo-location accuracy according to the camera device, and GPS precision.
+\xhdr{Accuracy of geo and temporal data on Flickr.}
+Over a sample of 10 million images on Flickr.com, 37\% (only a small subset) of them probably have incorrect timestamp ~\cite{Who’s Time Is It Anyway? yahoo}.
+The accuracy of geo-location is limited due to the camera device, and GPS precision.
 
 Meanwhile, a lot of works are trying to correct estimate or correct geo-location of Flickr images.
 %~\cite{Geo-Clustering of Images With Missing GeoTags} 
 ~\cite{singh2010geo}estimates where images are taken for those missing geo-tags. They are optimizing a graph clustering problem. Attributes in their graph include textual tags, timestamps and vision content. It's inspired by an earlier work ~\cite{crandall2009mapping}.
 %~\cite{Geo-Location Estimation of Flickr Images: SocialWeb Based Enrichment} 
 
-~\cite{hauff2012geo} consider textual meta-data to correct geo tags. 
-They also found for users active on both Flickr and Twitter, the Twitter post at around the same time the images are taken can be a reliable reference to estimate the approximate location.
 
 Timestamp is harder to be accurate due to the same reason of geo-tags and the time-zone problem. 
 %In paper %~\cite{Who's Time is it anyway?}, 
 Thomee et.al.~\cite{thomee_time2014}  show  a detailed analysis in disagreement of camera time and GPS time. They also estimate a more accurate timestamp when users taking multiple images in a short timespan.
+~\cite{hauff2012geo} consider textual meta-data to correct geo tags. 
+They also found for users active on both Flickr and Twitter, the Twitter post at around the same time the images are taken can be a reliable reference to estimate the approximate location.
 
 
 
@@ -1417,7 +1416,7 @@ is not sufficient for our purposes.
 
 
 
-\xhdr{added - Vegetation classification.}
+\xhdr{Vegetation classification.}
 %http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=5&ved=0CEkQFjAE&url=http%3A%2F%2Fhomes.cs.washington.edu%2F~neeraj%2Fpapers%2Fnk_eccv2012_leafsnap.pdf&ei=W9n8U5z7JoOTyATZloLICA&usg=AFQjCNHzDMozsenIFTdGySrMk0Vw8nhLhA&sig2=CPxNj5C0S-b3YDpR7-jPHg&bvm=bv.73612305,d.aWw
 
 %~\cite{Leafsnap: A Computer Vision System for Automatic Plant Species Identification} 
@@ -1426,7 +1425,7 @@ is not sufficient for our purposes.
 
 %~\cite{Comparisons of Gist Models in Rapid Scene categorization tasks}
 
-~\cite{siagian2008comparison}introduces multiple Gist models in scene classification. There happen to be a test set of vegetation shows gist feature works great on vegetation classification.
+~\cite{siagian2008comparison}introduces multiple Gist models in scene classification. There happen to be a test set of vegetation shows Gist feature works great on vegetation classification.
 
 %~\cite{Detecting subpixel woody vegetation in digital imagery using two artificial intelligence approaches}
 
@@ -1434,14 +1433,14 @@ is not sufficient for our purposes.
 It's using man-made mask and neural networks.
 (could be compared with deep learning)
 
-a lot of works use remote sensing 
+%a lot of works use remote sensing 
 
 %http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0CDMQFjAC&url=http%3A%2F%2Fwww.researchgate.net%2Fpublication%2F4309074_Greenery_Image_and_Non-greenery_Image_Classification_Using_Adaptive_Neuro-Fuzzy_Inference_System%2Flinks%2F09e4150ddce7a3514d000000&ei=Edr8U6yzJMOAygSg4YGAAw&usg=AFQjCNGXbvsw1sd1aZA1vAnk_f-4n5bwGA&sig2=62HbvxAtNQXCkCH_raYdig&bvm=bv.73612305,d.aWw
 This paper ~\cite{balamurugan2007greenery}
 %~\cite{greenery and non-greenery image classification using adaptive neuro-guzzy inference system}
 is the closest one to our purpose.
 They consider
-color, texture features in images and get good result. But they only test on a very limited dataset where the positive images are either with one tree in the center or full of trees or meadow. This is so not enough when we are working with  complex and very large number of public shared images.
+color, texture features in images and get good result. But they only test on a very limited dataset where the positive images are either with one tree in the center or full of trees or meadow. This is inadequate when we are working with   very large number of public shared images.
 %200 imgs (50*50)
 
 
@@ -1601,29 +1600,29 @@ To show the diversity of our Flickr image dataset, in figure ~\ref{fig:dataset} 
 {\small{
 \begin{center}
 \begin{tabular}{@{}c@{\,\,\,}c@{\,\,\,}c@{\,\,\,}c@{\,\,\,}c@{\,\,\,}}
-\includegraphics[width=0.19\textwidth]{imggrid/datasetposi/1.jpg} &
-\includegraphics[height=1in]{imggrid/datasetposi/2.jpg} &
-\includegraphics[width=0.19\textwidth]{imggrid/datasetposi/3.jpg} &
-\includegraphics[height=1in]{imggrid/datasetposi/4.jpg} &
-\includegraphics[width=0.19\textwidth]{imggrid/datasetposi/5.jpg} \\
-%\multicolumn{5}{c}{(a) Random positive images in vegetation dataset} \\
-\\[-6pt]
-\hline
-\\[-6pt]
+%\includegraphics[width=0.19\textwidth]{imggrid/datasetposi/1.jpg} &
+%\includegraphics[height=1in]{imggrid/datasetposi/2.jpg} &
+%\includegraphics[width=0.19\textwidth]{imggrid/datasetposi/3.jpg} &
+%\includegraphics[height=1in]{imggrid/datasetposi/4.jpg} &
+%\includegraphics[width=0.19\textwidth]{imggrid/datasetposi/5.jpg} \\
+%%\multicolumn{5}{c}{(a) Random positive images in vegetation dataset} \\
+%\\[-6pt]
+%\hline
+%\\[-6pt]
 \includegraphics[height=1in]{imggrid/datasetposi/6.jpg} &
 \includegraphics[width=0.19\textwidth]{imggrid/datasetposi/7.jpg} &
 \includegraphics[width=0.19\textwidth]{imggrid/datasetposi/8.jpg} &
 \includegraphics[width=0.19\textwidth]{imggrid/datasetposi/9.jpg} &
 \includegraphics[width=0.19\textwidth]{imggrid/datasetposi/10.jpg} \\
 \multicolumn{5}{c}{(a) Random positive images in vegetation dataset} \\ 
-\\[-6pt]
-\hline
-\\[-6pt]
-\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/1.jpg} &
-\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/2.jpg} &
-\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/3.jpg} &
-\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/4.jpg} &
-\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/5.jpg} \\
+%\\[-6pt]
+%\hline
+%\\[-6pt]
+%\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/1.jpg} &
+%\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/2.jpg} &
+%\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/3.jpg} &
+%\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/4.jpg} &
+%\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/5.jpg} \\
 %\multicolumn{5}{c}{(c) Random false negatives (snow images classified as non-snow)} \\ 
 \\[-6pt]
 \hline
@@ -1645,24 +1644,24 @@ Negative images like winter trees without leaves, or indoor images capturing a p
 
 In continental-scale prediction, we only look at images on Flickr.com in year 2007 to 2010, with no tag limitation. We filter out the photos with inaccurate timestamps and geotags. We only use images with geotag precision no less than 13. ( what's that mean?) 
 
-I paste this from David's email. The only thing is we use geotag precision >= 13 rather than 11. 
-
-[For geotags, there is an
-accuracy number right after the GPS coordinate in the merge\_files; we
-should ignore any photos with a number less than about 11. That means
-that the precision is less than about a city-scale. For timestamps,
-one thing that happens a lot is that people upload photos to Flickr
-that do not have timestamps -- e.g. scanned images. By default, Flickr
-gives this photo a timestamp of the day and time that it was
-*uploaded*. The first date in the merge\_files is the taken time and
-the second is the upload time. So if these two are the same, it means
-the taken time is probably not right and we should ignore the photo.
-Now one complication is that the two timestamps are in different time
-zones -- taken time is in the user's timezone while upload time is in
-Flickr's time zone (pacific time I think). So a simple rule is to
-simply remove any photos whose minutes and seconds are exactly the
-same for both taken time and upload time. That will unnecessarily
-remove about 1/(60*60)=1/3600 photos, but is a good simple rule.]
+%I paste this from David's email. The only thing is we use geotag precision >= 13 rather than 11. 
+%
+%[For geotags, there is an
+%accuracy number right after the GPS coordinate in the merge\_files; we
+%should ignore any photos with a number less than about 11. That means
+%that the precision is less than about a city-scale. For timestamps,
+%one thing that happens a lot is that people upload photos to Flickr
+%that do not have timestamps -- e.g. scanned images. By default, Flickr
+%gives this photo a timestamp of the day and time that it was
+%*uploaded*. The first date in the merge\_files is the taken time and
+%the second is the upload time. So if these two are the same, it means
+%the taken time is probably not right and we should ignore the photo.
+%Now one complication is that the two timestamps are in different time
+%zones -- taken time is in the user's timezone while upload time is in
+%Flickr's time zone (pacific time I think). So a simple rule is to
+%simply remove any photos whose minutes and seconds are exactly the
+%same for both taken time and upload time. That will unnecessarily
+%remove about 1/(60*60)=1/3600 photos, but is a good simple rule.]
 
 
 
@@ -1783,6 +1782,26 @@ feature is not going to improve the result of using visual evidence.
 %\subsubsection{Traditional Visual features}
 
 \subsubsection{Snow Visual features}
+As noted above, we are aware of very little work that has considered
+the problem of detecting snow in images: the most relevant
+work~\cite{singhal2003spatialcontext} considers snow in the context of
+natural materials classification, but is over 10 years old, uses a
+small and biased dataset, and does not report classification results.
+Recent work on scene understanding~\cite{XiaoHEOT10} sometimes
+includes snow-related scenes, but none of this work applies directly
+to our problem because snow can appear across a range of different
+scene types. Snow is really an object, not a type of scene, but we are
+not aware of any work on recognizing snow in the object detection
+literature.
+
+We thus begin by assembling a large-scale realistic image dataset,
+and test a variety of modern classification techniques on the
+problem of snowy scene detection. We use a labeled subset of this
+dataset to train classifiers and to test their performance, and then
+apply these classifiers to the problem of generating satellite-like
+snowfall maps using image analysis on geo-tagged, time-stamped
+Flickr photos.
+
 Snow is a somewhat unique visual phenomenon, and we claim that
 detecting it in images is a unique recognition task. In some cases,
 snow can be detected by coarse scene recognition: ski slopes or snowy
@@ -1884,9 +1903,6 @@ Vegetation has the signature green color.
 The leaves of plants have distinctive visual texture. 
 So we employ SIFT feature to analyze the local gradient distribution. 
 And we also extract GIST feature to describe texture feature and global context. 
-
-
-
 
 
 \textbf{\textit{Color SIFT histogram.}}
@@ -2292,7 +2308,7 @@ CNN& -& \textbf{88.06\%}\tabularnewline
 
 
 
-The best performance we had using our traditional visual features using SVM is 80\% accuracy.  We also build CNN visual model for snow using Imagenet pre-trained model. We fine-tune our model using our training data. CNN  achieves 88\% accuracy which  outperforms all other features by 8\% . Therefore, we used CNN as our visual model for final predictions.  Similar to visual model we also build SVM using only tags as features and our text classifier achieves 87\%.
+The best performance we had using our traditional visual features using SVM is 80.5\% accuracy.  We also build CNN visual model for snow using Imagenet pre-trained model. We fine-tune our model using our training data. CNN  achieves 88\% accuracy which  outperforms all other features by 7.44\% . Therefore, we used CNN as our visual model for final predictions.  Similar to visual model we also build SVM using only tags as features and our text classifier achieves 87\% accuracy.
 
 
 
@@ -2437,7 +2453,7 @@ City &  baseline & tags  &  tag confidence  &  vision conf & tags conf and visio
 \end{table*}
 
 \subsubsection{{Continental-scale snow prediction}}
-
+Predicting snow for individual cities is of limited practical use because accurate meteorological data already exists for these highly populated areas.
 Here we ask whether phenomena can be
 monitored at a continental scale, a task for which existing data
 sources are less complete and accurate.  We use the photo data and
@@ -2469,7 +2485,7 @@ each bin with one of three ground truth labels:
 \end{packed_itemize}
 %
 
-Figure ~\ref{fig:snowcurve} shows the precision and recall curve of snow prediction in continental-scale.
+%Figure ~\ref{fig:snowcurve} shows the precision and recall curve of snow prediction in continental-scale.
 % bar plot of 2 places
 \begin{figure}
 %{\small{
@@ -2486,7 +2502,7 @@ Figure ~\ref{fig:snowcurve} shows the precision and recall curve of snow predict
 \label{fig:snowcurve}
 \vspace{-12pt}
 \end{figure}
-Figure ~\ref{fig:snowcurve} shows the precision and recall curve of snow prediction in continental-scale.
+
 % bar plot of 2 places
 %\begin{figure}
 %%{\small{
@@ -2503,7 +2519,8 @@ Figure ~\ref{fig:snowcurve} shows the precision and recall curve of snow predict
 %\label{fig:nonsnowcurve}
 %\vspace{-12pt}
 %\end{figure}
-Here we limit our predictions for the bins which have photos, we do this by keeping the bins have ground truth and photos at the same time. 
+Figure ~\ref{fig:snowcurve} shows the precision and recall curve of snow prediction in continental-scale.
+Here we limit our predictions for the bins which have photos taken at that time and location, we do this by keeping the bins have ground truth and photos at the same time. 
 We computed our confidence scores based on tags and image-classification, then we trained simple decision tree to learn the correct thresholds to make final prediction. We achieve almost 0.5\% over the baseline (cutting the error rate by more than 20\%), the baseline in our case is the majority class which predicts now snow all the time.  
   
 
@@ -2703,7 +2720,7 @@ Generally, all the false negative error is due to the sparseness of data. While 
 
 
 \subsubsection{Performance at single place over time}
-Figure ~\ref{fig:placeinbar} shows vegetation coverage of 6 places over 2009 and 2010.
+Figure ~\ref{fig:placeinbar} shows vegetation coverage of 6 places over 2009 and 2010. Prediction results on top usually have more data available than groud truth on the bottom. We use public sharing Flickr images. These images are more likely taken from more populated or more popular locations. The satellite ground truth 
 
 
 % bar plot of 2 places
