@@ -4,6 +4,24 @@
 
 
 \subsection{Snow Case}
+As noted above, we are aware of very little work that has considered
+the problem of detecting snow in images: the most relevant
+work~\cite{singhal2003spatialcontext} considers snow in the context of
+natural materials classification, but is over 10 years old, uses a
+small and biased dataset, and does not report classification results.
+Recent work on scene understanding~\cite{XiaoHEOT10} sometimes
+includes snow-related scenes, but none of this work applies directly
+to our problem because snow can appear across a range of different
+scene types. Snow is really an object, not a type of scene, but we are
+not aware of any work on recognizing snow in the object detection
+literature.
+
+We thus begin by assembling a large-scale realistic image dataset as described above, and test a variety of modern classification techniques on the
+problem of snowy scene detection. We use a labeled subset of this
+dataset to train classifiers and to test their performance, and then
+apply these classifiers to the problem of generating satellite-like
+snowfall maps using image analysis on geo-tagged, time-stamped
+Flickr photos.
 
 \subsubsection{Single Image classification}
 
@@ -260,15 +278,15 @@ low, and because of imprecision in Flickr geo-tags, we produce
 estimates at a coarser resolution of 1 degree square, or roughly $100
 \times 100 km^2$. To make the NASA maps comparable, we downsample them
 to this same resolution by averaging the high confidence observations within the coarser bin.
-We then threshold the confidence and snow cover percentages to annotate
-each bin with one of three ground truth labels: 
-%
-\begin{packed_itemize}
-\item[---] Snow bin, if confidence is above 90 and coverage above 80,
-\item[---] Non-snow bin, if confidence is above 90 and coverage is 0,
-\item[---] Unknown bin, otherwise.
-\end{packed_itemize}
-%
+%We then threshold the confidence and snow cover percentages to annotate
+%each bin with one of three ground truth labels: 
+%%
+%\begin{packed_itemize}
+%\item[---] Snow bin, if confidence is above 90 and coverage above 80,
+%\item[---] Non-snow bin, if confidence is above 90 and coverage is 0,
+%\item[---] Unknown bin, otherwise.
+%\end{packed_itemize}
+%%
 
 %Figure ~\ref{fig:snowcurve} shows the precision and recall curve of snow prediction in continental-scale.
 % bar plot of 2 places
@@ -369,9 +387,11 @@ For an image taken from a place covered by green vegetation at that time, the pr
 
 %\hfill \break
 %\hfill \break
-While the satellite has ground truth for 87594 bins in North America, our method predicts 61602 bins (70.3\% in quantity). Moreover, about 20\% of satellite ground truth locate in north Canada. On the other hand, our data is from users in social media. So our prediction focus on more populated locations or places people like to visit such as natrual scenery.
+While the satellite has ground truth for 87594 bins in North America, our method predicts 61602 bins (70.3\% in quantity). Moreover, about 20\% of satellite ground truth locate in north Canada. On the other hand, our data is from users in social media. So our prediction focus on more populated locations or places people like to visit such as natural scenery.
 
-In North America, the overall accuracy of our method is 93.2\% comparing to the 86.6\% majority baseline. The precision of green bins is 98.8\% and the precision of non-green bins is 68.2\%. Recall of green bins is 93.3\% and recall of non-green bins is 92.5\%.
+In North America, the overall accuracy of our method is 93.2\% comparing to the 86.6\% majority baseline. The precision of green bins is 98.8\% and the precision of non-green bins is 68.2\%. Recall of green bins is 93.3\% and recall of non-green bins is 92.5\%. We tested the performance of using only tags to make vegetation coverage prediction ~\cite{ecology2012www}. The performance shows tag
+feature is not going to improve the result of using visual evidence.
+
 
 %snowcurve.pdf
 %curvevege.jpg
@@ -458,15 +478,15 @@ Figure ~\ref{fig:curvevege} shows the precision and recall curve of snow predict
 {\small{
 \begin{center}
 \begin{tabular}{@{}c@{\,\,\,}c@{\,\,\,}c@{\,\,\,}c@{\,\,\,}c@{\,\,\,}}
-\includegraphics[width=0.19\textwidth]{imggrid/falseposi/1.jpg} &
-\includegraphics[width=0.19\textwidth]{imggrid/falseposi/2.jpg} &
-\includegraphics[height=1in]{imggrid/falseposi/3.jpg} &
-\includegraphics[height=1in]{imggrid/falseposi/4.jpg} &
-\includegraphics[height=1in]{imggrid/falseposi/5.jpg} \\
-%\multicolumn{5}{c}{(a) Random positive images in vegetation dataset} \\
-\\[-6pt]
-\hline
-\\[-6pt]
+%\includegraphics[width=0.19\textwidth]{imggrid/falseposi/1.jpg} &
+%\includegraphics[width=0.19\textwidth]{imggrid/falseposi/2.jpg} &
+%\includegraphics[height=1in]{imggrid/falseposi/3.jpg} &
+%\includegraphics[height=1in]{imggrid/falseposi/4.jpg} &
+%\includegraphics[height=1in]{imggrid/falseposi/5.jpg} \\
+%%\multicolumn{5}{c}{(a) Random positive images in vegetation dataset} \\
+%\\[-6pt]
+%\hline
+%\\[-6pt]
 \includegraphics[width=0.19\textwidth]{imggrid/falseposi/6.jpg} &
 \includegraphics[width=0.19\textwidth]{imggrid/falseposi/7.jpg} &
 \includegraphics[width=0.19\textwidth]{imggrid/falseposi/8.jpg} &
@@ -476,15 +496,15 @@ Figure ~\ref{fig:curvevege} shows the precision and recall curve of snow predict
 \\[-6pt]
 \hline
 \\[-6pt]
-\includegraphics[height=1in]{imggrid/falseposi/11.jpg} &
-\includegraphics[height=1in]{imggrid/falseposi/12.jpg} &
-\includegraphics[width=0.19\textwidth]{imggrid/falseposi/13.jpg} &
-\includegraphics[width=0.19\textwidth]{imggrid/falseposi/14.jpg} &
-\includegraphics[height=1in]{imggrid/falseposi/15.jpg} \\
-%\multicolumn{5}{c}{(c) Random false negatives (snow images classified as non-snow)} \\ 
-\\[-6pt]
-\hline
-\\[-6pt]
+%\includegraphics[height=1in]{imggrid/falseposi/11.jpg} &
+%\includegraphics[height=1in]{imggrid/falseposi/12.jpg} &
+%\includegraphics[width=0.19\textwidth]{imggrid/falseposi/13.jpg} &
+%\includegraphics[width=0.19\textwidth]{imggrid/falseposi/14.jpg} &
+%\includegraphics[height=1in]{imggrid/falseposi/15.jpg} \\
+%%\multicolumn{5}{c}{(c) Random false negatives (snow images classified as non-snow)} \\ 
+%\\[-6pt]
+%\hline
+%\\[-6pt]
 \includegraphics[width=0.19\textwidth]{imggrid/falseposi/16.jpg} &
 \includegraphics[width=0.19\textwidth]{imggrid/falseposi/17.jpg} &
 \includegraphics[width=0.19\textwidth]{imggrid/falseposi/18.jpg} &
@@ -505,7 +525,7 @@ Generally, all the false negative error is due to the sparseness of data. While 
 
 
 \subsubsection{Performance at single place over time}
-Figure ~\ref{fig:placeinbar} shows vegetation coverage of 6 places over 2009 and 2010. Prediction results on top usually have more data available than groud truth on the bottom. We use public sharing Flickr images. These images are more likely taken from more populated or more popular locations. The satellite ground truth 
+Figure ~\ref{fig:placeinbar} shows vegetation coverage of 6 places over 2009 and 2010. Prediction results on top usually have more data available than groud truth on the bottom. We use public sharing Flickr images. These images are more likely taken from more populated or more popular locations. The satellite ground truth, instead, is limited to cloud coverage and other sensor precision issue.
 
 
 % bar plot of 2 places
@@ -532,9 +552,10 @@ Figure ~\ref{fig:placeinbar} shows vegetation coverage of 6 places over 2009 and
 \vspace{-12pt}
 \end{figure}
 
-\subsubsection{Single time over place}
+\subsubsection{Single time over places}
 
-Sample maps are presented in figure ~\ref{fig:map}. (I should print an outline of continent as background of these maps.)
+Sample maps are presented in figure ~\ref{fig:map}.
+% (I should print an outline of continent as background of these maps.)
 
 % bar plot of 2 places
 \begin{figure}
