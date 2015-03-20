@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.2.17)  20 MAR 2015 16:08
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.2.17)  20 MAR 2015 16:09
 entering extended mode
  %&-line parsing enabled.
 **main
@@ -479,7 +479,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--61
 
  []
 
-<figs/natural-images.pdf, id=62, 794.97pt x 614.295pt>
+<figs/natural-images.pdf, id=106, 794.97pt x 614.295pt>
 File: figs/natural-images.pdf Graphic file (type pdf)
 
 <use figs/natural-images.pdf>
@@ -595,15 +595,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6.6749> on input line 245.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <4.7678> on input line 245.
-<figs/newsat-12212009.png, id=163, 1197.47375pt x 593.21625pt>
+<figs/newsat-12212009.png, id=207, 1197.47375pt x 593.21625pt>
 File: figs/newsat-12212009.png Graphic file (type png)
 
 <use figs/newsat-12212009.png>
-<figs/sat-dec212009.png, id=164, 688.5725pt x 324.21124pt>
+<figs/sat-dec212009.png, id=208, 688.5725pt x 324.21124pt>
 File: figs/sat-dec212009.png Graphic file (type png)
 
 <use figs/sat-dec212009.png>
-<figs/flickr-dec212009.png, id=165, 691.58376pt x 324.21124pt>
+<figs/flickr-dec212009.png, id=209, 691.58376pt x 324.21124pt>
 File: figs/flickr-dec212009.png Graphic file (type png)
 
 <use figs/flickr-dec212009.png>
@@ -806,43 +806,43 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6.32358> on input line 134.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <4.51686> on input line 134.
-<imggrid/datasetposi/6.jpg, id=187, 68.55325pt x 103.24286pt>
+<imggrid/datasetposi/6.jpg, id=231, 68.55325pt x 103.24286pt>
 File: imggrid/datasetposi/6.jpg Graphic file (type jpg)
 
 <use imggrid/datasetposi/6.jpg>
-<imggrid/datasetposi/7.jpg, id=188, 150.5625pt x 100.27463pt>
+<imggrid/datasetposi/7.jpg, id=232, 150.5625pt x 100.27463pt>
 File: imggrid/datasetposi/7.jpg Graphic file (type jpg)
 
 <use imggrid/datasetposi/7.jpg>
-<imggrid/datasetposi/8.jpg, id=189, 100.375pt x 66.649pt>
+<imggrid/datasetposi/8.jpg, id=233, 100.375pt x 66.649pt>
 File: imggrid/datasetposi/8.jpg Graphic file (type jpg)
 
 <use imggrid/datasetposi/8.jpg>
-<imggrid/datasetposi/9.jpg, id=190, 120.45pt x 85.7604pt>
+<imggrid/datasetposi/9.jpg, id=234, 120.45pt x 85.7604pt>
 File: imggrid/datasetposi/9.jpg Graphic file (type jpg)
 
 <use imggrid/datasetposi/9.jpg>
-<imggrid/datasetposi/10.jpg, id=191, 90.3375pt x 60.7068pt>
+<imggrid/datasetposi/10.jpg, id=235, 90.3375pt x 60.7068pt>
 File: imggrid/datasetposi/10.jpg Graphic file (type jpg)
 
 <use imggrid/datasetposi/10.jpg>
-<imggrid/datasetnega/6.jpg, id=192, 80.2197pt x 120.45pt>
+<imggrid/datasetnega/6.jpg, id=236, 80.2197pt x 120.45pt>
 File: imggrid/datasetnega/6.jpg Graphic file (type jpg)
 
 <use imggrid/datasetnega/6.jpg>
-<imggrid/datasetnega/7.jpg, id=193, 376.40625pt x 237.88875pt>
+<imggrid/datasetnega/7.jpg, id=237, 376.40625pt x 237.88875pt>
 File: imggrid/datasetnega/7.jpg Graphic file (type jpg)
 
 <use imggrid/datasetnega/7.jpg>
-<imggrid/datasetnega/8.jpg, id=194, 150.5625pt x 100.57574pt>
+<imggrid/datasetnega/8.jpg, id=238, 150.5625pt x 100.57574pt>
 File: imggrid/datasetnega/8.jpg Graphic file (type jpg)
 
 <use imggrid/datasetnega/8.jpg>
-<imggrid/datasetnega/9.jpg, id=195, 501.875pt x 376.40625pt>
+<imggrid/datasetnega/9.jpg, id=239, 501.875pt x 376.40625pt>
 File: imggrid/datasetnega/9.jpg Graphic file (type jpg)
 
 <use imggrid/datasetnega/9.jpg>
-<imggrid/datasetnega/10.jpg, id=196, 501.875pt x 334.24875pt>
+<imggrid/datasetnega/10.jpg, id=240, 501.875pt x 334.24875pt>
 File: imggrid/datasetnega/10.jpg Graphic file (type jpg)
 
 <use imggrid/datasetnega/10.jpg> [6]
@@ -896,15 +896,7 @@ File: omsptm.fd
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9.53561> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 548.
 
-
-LaTeX Warning: Reference `sec:experiments' on page 8 undefined on input line 56
-7.
-
-
-LaTeX Warning: Reference `fig:precvotes' on page 8 undefined on input line 605.
-
-
-<plots/precvotes.png, id=214, 578.16pt x 433.62pt>
+<plots/precvotes.png, id=260, 578.16pt x 433.62pt>
 File: plots/precvotes.png Graphic file (type png)
  <use plots/precvotes.png>)
 (./results.tex
@@ -917,32 +909,17 @@ LaTeX Warning: Citation `XiaoHEOT10' on page 8 undefined on input line 12.
 
 [8]
 
-LaTeX Warning: Reference `tab:snow' on page 9 undefined on input line 38.
-
-
-LaTeX Warning: Reference `fig:PR_ROC_snow' on page 9 undefined on input line 49
-.
-
-
 LaTeX Warning: Reference `fig:fp' on page 9 undefined on input line 61.
 
-<figs/ROC-CNN-curves.jpg, id=223, 803.0pt x 602.25pt>
+<figs/ROC-CNN-curves.jpg, id=272, 803.0pt x 602.25pt>
 File: figs/ROC-CNN-curves.jpg Graphic file (type jpg)
 
 <use figs/ROC-CNN-curves.jpg>
-<figs/PR-CNN-curves.jpg, id=224, 803.0pt x 602.25pt>
+<figs/PR-CNN-curves.jpg, id=273, 803.0pt x 602.25pt>
 File: figs/PR-CNN-curves.jpg Graphic file (type jpg)
 
 <use figs/PR-CNN-curves.jpg>
-
-LaTeX Warning: Reference `tab:city_statistics' on page 9 undefined on input lin
-e 134.
-
-
-LaTeX Warning: Reference `tab:city_statistics' on page 9 undefined on input lin
-e 143.
-
-<plots/nyc_stations.png, id=225, 586.44093pt x 197.98969pt>
+<plots/nyc_stations.png, id=276, 586.44093pt x 197.98969pt>
 File: plots/nyc_stations.png Graphic file (type png)
 
 <use plots/nyc_stations.png>
@@ -951,24 +928,14 @@ Overfull \hbox (12.98376pt too wide) in paragraph at lines 157--174
  []
 
 
-LaTeX Warning: Reference `fig:city_roc' on page 9 undefined on input line 184.
-
-
 LaTeX Warning: Citation `auc' on page 9 undefined on input line 191.
 
-
-LaTeX Warning: Reference `fig:city_roc' on page 9 undefined on input line 194.
-
-
-LaTeX Warning: Reference `tab:city_conf_tag_vision' on page 9 undefined on inpu
-t line 205.
-
 [9 <./plots/precvotes.png>]
-<plots/nyc_snow_ROC.png, id=241, 602.25pt x 406.51875pt>
+<plots/nyc_snow_ROC.png, id=293, 602.25pt x 406.51875pt>
 File: plots/nyc_snow_ROC.png Graphic file (type png)
 
 <use plots/nyc_snow_ROC.png>
-<plots/city_cmp_snow_ROC.png, id=243, 602.25pt x 406.51875pt>
+<plots/city_cmp_snow_ROC.png, id=295, 602.25pt x 406.51875pt>
 File: plots/city_cmp_snow_ROC.png Graphic file (type png)
 
 <use plots/city_cmp_snow_ROC.png>
@@ -979,130 +946,111 @@ Overfull \hbox (8.92218pt too wide) in paragraph at lines 210--222
 
 LaTeX Warning: Reference `sec:results' on page 10 undefined on input line 263.
 
-<figs/PR-snow.jpg, id=245, 803.0pt x 602.25pt>
+<figs/PR-snow.jpg, id=297, 803.0pt x 602.25pt>
 File: figs/PR-snow.jpg Graphic file (type jpg)
  <use figs/PR-snow.jpg>
-<figs/PR-nonsnow.jpg, id=246, 803.0pt x 602.25pt>
+<figs/PR-nonsnow.jpg, id=298, 803.0pt x 602.25pt>
 File: figs/PR-nonsnow.jpg Graphic file (type jpg)
  <use figs/PR-nonsnow.jpg>
-
-LaTeX Warning: Reference `fig:snowcurve' on page 10 undefined on input line 325
-.
-
 [10 <./figs/ROC-CNN-curves.jpg> <./figs/PR-CNN-curves.jpg> <./plots/nyc_station
 s.png>]
 
 LaTeX Warning: Citation `ecology2012www' on page 11 undefined on input line 392
 .
 
-
-LaTeX Warning: Reference `fig:curvevege' on page 11 undefined on input line 399
-.
-
-<curvevege.jpg, id=261, 1124.2pt x 421.575pt>
+<curvevege.jpg, id=311, 1124.2pt x 421.575pt>
 File: curvevege.jpg Graphic file (type jpg)
  <use curvevege.jpg>
 Overfull \hbox (6.0225pt too wide) in paragraph at lines 405--406
  [] 
  []
 
-<imggrid/falseposi/6.jpg, id=262, 376.40625pt x 281.55188pt>
+<imggrid/falseposi/6.jpg, id=312, 376.40625pt x 281.55188pt>
 File: imggrid/falseposi/6.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/6.jpg>
-<imggrid/falseposi/7.jpg, id=263, 376.40625pt x 281.55188pt>
+<imggrid/falseposi/7.jpg, id=313, 376.40625pt x 281.55188pt>
 File: imggrid/falseposi/7.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/7.jpg>
-<imggrid/falseposi/8.jpg, id=264, 376.40625pt x 281.55188pt>
+<imggrid/falseposi/8.jpg, id=314, 376.40625pt x 281.55188pt>
 File: imggrid/falseposi/8.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/8.jpg>
-<imggrid/falseposi/9.jpg, id=265, 501.875pt x 376.40625pt>
+<imggrid/falseposi/9.jpg, id=315, 501.875pt x 376.40625pt>
 File: imggrid/falseposi/9.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/9.jpg>
-<imggrid/falseposi/10.jpg, id=266, 501.875pt x 335.2525pt>
+<imggrid/falseposi/10.jpg, id=316, 501.875pt x 335.2525pt>
 File: imggrid/falseposi/10.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/10.jpg>
-<imggrid/falseposi/16.jpg, id=267, 157.10869pt x 117.83153pt>
+<imggrid/falseposi/16.jpg, id=317, 157.10869pt x 117.83153pt>
 File: imggrid/falseposi/16.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/16.jpg>
-<imggrid/falseposi/17.jpg, id=268, 501.875pt x 376.40625pt>
+<imggrid/falseposi/17.jpg, id=318, 501.875pt x 376.40625pt>
 File: imggrid/falseposi/17.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/17.jpg>
-<imggrid/falseposi/18.jpg, id=269, 200.75pt x 150.5625pt>
+<imggrid/falseposi/18.jpg, id=319, 200.75pt x 150.5625pt>
 File: imggrid/falseposi/18.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/18.jpg>
-<imggrid/falseposi/19.jpg, id=270, 376.40625pt x 501.875pt>
+<imggrid/falseposi/19.jpg, id=320, 376.40625pt x 501.875pt>
 File: imggrid/falseposi/19.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/19.jpg>
-<imggrid/falseposi/20.jpg, id=271, 501.875pt x 335.2525pt>
+<imggrid/falseposi/20.jpg, id=321, 501.875pt x 335.2525pt>
 File: imggrid/falseposi/20.jpg Graphic file (type jpg)
 
-<use imggrid/falseposi/20.jpg>
-
-LaTeX Warning: Reference `fig:falseposi' on page 11 undefined on input line 523
-.
-
-
-LaTeX Warning: Reference `fig:placeinbar' on page 11 undefined on input line 53
-0.
-
-<bar/8560.jpg, id=272, 674.52pt x 505.89pt>
+<use imggrid/falseposi/20.jpg> <bar/8560.jpg, id=324, 674.52pt x 505.89pt>
 File: bar/8560.jpg Graphic file (type jpg)
- <use bar/8560.jpg>
-<bar/8561.jpg, id=273, 674.52pt x 505.89pt>
+
+<use bar/8560.jpg> <bar/8561.jpg, id=325, 674.52pt x 505.89pt>
 File: bar/8561.jpg Graphic file (type jpg)
- <use bar/8561.jpg>
-<bar/8881.jpg, id=274, 674.52pt x 505.89pt>
+
+<use bar/8561.jpg> <bar/8881.jpg, id=326, 674.52pt x 505.89pt>
 File: bar/8881.jpg Graphic file (type jpg)
- <use bar/8881.jpg>
-<bar/8911.jpg, id=275, 674.52pt x 505.89pt>
+
+<use bar/8881.jpg> <bar/8911.jpg, id=327, 674.52pt x 505.89pt>
 File: bar/8911.jpg Graphic file (type jpg)
- <use bar/8911.jpg>
-<bar/9705.jpg, id=276, 674.52pt x 505.89pt>
+
+<use bar/8911.jpg> <bar/9705.jpg, id=328, 674.52pt x 505.89pt>
 File: bar/9705.jpg Graphic file (type jpg)
- <use bar/9705.jpg>
-<bar/10816.jpg, id=277, 674.52pt x 505.89pt>
+
+<use bar/9705.jpg> <bar/10816.jpg, id=329, 674.52pt x 505.89pt>
 File: bar/10816.jpg Graphic file (type jpg)
- <use bar/10816.jpg>
+
+<use bar/10816.jpg>
 Overfull \hbox (0.58673pt too wide) in paragraph at lines 538--550
  [] 
  []
 
-
-LaTeX Warning: Reference `fig:map' on page 11 undefined on input line 560.
-
 [11 <./plots/nyc_snow_ROC.png> <./plots/city_cmp_snow_ROC.png> <./figs/PR-snow.
 jpg> <./figs/PR-nonsnow.jpg> <./curvevege.jpg>]
-<map/72.png, id=292, 1608.0075pt x 1206.5075pt>
+<map/72.png, id=343, 1608.0075pt x 1206.5075pt>
 File: map/72.png Graphic file (type png)
  <use map/72.png>
-<map/77.png, id=293, 1608.0075pt x 1206.5075pt>
+<map/77.png, id=344, 1608.0075pt x 1206.5075pt>
 File: map/77.png Graphic file (type png)
  <use map/77.png>
-<map/78.png, id=294, 1608.0075pt x 1206.5075pt>
+<map/78.png, id=345, 1608.0075pt x 1206.5075pt>
 File: map/78.png Graphic file (type png)
  <use map/78.png>
-<map/79.png, id=295, 1608.0075pt x 1206.5075pt>
+<map/79.png, id=346, 1608.0075pt x 1206.5075pt>
 File: map/79.png Graphic file (type png)
  <use map/79.png>
-<map/82.png, id=296, 1608.0075pt x 1206.5075pt>
+<map/82.png, id=347, 1608.0075pt x 1206.5075pt>
 File: map/82.png Graphic file (type png)
  <use map/82.png>
-<map/83.png, id=297, 1608.0075pt x 1206.5075pt>
+<map/83.png, id=348, 1608.0075pt x 1206.5075pt>
 File: map/83.png Graphic file (type png)
  <use map/83.png>
-<map/84.png, id=298, 1608.0075pt x 1206.5075pt>
+<map/84.png, id=349, 1608.0075pt x 1206.5075pt>
 File: map/84.png Graphic file (type png)
  <use map/84.png>
-<map/91.png, id=299, 1608.0075pt x 1206.5075pt>
+<map/91.png, id=350, 1608.0075pt x 1206.5075pt>
 File: map/91.png Graphic file (type png)
  <use map/91.png>
 Overfull \hbox (2.2416pt too wide) in paragraph at lines 572--587
@@ -1121,15 +1069,12 @@ y)> <./map/83.png (PNG copy)> <./map/84.png (PNG copy)> <./map/91.png (PNG copy
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 4987 strings out of 256216
- 74974 string characters out of 1917084
- 132632 words of memory out of 1500000
- 8077 multiletter control sequences out of 10000+200000
+ 4998 strings out of 256216
+ 75175 string characters out of 1917084
+ 134813 words of memory out of 1500000
+ 8088 multiletter control sequences out of 10000+200000
  76555 words of font info for 142 fonts, out of 1200000 for 2000
  648 hyphenation exceptions out of 8191
  33i,13n,50p,865b,362s stack positions out of 5000i,500n,6000p,200000b,15000s
@@ -1147,9 +1092,9 @@ s/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf/fonts/type1/urw/helvetic/uhvr
 8a.pfb></usr/share/texmf/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf/fon
 ts/type1/urw/times/utmri8a.pfb></usr/share/texmf/fonts/type1/urw/zapfding/uzdr.
 pfb>
-Output written on main.pdf (12 pages, 20860030 bytes).
+Output written on main.pdf (12 pages, 20865207 bytes).
 PDF statistics:
- 384 PDF objects out of 1000 (max. 8388607)
+ 431 PDF objects out of 1000 (max. 8388607)
  55 named destinations out of 1000 (max. 131072)
- 356 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 444 words of extra memory for PDF output out of 10000 (max. 10000000)
 
