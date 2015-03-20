@@ -1,18 +1,14 @@
 This is BibTeX, Version 0.99c (Web2C 7.5.6)
 The top-level auxiliary file: main.aux
-White space in argument---line 62 of file main.aux
- : \citation{Who’s
- :                   Time Is It Anyway? yahoo}
-I'm skipping whatever remains of this command
 I couldn't open style file IEEEtran.bst
----line 152 of file main.aux
+---line 151 of file main.aux
  : \bibstyle{IEEEtran
  :                   }
 I'm skipping whatever remains of this command
 I found no style file---while reading file main.aux
 You've used 54 entries,
             0 wiz_defined-function locations,
-            148 strings with 1356 characters,
+            148 strings with 1352 characters,
 and the built_in function-call counts, 0 in all, are:
 = -- 0
 > -- 0
@@ -51,4 +47,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 0
-(There were 3 error messages)
+(There were 2 error messages)
