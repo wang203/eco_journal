@@ -3,7 +3,23 @@
 
 
 
-Big wrap-up, lots of ideas for future work.
+In this paper, we propose using the massive collections of
+user-generated photos uploaded to social sharing websites as a source
+of observational evidence about the world, and in particular as a way
+of estimating the presence of ecological phenomena. As a first step
+towards this long-term goal, we used a collection of 150 million
+geo-tagged, timestamped photos from Flickr to estimate snow 
+cover and greenery, and compared these estimates to fine-grained
+ground truth collected by earth-observing satellites and ground stations. We compared
+several techniques for performing the estimation from noisy, biased
+data, including simple voting mechanisms and a Bayesian likelihood
+ratio. We also tested several possible improvements to these basic
+%%hp cr: removed "multi-language tag sets" as we did not report it in
+%%this version
+methods, including using 
+%temporal smoothing, 
+%multi-language tag sets,
+machine learning to improve the accuracy of estimates.
 
 In this paper, we show a real case of using public-sharing data to estimate ecology information.
 We used get this information only from some institution with the help of satellite.
@@ -14,7 +30,12 @@ means of observing the state of the natural world, by automatically
 recognizing specific types of scenes and objects in large-scale social
 image collections. This work is an initial step towards a long-term
 goal of monitoring important ecological events and trends through
-online social media.  Our study shows that snowy scene recognition is
+online social media.  
+
+
+
+
+Our study shows that snowy scene recognition is
 not nearly as easy a problem as one might expect, when applied to realistic
 consumer images; our best result using
 modern vision techniques gives 81\% accuracy. Nevertheless, as a proof-of-concept
@@ -26,7 +47,30 @@ We also test recognition algorithms on their ability to recognize a
 particular species of flower, the California Poppy. In future work, we
 plan to combine evidence from tags and other metadata with visual
 features for more accurate estimates, and to develop novel techniques
-for these challenging recognition problems. More generally, we hope
+for these challenging recognition problems. 
+
+\fxnote{possible ideas in discussion section}
+
+1. wrong case analysis
+a. complex dataset of image classification
+
+This part probably requires some image examples to show how complex the dataset is and why the 
+image classification cannot be perfect. 
+And images is easily take large space.
+
+b. wrong case of bin prediction
+
+There are some image examples from the bins with non-green in ground truth. But we find a lot of 
+green image from our dataset.
+This part is now in results section. We can move it to discussion section if necessary.
+
+2. why deep learning performs better than visual features
+
+3. future works
+
+
+
+More generally, we hope
 the idea of observing nature through photo-sharing websites will help
 spark renewed interest in recognizing natural and ecological phenomenon in
 consumer images.
@@ -44,32 +88,18 @@ consumer images.
 %% like migration patterns of wildlife.
 
 
-
-In this paper, we propose using the massive collections of
-user-generated photos uploaded to social sharing websites as a source
-of observational evidence about the world, and in particular as a way
-of estimating the presence of ecological phenomena. As a first step
-towards this long-term goal, we used a collection of 150 million
-geo-tagged, timestamped photos from Flickr to estimate snow 
-cover and greenery, and compared these estimates to fine-grained
-ground truth collected by earth-observing satellites and ground stations. We compared
-several techniques for performing the estimation from noisy, biased
-data, including simple voting mechanisms and a Bayesian likelihood
-ratio. We also tested several possible improvements to these basic
-%%hp cr: removed "multi-language tag sets" as we did not report it in
-%%this version
-methods, including using temporal smoothing
-%%methods, including using temporal smoothing, multi-language tag sets,
-and machine learning to improve the accuracy of estimates. We found
-that while the recall is relatively low due to the sparsity of photos
-on any given day, the precision can be quite high, suggesting that
-mining from photo sharing websites could be a reliable source of
-observational data for ecological and other scientific research. In
-future work, we plan to study additional features including using
-more sophisticated computer vision techniques to analyze visual content. Also we plan to study a variety of other ecological phenomena,
-including those for which high quality ground truth is not available,
-such as migration patterns of wildlife and the distributions of
-blooming flowers.
+ 
+%We found
+%that while the recall is relatively low due to the sparsity of photos
+%on any given day, the precision can be quite high, suggesting that
+%mining from photo sharing websites could be a reliable source of
+%observational data for ecological and other scientific research. 
+%In
+%future work, we plan to study additional features including using
+%more sophisticated computer vision techniques to analyze visual content. Also we plan to study a variety of other ecological phenomena,
+%including those for which high quality ground truth is not available,
+%such as migration patterns of wildlife and the distributions of
+%blooming flowers.
 
 
 
