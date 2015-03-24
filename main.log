@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  24 MAR 2015 07:35
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  24 MAR 2015 07:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -822,129 +822,125 @@ LaTeX Warning: Reference `sec:results' on page 10 undefined on input line 314.
 File: figs/PR-snow.jpg Graphic file (type jpg)
  <use figs/PR-snow.jpg>
 Package pdftex.def Info: figs/PR-snow.jpg used on input line 348.
-(pdftex.def)             Requested size: 207.17084pt x 155.37746pt.
+(pdftex.def)             Requested size: 207.17084pt x 174.18854pt.
 
-<figs/PR-nonsnow.jpg, id=442, 803.0pt x 602.25pt>
+<figs/PR-nonsnow.jpg, id=443, 803.0pt x 602.25pt>
 File: figs/PR-nonsnow.jpg Graphic file (type jpg)
  <use figs/PR-nonsnow.jpg>
 Package pdftex.def Info: figs/PR-nonsnow.jpg used on input line 349.
-(pdftex.def)             Requested size: 207.17084pt x 155.37746pt.
+(pdftex.def)             Requested size: 207.17084pt x 174.18854pt.
 
 [10 <./figs/ROC-CNN-curves.jpg> <./figs/PR-CNN-curves.jpg> <./plots/nyc_station
-s.png>]
-Underfull \vbox (badness 2189) has occurred while \output is active []
-
-
-<curvevege.jpg, id=456, 1124.2pt x 421.575pt>
+s.png>] <curvevege.jpg, id=458, 1124.2pt x 421.575pt>
 File: curvevege.jpg Graphic file (type jpg)
  <use curvevege.jpg>
 Package pdftex.def Info: curvevege.jpg used on input line 478.
 (pdftex.def)             Requested size: 414.34956pt x 155.38205pt.
 
-<imggrid/falseposi/6.jpg, id=457, 376.40625pt x 281.55188pt>
+<imggrid/falseposi/6.jpg, id=459, 376.40625pt x 281.55188pt>
 File: imggrid/falseposi/6.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/6.jpg>
 Package pdftex.def Info: imggrid/falseposi/6.jpg used on input line 563.
 (pdftex.def)             Requested size: 98.4089pt x 73.60988pt.
 
-<imggrid/falseposi/7.jpg, id=458, 376.40625pt x 281.55188pt>
+<imggrid/falseposi/7.jpg, id=460, 376.40625pt x 281.55188pt>
 File: imggrid/falseposi/7.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/7.jpg>
 Package pdftex.def Info: imggrid/falseposi/7.jpg used on input line 564.
 (pdftex.def)             Requested size: 98.4089pt x 73.60988pt.
 
-<imggrid/falseposi/8.jpg, id=459, 376.40625pt x 281.55188pt>
+<imggrid/falseposi/8.jpg, id=461, 376.40625pt x 281.55188pt>
 File: imggrid/falseposi/8.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/8.jpg>
 Package pdftex.def Info: imggrid/falseposi/8.jpg used on input line 565.
 (pdftex.def)             Requested size: 98.4089pt x 73.60988pt.
 
-<imggrid/falseposi/9.jpg, id=460, 501.875pt x 376.40625pt>
+<imggrid/falseposi/9.jpg, id=462, 501.875pt x 376.40625pt>
 File: imggrid/falseposi/9.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/9.jpg>
 Package pdftex.def Info: imggrid/falseposi/9.jpg used on input line 566.
 (pdftex.def)             Requested size: 98.4089pt x 73.80383pt.
 
-<imggrid/falseposi/10.jpg, id=461, 501.875pt x 335.2525pt>
+<imggrid/falseposi/10.jpg, id=463, 501.875pt x 335.2525pt>
 File: imggrid/falseposi/10.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/10.jpg>
 Package pdftex.def Info: imggrid/falseposi/10.jpg used on input line 567.
 (pdftex.def)             Requested size: 98.4089pt x 65.73462pt.
 
-<imggrid/falseposi/16.jpg, id=462, 157.10869pt x 117.83153pt>
+<imggrid/falseposi/16.jpg, id=464, 157.10869pt x 117.83153pt>
 File: imggrid/falseposi/16.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/16.jpg>
 Package pdftex.def Info: imggrid/falseposi/16.jpg used on input line 581.
 (pdftex.def)             Requested size: 98.4089pt x 73.80814pt.
 
-<imggrid/falseposi/17.jpg, id=463, 501.875pt x 376.40625pt>
+<imggrid/falseposi/17.jpg, id=465, 501.875pt x 376.40625pt>
 File: imggrid/falseposi/17.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/17.jpg>
 Package pdftex.def Info: imggrid/falseposi/17.jpg used on input line 582.
 (pdftex.def)             Requested size: 98.4089pt x 73.80383pt.
 
-<imggrid/falseposi/18.jpg, id=464, 200.75pt x 150.5625pt>
+<imggrid/falseposi/18.jpg, id=466, 200.75pt x 150.5625pt>
 File: imggrid/falseposi/18.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/18.jpg>
 Package pdftex.def Info: imggrid/falseposi/18.jpg used on input line 583.
 (pdftex.def)             Requested size: 98.4089pt x 73.80843pt.
 
-<imggrid/falseposi/19.jpg, id=465, 376.40625pt x 501.875pt>
+<imggrid/falseposi/19.jpg, id=467, 376.40625pt x 501.875pt>
 File: imggrid/falseposi/19.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/19.jpg>
 Package pdftex.def Info: imggrid/falseposi/19.jpg used on input line 584.
 (pdftex.def)             Requested size: 54.2013pt x 72.26999pt.
 
-<imggrid/falseposi/20.jpg, id=466, 501.875pt x 335.2525pt>
+<imggrid/falseposi/20.jpg, id=468, 501.875pt x 335.2525pt>
 File: imggrid/falseposi/20.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/20.jpg>
 Package pdftex.def Info: imggrid/falseposi/20.jpg used on input line 585.
 (pdftex.def)             Requested size: 98.4089pt x 65.73462pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4739) has occurred while \output is active []
 
  [11 <./plots/nyc_snow_ROC.png> <./plots/city_cmp_snow_ROC.png> <./figs/PR-snow
-.jpg> <./figs/PR-nonsnow.jpg>] <bar/8560.jpg, id=479, 674.52pt x 505.89pt>
+.jpg> <./figs/PR-nonsnow.jpg>] <bar/8560.jpg, id=483, 674.52pt x 505.89pt>
 File: bar/8560.jpg Graphic file (type jpg)
 
 <use bar/8560.jpg>
 Package pdftex.def Info: bar/8560.jpg used on input line 612.
 (pdftex.def)             Requested size: 72.51057pt x 54.38211pt.
- <bar/8561.jpg, id=480, 674.52pt x 505.89pt>
+ <bar/8561.jpg, id=484, 674.52pt x 505.89pt>
 File: bar/8561.jpg Graphic file (type jpg)
 
 <use bar/8561.jpg>
 Package pdftex.def Info: bar/8561.jpg used on input line 613.
 (pdftex.def)             Requested size: 72.51057pt x 54.38211pt.
- <bar/8881.jpg, id=481, 674.52pt x 505.89pt>
+ <bar/8881.jpg, id=485, 674.52pt x 505.89pt>
 File: bar/8881.jpg Graphic file (type jpg)
 
 <use bar/8881.jpg>
 Package pdftex.def Info: bar/8881.jpg used on input line 615.
 (pdftex.def)             Requested size: 72.51057pt x 54.38211pt.
- <bar/8911.jpg, id=482, 674.52pt x 505.89pt>
+ <bar/8911.jpg, id=486, 674.52pt x 505.89pt>
 File: bar/8911.jpg Graphic file (type jpg)
 
 <use bar/8911.jpg>
 Package pdftex.def Info: bar/8911.jpg used on input line 616.
 (pdftex.def)             Requested size: 72.51057pt x 54.38211pt.
- <bar/9705.jpg, id=483, 674.52pt x 505.89pt>
+ <bar/9705.jpg, id=487, 674.52pt x 505.89pt>
 File: bar/9705.jpg Graphic file (type jpg)
 
 <use bar/9705.jpg>
 Package pdftex.def Info: bar/9705.jpg used on input line 617.
 (pdftex.def)             Requested size: 72.51057pt x 54.38211pt.
- <bar/10816.jpg, id=484, 674.52pt x 505.89pt>
+ <bar/10816.jpg, id=488, 674.52pt x 505.89pt>
 File: bar/10816.jpg Graphic file (type jpg)
 
 <use bar/10816.jpg>
@@ -955,49 +951,49 @@ Overfull \hbox (0.58673pt too wide) in paragraph at lines 611--623
  [] 
  []
 
-<map/72.png, id=486, 1608.0075pt x 1206.5075pt>
+<map/72.png, id=490, 1608.0075pt x 1206.5075pt>
 File: map/72.png Graphic file (type png)
  <use map/72.png>
 Package pdftex.def Info: map/72.png used on input line 646.
 (pdftex.def)             Requested size: 51.79665pt x 38.86308pt.
 
-<map/77.png, id=487, 1608.0075pt x 1206.5075pt>
+<map/77.png, id=491, 1608.0075pt x 1206.5075pt>
 File: map/77.png Graphic file (type png)
  <use map/77.png>
 Package pdftex.def Info: map/77.png used on input line 647.
 (pdftex.def)             Requested size: 51.79665pt x 38.86308pt.
 
-<map/78.png, id=488, 1608.0075pt x 1206.5075pt>
+<map/78.png, id=492, 1608.0075pt x 1206.5075pt>
 File: map/78.png Graphic file (type png)
  <use map/78.png>
 Package pdftex.def Info: map/78.png used on input line 648.
 (pdftex.def)             Requested size: 51.79665pt x 38.86308pt.
 
-<map/79.png, id=489, 1608.0075pt x 1206.5075pt>
+<map/79.png, id=493, 1608.0075pt x 1206.5075pt>
 File: map/79.png Graphic file (type png)
  <use map/79.png>
 Package pdftex.def Info: map/79.png used on input line 650.
 (pdftex.def)             Requested size: 51.79665pt x 38.86308pt.
 
-<map/82.png, id=490, 1608.0075pt x 1206.5075pt>
+<map/82.png, id=494, 1608.0075pt x 1206.5075pt>
 File: map/82.png Graphic file (type png)
  <use map/82.png>
 Package pdftex.def Info: map/82.png used on input line 652.
 (pdftex.def)             Requested size: 51.79665pt x 38.86308pt.
 
-<map/83.png, id=491, 1608.0075pt x 1206.5075pt>
+<map/83.png, id=495, 1608.0075pt x 1206.5075pt>
 File: map/83.png Graphic file (type png)
  <use map/83.png>
 Package pdftex.def Info: map/83.png used on input line 653.
 (pdftex.def)             Requested size: 51.79665pt x 38.86308pt.
 
-<map/84.png, id=492, 1608.0075pt x 1206.5075pt>
+<map/84.png, id=496, 1608.0075pt x 1206.5075pt>
 File: map/84.png Graphic file (type png)
  <use map/84.png>
 Package pdftex.def Info: map/84.png used on input line 654.
 (pdftex.def)             Requested size: 51.79665pt x 38.86308pt.
 
-<map/91.png, id=493, 1608.0075pt x 1206.5075pt>
+<map/91.png, id=497, 1608.0075pt x 1206.5075pt>
 File: map/91.png Graphic file (type png)
  <use map/91.png>
 Package pdftex.def Info: map/91.png used on input line 656.
@@ -1055,7 +1051,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 773.
 Here is how much of TeX's memory you used:
  7993 strings out of 493488
  123919 string characters out of 3141326
- 232903 words of memory out of 3000000
+ 232880 words of memory out of 3000000
  11007 multiletter control sequences out of 15000+200000
  76555 words of font info for 142 fonts, out of 3000000 for 9000
  960 hyphenation exceptions out of 8191
@@ -1079,10 +1075,10 @@ mes/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmbi8
 a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
 r/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/t
 exlive/2012/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (14 pages, 20911237 bytes).
+Output written on main.pdf (14 pages, 20911758 bytes).
 PDF statistics:
- 599 PDF objects out of 1000 (max. 8388607)
- 465 compressed objects within 5 object streams
+ 603 PDF objects out of 1000 (max. 8388607)
+ 467 compressed objects within 5 object streams
  112 named destinations out of 1000 (max. 500000)
- 436 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 448 words of extra memory for PDF output out of 10000 (max. 10000000)
 
