@@ -1,10 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2012)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
-White space in argument---line 65 of file main.aux
- : \citation{Who’s
- :                   Time Is It Anyway? yahoo}
-I'm skipping whatever remains of this command
 The style file: IEEEtran.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -35,43 +31,43 @@ Warning--empty year in libennowell08
 Done.
 You've used 54 entries,
             4039 wiz_defined-function locations,
-            1067 strings with 15685 characters,
-and the built_in function-call counts, 33089 in all, are:
-= -- 2467
-> -- 855
-< -- 174
-+ -- 443
+            1068 strings with 15682 characters,
+and the built_in function-call counts, 33516 in all, are:
+= -- 2504
+> -- 863
+< -- 183
++ -- 449
 - -- 168
-* -- 1514
-:= -- 4956
-add.period$ -- 112
+* -- 1535
+:= -- 5003
+add.period$ -- 113
 call.type$ -- 54
 change.case$ -- 51
-chr.to.int$ -- 399
+chr.to.int$ -- 423
 cite$ -- 55
-duplicate$ -- 2566
-empty$ -- 3141
+duplicate$ -- 2587
+empty$ -- 3166
 format.name$ -- 215
-if$ -- 7654
+if$ -- 7759
 int.to.chr$ -- 0
 int.to.str$ -- 54
-missing$ -- 499
+missing$ -- 500
 newline$ -- 185
 num.names$ -- 51
 pop$ -- 1314
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2640
+skip$ -- 2670
 stack$ -- 0
-substring$ -- 988
-swap$ -- 1776
-text.length$ -- 41
+substring$ -- 1044
+swap$ -- 1806
+text.length$ -- 42
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 54
 warning$ -- 1
-while$ -- 115
+while$ -- 119
 width$ -- 56
-write$ -- 483
-(There were 4 error messages)
+write$ -- 484
+(There were 3 error messages)

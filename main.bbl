@@ -156,6 +156,12 @@ A.~Sadilek, H.~Kautz, and V.~Silenzio, ``{Predicting Disease Transmission from
 V.~K. Singh, M.~Gao, and R.~Jain, ``Social pixels: genesis and evaluation,'' in
   \emph{ACM Multimedia}, 2010.
 
+\bibitem{thomee2014s}
+B.~Thomee, J.~G. Moreno, and D.~A. Shamma, ``Who's time is it anyway?:
+  Investigating the accuracy of camera timestamps,'' in \emph{Proceedings of
+  the ACM International Conference on Multimedia}.\hskip 1em plus 0.5em minus
+  0.4em\relax ACM, 2014, pp. 909--912.
+
 \bibitem{singh2010geo}
 V.~Singh, S.~Venkatesha, and A.~K. Singh, ``Geo-clustering of images with
   missing geotags,'' in \emph{Granular Computing (GrC), 2010 IEEE International
@@ -167,11 +173,6 @@ D.~J. Crandall, L.~Backstrom, D.~Huttenlocher, and J.~Kleinberg, ``Mapping the
   world's photos,'' in \emph{Proceedings of the 18th international conference
   on World wide web}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2009, pp.
   761--770.
-
-\bibitem{thomee_time2014}
-B.~Thomee, J.~G. Moreno, and D.~A. Shamma, ``Who's time is it anyway?:
-  Investigating the accuracy of camera timestamps,'' in \emph{Proceedings of
-  the 22nd ACM International Conference on Multimedia}, 2014.
 
 \bibitem{hauff2012geo}
 C.~Hauff and G.-J. Houben, ``Geo-location estimation of flickr images: social
