@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  24 MAR 2015 07:39
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  25 MAR 2015 13:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -409,7 +409,11 @@ Package thumbpdf Warning: Compressed PDF objects of PDF 1.5 are not supported.
 
 Package thumbpdf Warning: Thumbnail data file `main.tpt' not found.
 
-) (./main.aux)
+) (./main.aux
+
+LaTeX Warning: Label `fig:dataset' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 541.
@@ -770,7 +774,7 @@ File: omsptm.fd
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9.53561> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 548.
 
-<plots/precvotes.png, id=399, 578.16pt x 433.62pt>
+<plots/precvotes.png, id=400, 578.16pt x 433.62pt>
 File: plots/precvotes.png Graphic file (type png)
  <use plots/precvotes.png>
 Package pdftex.def Info: plots/precvotes.png used on input line 620.
@@ -780,35 +784,35 @@ Package pdftex.def Info: plots/precvotes.png used on input line 620.
 
 LaTeX Warning: Reference `fig:fp' on page 9 undefined on input line 61.
 
-<figs/ROC-CNN-curves.jpg, id=414, 803.0pt x 602.25pt>
+<figs/ROC-CNN-curves.jpg, id=415, 803.0pt x 602.25pt>
 File: figs/ROC-CNN-curves.jpg Graphic file (type jpg)
 
 <use figs/ROC-CNN-curves.jpg>
 Package pdftex.def Info: figs/ROC-CNN-curves.jpg used on input line 67.
 (pdftex.def)             Requested size: 207.17084pt x 155.37746pt.
 
-<figs/PR-CNN-curves.jpg, id=415, 803.0pt x 602.25pt>
+<figs/PR-CNN-curves.jpg, id=416, 803.0pt x 602.25pt>
 File: figs/PR-CNN-curves.jpg Graphic file (type jpg)
 
 <use figs/PR-CNN-curves.jpg>
 Package pdftex.def Info: figs/PR-CNN-curves.jpg used on input line 68.
 (pdftex.def)             Requested size: 207.17084pt x 155.37746pt.
 
-<plots/nyc_stations.png, id=418, 586.44093pt x 197.98969pt>
+<plots/nyc_stations.png, id=419, 586.44093pt x 197.98969pt>
 File: plots/nyc_stations.png Graphic file (type png)
 
 <use plots/nyc_stations.png>
 Package pdftex.def Info: plots/nyc_stations.png used on input line 168.
 (pdftex.def)             Requested size: 181.2804pt x 61.20094pt.
  [9 <./plots/precvotes.png>]
-<plots/nyc_snow_ROC.png, id=437, 602.25pt x 406.51875pt>
+<plots/nyc_snow_ROC.png, id=438, 602.25pt x 406.51875pt>
 File: plots/nyc_snow_ROC.png Graphic file (type png)
 
 <use plots/nyc_snow_ROC.png>
 Package pdftex.def Info: plots/nyc_snow_ROC.png used on input line 249.
 (pdftex.def)             Requested size: 207.17084pt x 163.36757pt.
 
-<plots/city_cmp_snow_ROC.png, id=439, 602.25pt x 406.51875pt>
+<plots/city_cmp_snow_ROC.png, id=440, 602.25pt x 406.51875pt>
 File: plots/city_cmp_snow_ROC.png Graphic file (type png)
 
 <use plots/city_cmp_snow_ROC.png>
@@ -818,89 +822,89 @@ Package pdftex.def Info: plots/city_cmp_snow_ROC.png used on input line 250.
 
 LaTeX Warning: Reference `sec:results' on page 10 undefined on input line 314.
 
-<figs/PR-snow.jpg, id=441, 803.0pt x 602.25pt>
+<figs/PR-snow.jpg, id=442, 803.0pt x 602.25pt>
 File: figs/PR-snow.jpg Graphic file (type jpg)
  <use figs/PR-snow.jpg>
 Package pdftex.def Info: figs/PR-snow.jpg used on input line 348.
 (pdftex.def)             Requested size: 207.17084pt x 174.18854pt.
 
-<figs/PR-nonsnow.jpg, id=443, 803.0pt x 602.25pt>
+<figs/PR-nonsnow.jpg, id=444, 803.0pt x 602.25pt>
 File: figs/PR-nonsnow.jpg Graphic file (type jpg)
  <use figs/PR-nonsnow.jpg>
 Package pdftex.def Info: figs/PR-nonsnow.jpg used on input line 349.
 (pdftex.def)             Requested size: 207.17084pt x 174.18854pt.
 
 [10 <./figs/ROC-CNN-curves.jpg> <./figs/PR-CNN-curves.jpg> <./plots/nyc_station
-s.png>] <curvevege.jpg, id=458, 1124.2pt x 421.575pt>
+s.png>] <curvevege.jpg, id=459, 1124.2pt x 421.575pt>
 File: curvevege.jpg Graphic file (type jpg)
  <use curvevege.jpg>
 Package pdftex.def Info: curvevege.jpg used on input line 478.
 (pdftex.def)             Requested size: 414.34956pt x 155.38205pt.
 
-<imggrid/falseposi/6.jpg, id=459, 376.40625pt x 281.55188pt>
+<imggrid/falseposi/6.jpg, id=460, 376.40625pt x 281.55188pt>
 File: imggrid/falseposi/6.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/6.jpg>
 Package pdftex.def Info: imggrid/falseposi/6.jpg used on input line 563.
 (pdftex.def)             Requested size: 98.4089pt x 73.60988pt.
 
-<imggrid/falseposi/7.jpg, id=460, 376.40625pt x 281.55188pt>
+<imggrid/falseposi/7.jpg, id=461, 376.40625pt x 281.55188pt>
 File: imggrid/falseposi/7.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/7.jpg>
 Package pdftex.def Info: imggrid/falseposi/7.jpg used on input line 564.
 (pdftex.def)             Requested size: 98.4089pt x 73.60988pt.
 
-<imggrid/falseposi/8.jpg, id=461, 376.40625pt x 281.55188pt>
+<imggrid/falseposi/8.jpg, id=462, 376.40625pt x 281.55188pt>
 File: imggrid/falseposi/8.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/8.jpg>
 Package pdftex.def Info: imggrid/falseposi/8.jpg used on input line 565.
 (pdftex.def)             Requested size: 98.4089pt x 73.60988pt.
 
-<imggrid/falseposi/9.jpg, id=462, 501.875pt x 376.40625pt>
+<imggrid/falseposi/9.jpg, id=463, 501.875pt x 376.40625pt>
 File: imggrid/falseposi/9.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/9.jpg>
 Package pdftex.def Info: imggrid/falseposi/9.jpg used on input line 566.
 (pdftex.def)             Requested size: 98.4089pt x 73.80383pt.
 
-<imggrid/falseposi/10.jpg, id=463, 501.875pt x 335.2525pt>
+<imggrid/falseposi/10.jpg, id=464, 501.875pt x 335.2525pt>
 File: imggrid/falseposi/10.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/10.jpg>
 Package pdftex.def Info: imggrid/falseposi/10.jpg used on input line 567.
 (pdftex.def)             Requested size: 98.4089pt x 65.73462pt.
 
-<imggrid/falseposi/16.jpg, id=464, 157.10869pt x 117.83153pt>
+<imggrid/falseposi/16.jpg, id=465, 157.10869pt x 117.83153pt>
 File: imggrid/falseposi/16.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/16.jpg>
 Package pdftex.def Info: imggrid/falseposi/16.jpg used on input line 581.
 (pdftex.def)             Requested size: 98.4089pt x 73.80814pt.
 
-<imggrid/falseposi/17.jpg, id=465, 501.875pt x 376.40625pt>
+<imggrid/falseposi/17.jpg, id=466, 501.875pt x 376.40625pt>
 File: imggrid/falseposi/17.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/17.jpg>
 Package pdftex.def Info: imggrid/falseposi/17.jpg used on input line 582.
 (pdftex.def)             Requested size: 98.4089pt x 73.80383pt.
 
-<imggrid/falseposi/18.jpg, id=466, 200.75pt x 150.5625pt>
+<imggrid/falseposi/18.jpg, id=467, 200.75pt x 150.5625pt>
 File: imggrid/falseposi/18.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/18.jpg>
 Package pdftex.def Info: imggrid/falseposi/18.jpg used on input line 583.
 (pdftex.def)             Requested size: 98.4089pt x 73.80843pt.
 
-<imggrid/falseposi/19.jpg, id=467, 376.40625pt x 501.875pt>
+<imggrid/falseposi/19.jpg, id=468, 376.40625pt x 501.875pt>
 File: imggrid/falseposi/19.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/19.jpg>
 Package pdftex.def Info: imggrid/falseposi/19.jpg used on input line 584.
 (pdftex.def)             Requested size: 54.2013pt x 72.26999pt.
 
-<imggrid/falseposi/20.jpg, id=468, 501.875pt x 335.2525pt>
+<imggrid/falseposi/20.jpg, id=469, 501.875pt x 335.2525pt>
 File: imggrid/falseposi/20.jpg Graphic file (type jpg)
 
 <use imggrid/falseposi/20.jpg>
@@ -910,37 +914,37 @@ Package pdftex.def Info: imggrid/falseposi/20.jpg used on input line 585.
 Underfull \vbox (badness 4739) has occurred while \output is active []
 
  [11 <./plots/nyc_snow_ROC.png> <./plots/city_cmp_snow_ROC.png> <./figs/PR-snow
-.jpg> <./figs/PR-nonsnow.jpg>] <bar/8560.jpg, id=483, 674.52pt x 505.89pt>
+.jpg> <./figs/PR-nonsnow.jpg>] <bar/8560.jpg, id=484, 674.52pt x 505.89pt>
 File: bar/8560.jpg Graphic file (type jpg)
 
 <use bar/8560.jpg>
 Package pdftex.def Info: bar/8560.jpg used on input line 612.
 (pdftex.def)             Requested size: 72.51057pt x 54.38211pt.
- <bar/8561.jpg, id=484, 674.52pt x 505.89pt>
+ <bar/8561.jpg, id=485, 674.52pt x 505.89pt>
 File: bar/8561.jpg Graphic file (type jpg)
 
 <use bar/8561.jpg>
 Package pdftex.def Info: bar/8561.jpg used on input line 613.
 (pdftex.def)             Requested size: 72.51057pt x 54.38211pt.
- <bar/8881.jpg, id=485, 674.52pt x 505.89pt>
+ <bar/8881.jpg, id=486, 674.52pt x 505.89pt>
 File: bar/8881.jpg Graphic file (type jpg)
 
 <use bar/8881.jpg>
 Package pdftex.def Info: bar/8881.jpg used on input line 615.
 (pdftex.def)             Requested size: 72.51057pt x 54.38211pt.
- <bar/8911.jpg, id=486, 674.52pt x 505.89pt>
+ <bar/8911.jpg, id=487, 674.52pt x 505.89pt>
 File: bar/8911.jpg Graphic file (type jpg)
 
 <use bar/8911.jpg>
 Package pdftex.def Info: bar/8911.jpg used on input line 616.
 (pdftex.def)             Requested size: 72.51057pt x 54.38211pt.
- <bar/9705.jpg, id=487, 674.52pt x 505.89pt>
+ <bar/9705.jpg, id=488, 674.52pt x 505.89pt>
 File: bar/9705.jpg Graphic file (type jpg)
 
 <use bar/9705.jpg>
 Package pdftex.def Info: bar/9705.jpg used on input line 617.
 (pdftex.def)             Requested size: 72.51057pt x 54.38211pt.
- <bar/10816.jpg, id=488, 674.52pt x 505.89pt>
+ <bar/10816.jpg, id=489, 674.52pt x 505.89pt>
 File: bar/10816.jpg Graphic file (type jpg)
 
 <use bar/10816.jpg>
@@ -951,49 +955,49 @@ Overfull \hbox (0.58673pt too wide) in paragraph at lines 611--623
  [] 
  []
 
-<map/72.png, id=490, 1608.0075pt x 1206.5075pt>
+<map/72.png, id=491, 1608.0075pt x 1206.5075pt>
 File: map/72.png Graphic file (type png)
  <use map/72.png>
 Package pdftex.def Info: map/72.png used on input line 646.
 (pdftex.def)             Requested size: 51.79665pt x 38.86308pt.
 
-<map/77.png, id=491, 1608.0075pt x 1206.5075pt>
+<map/77.png, id=492, 1608.0075pt x 1206.5075pt>
 File: map/77.png Graphic file (type png)
  <use map/77.png>
 Package pdftex.def Info: map/77.png used on input line 647.
 (pdftex.def)             Requested size: 51.79665pt x 38.86308pt.
 
-<map/78.png, id=492, 1608.0075pt x 1206.5075pt>
+<map/78.png, id=493, 1608.0075pt x 1206.5075pt>
 File: map/78.png Graphic file (type png)
  <use map/78.png>
 Package pdftex.def Info: map/78.png used on input line 648.
 (pdftex.def)             Requested size: 51.79665pt x 38.86308pt.
 
-<map/79.png, id=493, 1608.0075pt x 1206.5075pt>
+<map/79.png, id=494, 1608.0075pt x 1206.5075pt>
 File: map/79.png Graphic file (type png)
  <use map/79.png>
 Package pdftex.def Info: map/79.png used on input line 650.
 (pdftex.def)             Requested size: 51.79665pt x 38.86308pt.
 
-<map/82.png, id=494, 1608.0075pt x 1206.5075pt>
+<map/82.png, id=495, 1608.0075pt x 1206.5075pt>
 File: map/82.png Graphic file (type png)
  <use map/82.png>
 Package pdftex.def Info: map/82.png used on input line 652.
 (pdftex.def)             Requested size: 51.79665pt x 38.86308pt.
 
-<map/83.png, id=495, 1608.0075pt x 1206.5075pt>
+<map/83.png, id=496, 1608.0075pt x 1206.5075pt>
 File: map/83.png Graphic file (type png)
  <use map/83.png>
 Package pdftex.def Info: map/83.png used on input line 653.
 (pdftex.def)             Requested size: 51.79665pt x 38.86308pt.
 
-<map/84.png, id=496, 1608.0075pt x 1206.5075pt>
+<map/84.png, id=497, 1608.0075pt x 1206.5075pt>
 File: map/84.png Graphic file (type png)
  <use map/84.png>
 Package pdftex.def Info: map/84.png used on input line 654.
 (pdftex.def)             Requested size: 51.79665pt x 38.86308pt.
 
-<map/91.png, id=497, 1608.0075pt x 1206.5075pt>
+<map/91.png, id=498, 1608.0075pt x 1206.5075pt>
 File: map/91.png Graphic file (type png)
  <use map/91.png>
 Package pdftex.def Info: map/91.png used on input line 656.
@@ -1015,25 +1019,134 @@ copy)>]
 Package hyperref Info: bookmark level for unknown fixme defaults to 0 on input 
 line 52.
 FiXme Note: 'possible ideas in discussion section' on input line 52.
+ <imggrid/datasetposi/1.jpg, id=507, 376.40625pt x 282.30469pt>
+File: imggrid/datasetposi/1.jpg Graphic file (type jpg)
 
+<use imggrid/datasetposi/1.jpg>
+Package pdftex.def Info: imggrid/datasetposi/1.jpg used on input line 81.
+(pdftex.def)             Requested size: 98.4089pt x 73.8067pt.
 
-Package FiXme Warning: \fixme is deprecated;
-(FiXme)                please use \fxfatal instead on input line 100.
+<imggrid/datasetposi/2.jpg, id=508, 382.42876pt x 501.875pt>
+File: imggrid/datasetposi/2.jpg Graphic file (type jpg)
 
+<use imggrid/datasetposi/2.jpg>
+Package pdftex.def Info: imggrid/datasetposi/2.jpg used on input line 82.
+(pdftex.def)             Requested size: 55.06853pt x 72.26999pt.
 
-FiXme Fatal Error: 'Sorry I don't understand this well enough' on input line 10
-0.
+<imggrid/datasetposi/3.jpg, id=509, 501.875pt x 376.40625pt>
+File: imggrid/datasetposi/3.jpg Graphic file (type jpg)
 
-) (./main.bbl [13])
+<use imggrid/datasetposi/3.jpg>
+Package pdftex.def Info: imggrid/datasetposi/3.jpg used on input line 83.
+(pdftex.def)             Requested size: 98.4089pt x 73.80383pt.
 
-FiXme Summary: Number of notes: 1,
+<imggrid/datasetposi/4.jpg, id=510, 139.722pt x 200.75pt>
+File: imggrid/datasetposi/4.jpg Graphic file (type jpg)
+
+<use imggrid/datasetposi/4.jpg>
+Package pdftex.def Info: imggrid/datasetposi/4.jpg used on input line 84.
+(pdftex.def)             Requested size: 50.29987pt x 72.26999pt.
+
+<imggrid/datasetposi/5.jpg, id=511, 7227.0pt x 4813.182pt>
+File: imggrid/datasetposi/5.jpg Graphic file (type jpg)
+
+<use imggrid/datasetposi/5.jpg>
+Package pdftex.def Info: imggrid/datasetposi/5.jpg used on input line 85.
+(pdftex.def)             Requested size: 98.4089pt x 65.51128pt.
+File: imggrid/datasetposi/6.jpg Graphic file (type jpg)
+ <use imggrid/datasetposi/6.jpg>
+Package pdftex.def Info: imggrid/datasetposi/6.jpg used on input line 90.
+(pdftex.def)             Requested size: 47.98694pt x 72.26999pt.
+File: imggrid/datasetposi/7.jpg Graphic file (type jpg)
+
+<use imggrid/datasetposi/7.jpg>
+Package pdftex.def Info: imggrid/datasetposi/7.jpg used on input line 91.
+(pdftex.def)             Requested size: 98.4089pt x 65.54341pt.
+File: imggrid/datasetposi/8.jpg Graphic file (type jpg)
+ <use imggrid/datasetposi/8.jpg>
+Package pdftex.def Info: imggrid/datasetposi/8.jpg used on input line 92.
+(pdftex.def)             Requested size: 98.4089pt x 65.3481pt.
+File: imggrid/datasetposi/9.jpg Graphic file (type jpg)
+
+<use imggrid/datasetposi/9.jpg>
+Package pdftex.def Info: imggrid/datasetposi/9.jpg used on input line 93.
+(pdftex.def)             Requested size: 98.4089pt x 70.06879pt.
+File: imggrid/datasetposi/10.jpg Graphic file (type jpg)
+ <use imggrid/datasetposi/10.jpg>
+Package pdftex.def Info: imggrid/datasetposi/10.jpg used on input line 94.
+(pdftex.def)             Requested size: 98.4089pt x 66.1311pt.
+
+<imggrid/datasetnega/1.jpg, id=512, 501.875pt x 376.40625pt>
+File: imggrid/datasetnega/1.jpg Graphic file (type jpg)
+
+<use imggrid/datasetnega/1.jpg>
+Package pdftex.def Info: imggrid/datasetnega/1.jpg used on input line 99.
+(pdftex.def)             Requested size: 98.4089pt x 73.80383pt.
+
+<imggrid/datasetnega/2.jpg, id=513, 150.5625pt x 100.27463pt>
+File: imggrid/datasetnega/2.jpg Graphic file (type jpg)
+
+<use imggrid/datasetnega/2.jpg>
+Package pdftex.def Info: imggrid/datasetnega/2.jpg used on input line 100.
+(pdftex.def)             Requested size: 98.4089pt x 65.54341pt.
+
+<imggrid/datasetnega/3.jpg, id=514, 150.5625pt x 100.27463pt>
+File: imggrid/datasetnega/3.jpg Graphic file (type jpg)
+
+<use imggrid/datasetnega/3.jpg>
+Package pdftex.def Info: imggrid/datasetnega/3.jpg used on input line 101.
+(pdftex.def)             Requested size: 98.4089pt x 65.54341pt.
+
+<imggrid/datasetnega/4.jpg, id=515, 501.875pt x 376.40625pt>
+File: imggrid/datasetnega/4.jpg Graphic file (type jpg)
+
+<use imggrid/datasetnega/4.jpg>
+Package pdftex.def Info: imggrid/datasetnega/4.jpg used on input line 102.
+(pdftex.def)             Requested size: 98.4089pt x 73.80383pt.
+
+<imggrid/datasetnega/5.jpg, id=516, 120.45pt x 79.0152pt>
+File: imggrid/datasetnega/5.jpg Graphic file (type jpg)
+
+<use imggrid/datasetnega/5.jpg>
+Package pdftex.def Info: imggrid/datasetnega/5.jpg used on input line 103.
+(pdftex.def)             Requested size: 98.4089pt x 64.55777pt.
+File: imggrid/datasetnega/6.jpg Graphic file (type jpg)
+ <use imggrid/datasetnega/6.jpg>
+Package pdftex.def Info: imggrid/datasetnega/6.jpg used on input line 108.
+(pdftex.def)             Requested size: 48.1334pt x 72.26999pt.
+File: imggrid/datasetnega/7.jpg Graphic file (type jpg)
+
+<use imggrid/datasetnega/7.jpg>
+Package pdftex.def Info: imggrid/datasetnega/7.jpg used on input line 109.
+(pdftex.def)             Requested size: 98.4089pt x 62.19444pt.
+File: imggrid/datasetnega/8.jpg Graphic file (type jpg)
+ <use imggrid/datasetnega/8.jpg>
+Package pdftex.def Info: imggrid/datasetnega/8.jpg used on input line 110.
+(pdftex.def)             Requested size: 98.4089pt x 65.74023pt.
+File: imggrid/datasetnega/9.jpg Graphic file (type jpg)
+
+<use imggrid/datasetnega/9.jpg>
+Package pdftex.def Info: imggrid/datasetnega/9.jpg used on input line 111.
+(pdftex.def)             Requested size: 98.4089pt x 73.80383pt.
+File: imggrid/datasetnega/10.jpg Graphic file (type jpg)
+ <use imggrid/datasetnega/10.jpg>
+Package pdftex.def Info: imggrid/datasetnega/10.jpg used on input line 112.
+(pdftex.def)             Requested size: 98.4089pt x 65.5378pt.
+FiXme Note: 'Sorry I don't understand this well enough' on input line 164.
+) (./main.bbl
+[13] [14 <./imggrid/datasetposi/1.jpg> <./imggrid/datasetposi/2.jpg> <./imggrid
+/datasetposi/3.jpg> <./imggrid/datasetposi/4.jpg> <./imggrid/datasetposi/5.jpg>
+ <./imggrid/datasetnega/1.jpg> <./imggrid/datasetnega/2.jpg> <./imggrid/dataset
+nega/3.jpg> <./imggrid/datasetnega/4.jpg> <./imggrid/datasetnega/5.jpg>])
+
+FiXme Summary: Number of notes: 2,
 (FiXme)        Number of warnings: 0,
 (FiXme)        Number of errors: 0,
-(FiXme)        Number of fatal errors: 1,
+(FiXme)        Number of fatal errors: 0,
 (FiXme)        Total: 2.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 773.
-[14
+[15
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 773.
@@ -1046,16 +1159,19 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 773.
  ) 
 Here is how much of TeX's memory you used:
- 7993 strings out of 493488
- 123919 string characters out of 3141326
- 232880 words of memory out of 3000000
- 11007 multiletter control sequences out of 15000+200000
+ 8040 strings out of 493488
+ 125170 string characters out of 3141326
+ 235031 words of memory out of 3000000
+ 11047 multiletter control sequences out of 15000+200000
  76555 words of font info for 142 fonts, out of 3000000 for 9000
  960 hyphenation exceptions out of 8191
- 35i,13n,60p,869b,452s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 35i,13n,60p,869b,456s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -1075,10 +1191,10 @@ mes/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmbi8
 a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
 r/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/t
 exlive/2012/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (14 pages, 20911758 bytes).
+Output written on main.pdf (15 pages, 22596259 bytes).
 PDF statistics:
- 603 PDF objects out of 1000 (max. 8388607)
- 467 compressed objects within 5 object streams
- 112 named destinations out of 1000 (max. 500000)
- 448 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 619 PDF objects out of 1000 (max. 8388607)
+ 472 compressed objects within 5 object streams
+ 114 named destinations out of 1000 (max. 500000)
+ 498 words of extra memory for PDF output out of 10000 (max. 10000000)
 
