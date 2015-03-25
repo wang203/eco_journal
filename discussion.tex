@@ -51,20 +51,20 @@ for these challenging recognition problems.
 
 \fxnote{possible ideas in discussion section}
 
-0. not using tags in vegetation case
+%0. not using tags in vegetation case
 An important extended work in this paper is analyzing the visual content of image data instead of
 only using text tags. It's not only because image content gives complement information, moreover,
  it's crucial for some phenomena. For example, in vegetation case, 
 %Discussion about the fact that tags really don't work well for some
 %phenomena like vegetation where 
-there is not a single set of "good"
-tags that all users would use. ( Forest, tree, green .... ) all can point to images with no greenery content.
+there is not a single set of ``good''
+tags that all users would use. Many terms, like ``forest'', ``tree'', ``green'' and etc., can point to images with no greenery content.
 Further more, it's hard to see much description about the leaves are green or yellow in tags.
-And also a lot of tags are misleading such as "Irish green" on Saint Patrick's Day. 
+And also a lot of tags are misleading such as ``Irish green'' on Saint Patrick's Day. 
 
-1. wrong case analysis
+%1. wrong case analysis
 
-a. complex dataset of image classification
+%a. complex dataset of image classification
 
 %This part probably requires some image examples to show how complex the dataset is and why the 
 %image classification cannot be perfect. 
@@ -119,16 +119,21 @@ Negative images like winter trees without leaves, or indoor images capturing a p
 \label{fig:dataset}
 \end{figure*}
 
-b. wrong case of bin prediction
+%b. wrong case of bin prediction
 
-There are some image examples from the bins with non-green in ground truth. But we find a lot of 
-green image from our dataset.
+In continental scale prediction, from the non-green bins in ground truth, we find a lot of 
+green images from our dataset.
 %This part is now in results section. We can move it to discussion section if necessary.
+\fxnote{
+It is possible that within the $50 km$ by $50 km$ bin, 
+there are greenery in small region but not large enough to 
+cover 50\% of the land. It's also possible that 
+the satellite doesn't detect more than 50\% of greenery because of cloud coverage. 
+(I don't believe what I wrote... We've kicked out bins with high cloud coverage. 
+I cannot explain this)
+}
 
-It is possible that within the $50 km$ by $50 km$ bin, there are greenery in small region but not large enough to cover 50\% of the land. It's also possible that the satellite doesn't detect more than 50\% of greenery because of cloud coverage. (I don't believe what I wrote... We've kicked out bins with high cloud coverage. I cannot explain this then..)
-
-
-2. deep learning performs better than visual features
+%2. deep learning performs better than visual features
 
 Our experiments also provide evidence for the latest improvements in image classification -- CNN outperforms traditional vision technique when
  we have a large number of training data. The reason is not completely understood. And we only 
@@ -141,10 +146,10 @@ classification perform separately.
 
 
 
-3. future works
+%3. future works
 
 The vegetation coverage changes at different time over places. 
-Instead of trying to create a single binary classifier ( to determine whether this image is with or
+Instead of trying to create a single binary classifier (to determine whether this image is with or
 without a certain ecology phenomenon),
 we can train individual classifiers on one particular place 
 -- e.g. Eiffel tower, etc. 
