@@ -247,7 +247,7 @@ or not a given tag was used on that day. Also we tried to build classifiers trai
 \begin{tabular}{cc}
 %{@{}c@{}c@{}c@{}c@{}}
 \includegraphics[width=0.36\textwidth,clip,trim=0.4in 0 0.8in 0]{plots/nyc_snow_ROC.png} &
-\vspace{10pt}
+\hspace{15pt}
 \includegraphics[width=0.36\textwidth,clip,trim=0.4in 0 0.8in 0]{plots/city_cmp_snow_ROC.png} \\
 
 %\includegraphics[width=0.40\textwidth,clip,trim=0.4in 0 0.8in 0]{plots/nyc_snow_ROC.png} &
@@ -552,12 +552,12 @@ Figure ~\ref{fig:curvevege} shows the precision and recall curve of snow predict
 %(??? Result is presented in video. Is a map necessary here? or a better way?)
 
 
-\begin{figure*}[th]
+\begin{figure}[th]
 {\small{
 \begin{center}
 \begin{tabular}{@{}c@{\,\,\,}c@{\,\,\,}c@{\,\,\,}c@{\,\,\,}c@{\,\,\,}}
-%\includegraphics[width=0.19\textwidth]{imggrid/falseposi/1.jpg} &
-%\includegraphics[width=0.19\textwidth]{imggrid/falseposi/2.jpg} &
+%\includegraphics[width=0.10\textwidth]{imggrid/falseposi/1.jpg} &
+%\includegraphics[width=0.10\textwidth]{imggrid/falseposi/2.jpg} &
 %\includegraphics[height=1in]{imggrid/falseposi/3.jpg} &
 %\includegraphics[height=1in]{imggrid/falseposi/4.jpg} &
 %\includegraphics[height=1in]{imggrid/falseposi/5.jpg} \\
@@ -565,40 +565,33 @@ Figure ~\ref{fig:curvevege} shows the precision and recall curve of snow predict
 %\\[-6pt]
 %\hline
 %\\[-6pt]
-\includegraphics[width=0.19\textwidth]{imggrid/falseposi/6.jpg} &
-\includegraphics[width=0.19\textwidth]{imggrid/falseposi/7.jpg} &
-\includegraphics[width=0.19\textwidth]{imggrid/falseposi/8.jpg} &
-\includegraphics[width=0.19\textwidth]{imggrid/falseposi/9.jpg} &
-\includegraphics[width=0.19\textwidth]{imggrid/falseposi/10.jpg} \\
-%\multicolumn{5}{c}{(a) Random positive images in vegetation dataset} \\ 
+\vspace{10pt}
+\includegraphics[width=0.08\textwidth]{imggrid/falseposi/6.jpg} &
+\includegraphics[width=0.08\textwidth]{imggrid/falseposi/7.jpg} &
+\includegraphics[width=0.08\textwidth]{imggrid/falseposi/8.jpg} &
+\includegraphics[width=0.08\textwidth]{imggrid/falseposi/9.jpg} &
+\includegraphics[width=0.08\textwidth]{imggrid/falseposi/10.jpg} \\
 \\[-6pt]
 \hline
 \\[-6pt]
-%\includegraphics[height=1in]{imggrid/falseposi/11.jpg} &
-%\includegraphics[height=1in]{imggrid/falseposi/12.jpg} &
-%\includegraphics[width=0.19\textwidth]{imggrid/falseposi/13.jpg} &
-%\includegraphics[width=0.19\textwidth]{imggrid/falseposi/14.jpg} &
-%\includegraphics[height=1in]{imggrid/falseposi/15.jpg} \\
-%%\multicolumn{5}{c}{(c) Random false negatives (snow images classified as non-snow)} \\ 
-%\\[-6pt]
-%\hline
-%\\[-6pt]
-\includegraphics[width=0.19\textwidth]{imggrid/falseposi/16.jpg} &
-\includegraphics[width=0.19\textwidth]{imggrid/falseposi/17.jpg} &
-\includegraphics[width=0.19\textwidth]{imggrid/falseposi/18.jpg} &
-\includegraphics[height=1in]{imggrid/falseposi/19.jpg} &
-\includegraphics[width=0.19\textwidth]{imggrid/falseposi/20.jpg} \\
-%\multicolumn{5}{c}{(b) Random negative images in vegetation dataset} \\
+\includegraphics[width=0.08\textwidth]{imggrid/falseposi/16.jpg} &
+\includegraphics[width=0.08\textwidth]{imggrid/falseposi/17.jpg} &
+\includegraphics[width=0.08\textwidth]{imggrid/falseposi/18.jpg} &
+\includegraphics[height=0.5in]{imggrid/falseposi/19.jpg} &
+\includegraphics[width=0.08\textwidth]{imggrid/falseposi/20.jpg} \\
 \end{tabular}
 \end{center}
 }}
 \caption{In vegetation detection over North America in 2009 and 2010, among all false positive bins, there are ... images that are predicted as greenery. And these images are the reason these bins are predicted as green. Here are some random selected examples of the green images.}
 \label{fig:falseposi}
-\end{figure*}
+\end{figure}
+
 
 %****explain errors
 
-Generally, all the false negative error is due to the sparseness of data. While not enough images are collected at certain location during some time, there is either no green image found or green images are too few compare to the quantity of non-green images. On the other hand, false positive error is rare (less than 1\%) and complex. We found most images in the false positive bins are actually green vegetation images. ( here we need some more explanation) In figure ~\ref{fig:falseposi}, we show some examples of images in false positive bins.
+Generally, all the false negative error is due to the sparseness of data. While not enough images are collected at certain location during some time, there is either no green image found or green images are too few compare to the quantity of non-green images. On the other hand, false positive error is rare (less than 1\%) and complex. We found most images in the false positive bins are actually green vegetation images. 
+\fxnote{here we need some more explanation} 
+In figure ~\ref{fig:falseposi}, we show some examples of images in false positive bins.
 
 
 
@@ -613,15 +606,20 @@ And we can see the ground truth is likely missing at the time when the leaves ch
 \begin{figure}
 %{\small{
 \begin{center}
+\hspace{-10pt}
 \begin{tabular}{ccc}
-\includegraphics[width=0.14\textwidth]{bar/8560.jpg} &
-\includegraphics[width=0.14\textwidth]{bar/8561.jpg} &
+\includegraphics[width=0.17\textwidth]{bar/8560.jpg} &
+\hspace{-20pt}
+\includegraphics[width=0.17\textwidth]{bar/8561.jpg} &
+\hspace{-20pt}
 %\includegraphics[width=0.5\textwidth,height=1.4in,clip,trim=0 0.5in 0in 0.6in]{plots/chicago_noaa_vs_prediction_prev_3.png} 
-\includegraphics[width=0.14\textwidth]{bar/8881.jpg} \\
-\includegraphics[width=0.14\textwidth]{bar/8911.jpg} &
-\includegraphics[width=0.14\textwidth]{bar/9705.jpg} &
+\includegraphics[width=0.17\textwidth]{bar/8881.jpg} \\
+\includegraphics[width=0.17\textwidth]{bar/8911.jpg} &
+\hspace{-20pt}
+\includegraphics[width=0.17\textwidth]{bar/9705.jpg} &
+\hspace{-20pt}
 %\includegraphics[width=0.5\textwidth,height=1.4in,clip,trim=0 0.5in 0in 0.6in]{plots/chicago_noaa_vs_prediction_prev_3.png} 
-\includegraphics[width=0.14\textwidth]{bar/10816.jpg} \\
+\includegraphics[width=0.17\textwidth]{bar/10816.jpg} \\
 %(a) & (b)\\
 \\
 \end{tabular}
@@ -643,22 +641,22 @@ These images are more likely taken from more populated or more popular locations
 
 % (I should print an outline of continent as background of these maps.)
 
-% bar plot of 2 places
-\begin{figure}
+% maps
+\begin{figure*}
 %{\small{
 \begin{center}
 \begin{tabular}{cccc}
-\includegraphics[width=0.10\textwidth]{map/72.png} &
-\includegraphics[width=0.10\textwidth]{map/77.png} &
-\includegraphics[width=0.10\textwidth]{map/78.png} &
+\includegraphics[width=0.20\textwidth]{map/72.png} &
+\includegraphics[width=0.20\textwidth]{map/77.png} &
+\includegraphics[width=0.20\textwidth]{map/78.png} &
 %\includegraphics[width=0.5\textwidth,height=1.4in,clip,trim=0 0.5in 0in 0.6in]{plots/chicago_noaa_vs_prediction_prev_3.png} 
-\includegraphics[width=0.10\textwidth]{map/79.png}  \\
+\includegraphics[width=0.20\textwidth]{map/79.png}  \\
 Mar, 6th&May, 25th&Jun, 10th&Jun, 26th\\
-\includegraphics[width=0.10\textwidth]{map/82.png} &
-\includegraphics[width=0.10\textwidth]{map/83.png} &
-\includegraphics[width=0.10\textwidth]{map/84.png} &
+\includegraphics[width=0.20\textwidth]{map/82.png} &
+\includegraphics[width=0.20\textwidth]{map/83.png} &
+\includegraphics[width=0.20\textwidth]{map/84.png} &
 %\includegraphics[width=0.5\textwidth,height=1.4in,clip,trim=0 0.5in 0in 0.6in]{plots/chicago_noaa_vs_prediction_prev_3.png} 
-\includegraphics[width=0.10\textwidth]{map/91.png}  \\
+\includegraphics[width=0.20\textwidth]{map/91.png}  \\
 Aug, 13th&Aug, 29th&Sep, 14th&Dec 19th\\
 \\
 \end{tabular}
@@ -670,7 +668,7 @@ We use prediction results to recreate vegetation coverage maps for each 16-days 
 Orange bins represent true positive; blue bins are false positives; yellow bins are ture negatives and black bins are false negatives. }
 \label{fig:map}
 \vspace{-12pt}
-\end{figure}
+\end{figure*}
 %
 %\subsubsection{not using tag in vegetation case}
 %
@@ -830,7 +828,7 @@ Orange bins represent true positive; blue bins are false positives; yellow bins 
 %{\small{
 %\begin{center}
 %\begin{tabular}{@{}c@{\,\,\,}c@{\,\,\,}c@{\,\,\,}c@{\,\,\,}c@{\,\,\,}}
-%\includegraphics[width=0.19\textwidth]{imggrid/datasetposi/1.jpg} &
+%\includegraphics[width=0.10\textwidth]{imggrid/datasetposi/1.jpg} &
 %\includegraphics[height=1in]{imggrid/datasetposi/2.jpg} &
 %\includegraphics[width=0.19\textwidth]{imggrid/datasetposi/3.jpg} &
 %\includegraphics[height=1in]{imggrid/datasetposi/4.jpg} &

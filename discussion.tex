@@ -76,45 +76,73 @@ why our visual image classification model does not perform perfect.
 
 To show the diversity of our Flickr image dataset, in figure ~\ref{fig:dataset} we present a random sample of images in our vegetation dataset labeled as positive and negative.
 
-\begin{figure*}[th]
+%\begin{figure*}[th]
+%{\small{
+%\begin{center}
+%\begin{tabular}{@{}c@{\,\,\,}c@{\,\,\,}c@{\,\,\,}c@{\,\,\,}c@{\,\,\,}}
+%%\includegraphics[width=0.19\textwidth]{imggrid/datasetposi/1.jpg} &
+%%\includegraphics[height=1in]{imggrid/datasetposi/2.jpg} &
+%%\includegraphics[width=0.19\textwidth]{imggrid/datasetposi/3.jpg} &
+%%\includegraphics[height=1in]{imggrid/datasetposi/4.jpg} &
+%%\includegraphics[width=0.19\textwidth]{imggrid/datasetposi/5.jpg} \\
+%%%\multicolumn{5}{c}{(a) Random positive images in vegetation dataset} \\
+%%\\[-6pt]
+%%\hline
+%%\\[-6pt]
+%\includegraphics[height=1in]{imggrid/datasetposi/6.jpg} &
+%\includegraphics[width=0.19\textwidth]{imggrid/datasetposi/7.jpg} &
+%\includegraphics[width=0.19\textwidth]{imggrid/datasetposi/8.jpg} &
+%\includegraphics[width=0.19\textwidth]{imggrid/datasetposi/9.jpg} &
+%\includegraphics[width=0.19\textwidth]{imggrid/datasetposi/10.jpg} \\
+%\multicolumn{5}{c}{(a) Random positive images in vegetation dataset} \\ 
+%\\[-6pt]
+%\hline
+%\\[-6pt]
+%\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/1.jpg} &
+%\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/2.jpg} &
+%%\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/3.jpg} &
+%%\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/4.jpg} &
+%%\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/5.jpg} \\
+%\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/7.jpg} &
+%\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/8.jpg} &
+%\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/10.jpg} \\
+%%\multicolumn{5}{c}{(c) Random false negatives (snow images classified as non-snow)} \\ 
+%%\\[-6pt]
+%%\hline
+%%\\[-6pt]
+%%\includegraphics[height=1in]{imggrid/datasetnega/6.jpg} &
+%%\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/7.jpg} &
+%%\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/8.jpg} &
+%%\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/9.jpg} &
+%%\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/10.jpg} \\
+%\multicolumn{5}{c}{(b) Random negative images in vegetation dataset} \\
+%\end{tabular}
+%\end{center}
+%}}
+%\caption{Random images from our hand-labeled dataset. Public sharing images are various in quality, contents, illumination and view angle.
+%Negative images like winter trees without leaves, or indoor images capturing a photo of forest are more confusing.}
+%\label{fig:dataset}
+%\end{figure*}
+
+\begin{figure}[th]
 {\small{
 \begin{center}
 \begin{tabular}{@{}c@{\,\,\,}c@{\,\,\,}c@{\,\,\,}c@{\,\,\,}c@{\,\,\,}}
-%\includegraphics[width=0.19\textwidth]{imggrid/datasetposi/1.jpg} &
-%\includegraphics[height=1in]{imggrid/datasetposi/2.jpg} &
-%\includegraphics[width=0.19\textwidth]{imggrid/datasetposi/3.jpg} &
-%\includegraphics[height=1in]{imggrid/datasetposi/4.jpg} &
-%\includegraphics[width=0.19\textwidth]{imggrid/datasetposi/5.jpg} \\
-%%\multicolumn{5}{c}{(a) Random positive images in vegetation dataset} \\
-%\\[-6pt]
-%\hline
-%\\[-6pt]
-\includegraphics[height=1in]{imggrid/datasetposi/6.jpg} &
-\includegraphics[width=0.19\textwidth]{imggrid/datasetposi/7.jpg} &
-\includegraphics[width=0.19\textwidth]{imggrid/datasetposi/8.jpg} &
-\includegraphics[width=0.19\textwidth]{imggrid/datasetposi/9.jpg} &
-\includegraphics[width=0.19\textwidth]{imggrid/datasetposi/10.jpg} \\
-\multicolumn{5}{c}{(a) Random positive images in vegetation dataset} \\ 
+\vspace{10pt}
+\includegraphics[height=0.5in]{imggrid/datasetposi/6.jpg} &
+\includegraphics[width=0.08\textwidth]{imggrid/datasetposi/7.jpg} &
+\includegraphics[width=0.08\textwidth]{imggrid/datasetposi/8.jpg} &
+\includegraphics[width=0.08\textwidth]{imggrid/datasetposi/9.jpg} &
+\includegraphics[width=0.08\textwidth]{imggrid/datasetposi/10.jpg} \\
+\multicolumn{5}{c}{(a) Random positive images in vegetation dataset} \\
 \\[-6pt]
 \hline
 \\[-6pt]
-\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/1.jpg} &
-\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/2.jpg} &
-%\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/3.jpg} &
-%\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/4.jpg} &
-%\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/5.jpg} \\
-\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/7.jpg} &
-\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/8.jpg} &
-\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/10.jpg} \\
-%\multicolumn{5}{c}{(c) Random false negatives (snow images classified as non-snow)} \\ 
-%\\[-6pt]
-%\hline
-%\\[-6pt]
-%\includegraphics[height=1in]{imggrid/datasetnega/6.jpg} &
-%\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/7.jpg} &
-%\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/8.jpg} &
-%\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/9.jpg} &
-%\includegraphics[width=0.19\textwidth]{imggrid/datasetnega/10.jpg} \\
+\includegraphics[width=0.08\textwidth]{imggrid/datasetnega/1.jpg} &
+\includegraphics[width=0.08\textwidth]{imggrid/datasetnega/2.jpg} &
+\includegraphics[width=0.08\textwidth]{imggrid/datasetnega/7.jpg} &
+\includegraphics[width=0.08\textwidth]{imggrid/datasetnega/8.jpg} &
+\includegraphics[width=0.08\textwidth]{imggrid/datasetnega/10.jpg} \\
 \multicolumn{5}{c}{(b) Random negative images in vegetation dataset} \\
 \end{tabular}
 \end{center}
@@ -122,7 +150,7 @@ To show the diversity of our Flickr image dataset, in figure ~\ref{fig:dataset} 
 \caption{Random images from our hand-labeled dataset. Public sharing images are various in quality, contents, illumination and view angle.
 Negative images like winter trees without leaves, or indoor images capturing a photo of forest are more confusing.}
 \label{fig:dataset}
-\end{figure*}
+\end{figure}
 
 %b. wrong case of bin prediction
 
