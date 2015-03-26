@@ -1,6 +1,11 @@
 This is BibTeX, Version 0.99d (TeX Live 2012)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
+Case mismatch error between cite keys ilsvrcarxiv14 and ILSVRCarxiv14
+---line 118 of file main.aux
+ : \citation{ilsvrcarxiv14
+ :                        }
+I'm skipping whatever remains of this command
 The style file: IEEEtran.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -8,17 +13,12 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: eco.bib
-You're missing a field name---line 31 of file eco.bib
- : 
- : %title = {6,000,000,000.},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 40 of file eco.bib
+You're missing a field name---line 41 of file eco.bib
  : 
  : %author = {N. Rodic Marsan},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 161 of file eco.bib
+You're missing a field name---line 162 of file eco.bib
  : 
  : %volume = 105,
 (Error may have been on previous line)
@@ -29,45 +29,45 @@ I'm skipping whatever remains of this entry
 Warning--empty year in libennowell08
 
 Done.
-You've used 54 entries,
+You've used 57 entries,
             4039 wiz_defined-function locations,
-            1068 strings with 15682 characters,
-and the built_in function-call counts, 33516 in all, are:
-= -- 2504
-> -- 863
-< -- 183
-+ -- 449
-- -- 168
-* -- 1535
-:= -- 5003
-add.period$ -- 113
-call.type$ -- 54
-change.case$ -- 51
-chr.to.int$ -- 423
-cite$ -- 55
-duplicate$ -- 2587
-empty$ -- 3166
-format.name$ -- 215
-if$ -- 7759
+            1084 strings with 16324 characters,
+and the built_in function-call counts, 35668 in all, are:
+= -- 2668
+> -- 922
+< -- 193
++ -- 479
+- -- 180
+* -- 1640
+:= -- 5325
+add.period$ -- 121
+call.type$ -- 57
+change.case$ -- 55
+chr.to.int$ -- 447
+cite$ -- 58
+duplicate$ -- 2748
+empty$ -- 3377
+format.name$ -- 230
+if$ -- 8264
 int.to.chr$ -- 0
-int.to.str$ -- 54
-missing$ -- 500
-newline$ -- 185
-num.names$ -- 51
-pop$ -- 1314
+int.to.str$ -- 57
+missing$ -- 532
+newline$ -- 194
+num.names$ -- 54
+pop$ -- 1398
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2670
+skip$ -- 2837
 stack$ -- 0
-substring$ -- 1044
-swap$ -- 1806
-text.length$ -- 42
+substring$ -- 1104
+swap$ -- 1920
+text.length$ -- 44
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 54
+type$ -- 57
 warning$ -- 1
-while$ -- 119
-width$ -- 56
-write$ -- 484
+while$ -- 126
+width$ -- 59
+write$ -- 513
 (There were 3 error messages)

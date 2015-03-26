@@ -95,7 +95,8 @@ M.~Boutell, A.~Choudhury, J.~Luo, and C.~M. Brown, ``Using semantic features
   2006.
 
 \bibitem{Kremerskothen11}
-K.~Kremerskothen.
+K.~Kremerskothen, ``{6,000,000,000.}''
+  \url{http://blog.flickr.net/en/2011/08/04/6000000000/}, 2011.
 
 \bibitem{delongueville09}
 B.~De~Longueville, R.~S. Smith, and G.~Luraschi, ``"{OMG}, from here, i can see
@@ -199,6 +200,31 @@ M.~Boutell, ``Exploiting context for semantic scene classification,'' Ph.D.
 P.~Barnum, S.~Narasimhan, and T.~Kanade, ``Analysis of rain and snow in
   frequency space,'' \emph{IJCV}, vol.~86, no. 2-3, 2009.
 
+\bibitem{krizhevsky2012imagenet}
+A.~Krizhevsky, I.~Sutskever, and G.~Hinton, ``Imagenet classification with deep
+  convolutional neural networks,'' in \emph{Advances in Neural Information
+  Processing Systems}, 2012, pp. 1097--1105.
+
+\bibitem{chatfield2011devil}
+K.~Chatfield, V.~Lempitsky, A.~Vedaldi, and A.~Zisserman, ``The devil is in the
+  details: an evaluation of recent feature encoding methods,'' in
+  \emph{Proceedings of the British Machine Vision Conference}, 2011.
+
+\bibitem{zhou2014learning}
+B.~Zhou, A.~Lapedriza, J.~Xiao, A.~Torralba, and A.~Oliva, ``Learning deep
+  features for scene recognition using places database,'' in \emph{Advances in
+  Neural Information Processing Systems}, 2014, pp. 487--495.
+
+\bibitem{grangier2009deep}
+D.~Grangier, L.~Bottou, and R.~Collobert, ``Deep convolutional networks for
+  scene parsing,'' in \emph{ICML 2009 Deep Learning Workshop}, vol.~3.\hskip
+  1em plus 0.5em minus 0.4em\relax Citeseer, 2009.
+
+\bibitem{ILSVRCarxiv14}
+O.~Russakovsky, J.~Deng, H.~Su, J.~Krause, S.~Satheesh, S.~Ma, Z.~Huang,
+  A.~Karpathy, A.~Khosla, M.~Bernstein, A.~C. Berg, and L.~Fei-Fei, ``{ImageNet
+  Large Scale Visual Recognition Challenge},'' 2014.
+
 \bibitem{kumar2012leafsnap}
 N.~Kumar, P.~N. Belhumeur, A.~Biswas, D.~W. Jacobs, W.~J. Kress, I.~C. Lopez,
   and J.~V. Soares, ``Leafsnap: A computer vision system for automatic plant
@@ -249,16 +275,6 @@ A.~Oliva and A.~Torralba, ``Modeling the shape of the scene: A holistic
 \bibitem{douze2009evaluation}
 M.~Douze, H.~Jegou, H.~Sandhawalia, L.~Amsaleg, and C.~Schmid, ``Evaluation of
   gist descriptors for web-scale image search,'' in \emph{ICIVR}, 2009.
-
-\bibitem{krizhevsky2012imagenet}
-A.~Krizhevsky, I.~Sutskever, and G.~Hinton, ``Imagenet classification with deep
-  convolutional neural networks,'' in \emph{Advances in Neural Information
-  Processing Systems}, 2012, pp. 1097--1105.
-
-\bibitem{ilsvrcarxiv14}
-O.~Russakovsky, J.~Deng, H.~Su, J.~Krause, S.~Satheesh, S.~Ma, Z.~Huang,
-  A.~Karpathy, A.~Khosla, M.~Bernstein, A.~C. Berg, and L.~Fei-Fei, ``{ImageNet
-  Large Scale Visual Recognition Challenge},'' 2014.
 
 \bibitem{Oquab14}
 M.~Oquab, L.~Bottou, I.~Laptev, and J.~Sivic, ``Learning and transferring
