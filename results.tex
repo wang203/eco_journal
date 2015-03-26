@@ -379,7 +379,7 @@ to this same resolution by averaging the high confidence observations within the
 %\label{fig:nonsnowcurve}
 %\vspace{-12pt}
 %\end{figure}
-Figure ~\ref{fig:snowcurve} shows the precision and recall curve of snow prediction in continental-scale.
+Figure~\ref{fig:snowcurve} shows the precision and recall curve of snow prediction in continental-scale.
 Here we limit our predictions for the bins which have photos taken at that time and location, we do this by keeping the bins have ground truth and photos at the same time. 
 We computed our confidence scores based on tags and image-classification, then we trained simple decision tree to learn the correct thresholds to make final prediction. We achieve almost 0.5\% over the baseline (cutting the error rate by more than 20\%), the baseline in our case is the majority class which predicts now snow all the time.  
   
@@ -445,7 +445,7 @@ Random Baseline & 50.00\%\\
 Color SIFT & 78.10\%\\
 Color GIST & 82.58\% \\
 SIFT and GIST& 85.90\% \\
-CNN\% &  88.00\%\\
+CNN &  88.00\%\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -475,7 +475,7 @@ feature is not going to improve the result of using visual evidence.
 %snowcurve.pdf
 %curvevege.jpg
 % precision-recall of vege
-Figure ~\ref{fig:curvevege} shows the precision and recall curve of snow prediction in continental-scale.
+Figure~\ref{fig:curvevege} shows the precision and recall curve of snow prediction in continental-scale.
 % bar plot of 2 places
 \begin{figure*}
 %{\small{
@@ -596,14 +596,14 @@ there is either no green image found or green images are too few compare to
 the quantity of non-green images. On the other hand, false positive error is rare 
 (less than 1\%) and complex. We found most images in the false positive bins are actually green vegetation images. 
 \fxnote{here we need some more explanation} 
-In figure ~\ref{fig:falseposi}, we show some examples of images in false positive bins.
+In figure~\ref{fig:falseposi}, we show some examples of images in false positive bins.
 
 
 
 \subsubsection{Performance at single place over time}
 For each single location, we can find out when exactly did the leaves turn yellow as well as when
 did the leaves turn back to green. 
-Figure ~\ref{fig:placeinbar} shows vegetation coverage of 6 places over 2009 and 2010. 
+Figure~\ref{fig:placeinbar} shows vegetation coverage of 6 places over 2009 and 2010. 
 Prediction results on top usually have more data available than groud truth on the bottom. 
 And we can see the ground truth is likely missing at the time when the leaves change color. 
 
@@ -638,7 +638,7 @@ And we can see the ground truth is likely missing at the time when the leaves ch
 
 \subsubsection{Single time over places}
 
-Sample maps are presented in figure ~\ref{fig:map}. These maps are visualizaton of the performance
+Sample maps are presented in figure~\ref{fig:map}. These maps are visualizaton of the performance
 in North America.
 We use public sharing Flickr images.  
 These images are more likely taken from more populated or more popular locations. The satellite ground truth, instead, is limited to cloud coverage and other sensor precision issue.
