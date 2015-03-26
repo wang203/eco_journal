@@ -311,11 +311,12 @@ City &  baseline & tags  &  tag confidence  &  vision conf & tags conf and visio
 \end{table*}
 
 \subsubsection{{Continental-scale snow prediction}}
-Predicting snow for individual cities is of limited practical use because accurate meteorological data already exists for these highly populated areas.
+Predicting snow for individual cities is of limited practical 
+use because accurate meteorological data already exists for these highly populated areas.
 Here we ask whether phenomena can be
 monitored at a continental scale, a task for which existing data
 sources are less complete and accurate.  We use the photo data and
-ground truth described in Section~\ref{sec:results}, although for the
+ground truth described in Section~\ref{sec:experiments}, although for the
 experiments presented in this paper we restrict our dataset to North
 America (which we defined to be a rectangular region spanning from 10
 degrees north, -130 degrees west to 70 degrees north, -50 degrees
@@ -427,7 +428,7 @@ There are 4000 images in training set and 2000 images in testing set. In both tr
 %\hline
 %SIFT and GIST& 85.9\% \tabularnewline
 %\hline 
-%CNN\% &  88.0\%\tabularnewline
+%CNN &  88.0\%\tabularnewline
 %\hline 
 %\end{tabular}
 %}
@@ -589,7 +590,11 @@ Figure ~\ref{fig:curvevege} shows the precision and recall curve of snow predict
 
 %****explain errors
 
-Generally, all the false negative error is due to the sparseness of data. While not enough images are collected at certain location during some time, there is either no green image found or green images are too few compare to the quantity of non-green images. On the other hand, false positive error is rare (less than 1\%) and complex. We found most images in the false positive bins are actually green vegetation images. 
+Generally, all the false negative error is due to the sparseness of data. 
+While not enough images are collected at certain location during some time, 
+there is either no green image found or green images are too few compare to 
+the quantity of non-green images. On the other hand, false positive error is rare 
+(less than 1\%) and complex. We found most images in the false positive bins are actually green vegetation images. 
 \fxnote{here we need some more explanation} 
 In figure ~\ref{fig:falseposi}, we show some examples of images in false positive bins.
 
