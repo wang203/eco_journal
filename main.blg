@@ -3,6 +3,7 @@ The top-level auxiliary file: main.aux
 The style file: IEEEtran.bst
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: eco.bib
+Warning--I didn't find a database entry for "ilsvrcarxiv14"
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -10,7 +11,7 @@ Database file #1: eco.bib
 Done.
 You've used 58 entries,
             4039 wiz_defined-function locations,
-            1086 strings with 16432 characters,
+            1087 strings with 16445 characters,
 and the built_in function-call counts, 35896 in all, are:
 = -- 2688
 > -- 918
@@ -49,3 +50,4 @@ warning$ -- 0
 while$ -- 126
 width$ -- 60
 write$ -- 520
+(There was 1 warning)
