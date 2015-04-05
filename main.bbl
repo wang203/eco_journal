@@ -154,11 +154,20 @@ A.~Sadilek, H.~Kautz, and V.~Silenzio, ``{Predicting Disease Transmission from
   Geo-Tagged Micro-Blog Data},'' in \emph{AAAI}, 2012.
 
 \bibitem{yahooweather}
-http://blog.flickr.net/en/2014/11/24/science-and-flickr-powering-product-yahoo-weather/.
+http://blog.flickr.net/en/2014/11/24/science-and-flickr-powering-product-yahoo%
+-weather/.
 
 \bibitem{singh10socialpixels}
 V.~K. Singh, M.~Gao, and R.~Jain, ``Social pixels: genesis and evaluation,'' in
   \emph{ACM Multimedia}, 2010.
+
+\bibitem{Leung:2010wa}
+D.~Leung and S.~Newsam, ``{Proximate Sensing: Inferring What-Is-Where From
+  Georeferenced Photo Collections},'' in \emph{CVPR}, 2010.
+
+\bibitem{murdock}
+C.~Murdock, N.~Jacobs, and R.~Pless, ``{Webcam2Satellite}: Estimating cloud
+  maps from webcam imagery,'' in \emph{WACV}, 2013.
 
 \bibitem{thomee2014s}
 B.~Thomee, J.~G. Moreno, and D.~A. Shamma, ``Who's time is it anyway?:
@@ -182,14 +191,6 @@ D.~J. Crandall, L.~Backstrom, D.~Huttenlocher, and J.~Kleinberg, ``Mapping the
 C.~Hauff and G.-J. Houben, ``Geo-location estimation of flickr images: social
   web based enrichment,'' in \emph{Advances in Information Retrieval}.\hskip
   1em plus 0.5em minus 0.4em\relax Springer, 2012, pp. 85--96.
-
-\bibitem{Leung:2010wa}
-D.~Leung and S.~Newsam, ``{Proximate Sensing: Inferring What-Is-Where From
-  Georeferenced Photo Collections},'' in \emph{CVPR}, 2010.
-
-\bibitem{murdock}
-C.~Murdock, N.~Jacobs, and R.~Pless, ``{Webcam2Satellite}: Estimating cloud
-  maps from webcam imagery,'' in \emph{WACV}, 2013.
 
 \bibitem{singhal2003spatialcontext}
 A.~Singhal, J.~Luo, and W.~Zhu, ``Probabilistic spatial context models for
@@ -223,10 +224,10 @@ D.~Grangier, L.~Bottou, and R.~Collobert, ``Deep convolutional networks for
   scene parsing,'' in \emph{ICML 2009 Deep Learning Workshop}, vol.~3.\hskip
   1em plus 0.5em minus 0.4em\relax Citeseer, 2009.
 
-\bibitem{ILSVRCarxiv14}
+\bibitem{russakovsky2014imagenet}
 O.~Russakovsky, J.~Deng, H.~Su, J.~Krause, S.~Satheesh, S.~Ma, Z.~Huang,
-  A.~Karpathy, A.~Khosla, M.~Bernstein, A.~C. Berg, and L.~Fei-Fei, ``{ImageNet
-  Large Scale Visual Recognition Challenge},'' 2014.
+  A.~Karpathy, A.~Khosla, M.~Bernstein \emph{et~al.}, ``Imagenet large scale
+  visual recognition challenge,'' \emph{arXiv preprint arXiv:1409.0575}, 2014.
 
 \bibitem{kumar2012leafsnap}
 N.~Kumar, P.~N. Belhumeur, A.~Biswas, D.~W. Jacobs, W.~J. Kress, I.~C. Lopez,

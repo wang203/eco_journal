@@ -23,9 +23,7 @@ machine learning to improve the accuracy of estimates.
 
 In this paper, we show a real case of using public-sharing data to estimate ecology information.
 We used get this information only from some institution with the help of satellite.
-
-
-In this paper, we propose using photo-sharing social media sites as a
+Also, we propose using photo-sharing social media sites as a
 means of observing the state of the natural world, by automatically
 recognizing specific types of scenes and objects in large-scale social
 image collections. This work is an initial step towards a long-term
@@ -52,9 +50,8 @@ for these challenging recognition problems.
 \fxnote{possible ideas in discussion section}
 
 %0. not using tags in vegetation case
-An important extended work in this paper is analyzing the visual content of image data instead of
-only using text tags. It is not only because image content gives complement information, moreover,
- itis crucial for some phenomena. For example, in vegetation case, 
+An important work in this paper is analyzing the visual content of image data instead of
+only using text tags. The complement information in image content is crucial for some phenomena. For example, in vegetation case, 
 %Discussion about the fact that tags really do not work well for some
 %phenomena like vegetation where 
 there is not a single set of ``good''
@@ -70,11 +67,12 @@ And also a lot of tags are misleading such as ``Irish green'' on Saint Patrick's
 %image classification cannot be perfect. 
 %And images is easily take large space.
 
-The public sharing images we use are not taken on purpose of research work. Instead, every user has their own view of taking photoes. That makes our dataset very complex in content, viewing angle, and illumination. 
-This is a possible factor about 
-why our visual image classification model does not perform perfect. 
+The public sharing images we use are not taken on purpose of research work. Instead, users all have their own views of taking photos. That makes our data set very complex in content, viewing angle, and illumination. 
+\fxnote{This is a possible factor about 
+why our visual image classification model does not perform perfect. Or this is the key challenge of the image classification step.}
 
-To show the diversity of our Flickr image dataset, in figure ~\ref{fig:dataset} we present a random sample of images in our vegetation dataset labeled as positive and negative.
+To show the diversity of our Flickr image dataset, in figure ~\ref{fig:dataset} we present a random sample of images in our vegetation dataset.
+Trees in the images can be far away from camera, or only as a background of another event or object in the scene. In negative set, the images can also be confusing like forests in winter without leaves, or plants in pictures or indoor.
 
 %\begin{figure*}[th]
 %{\small{
@@ -168,7 +166,7 @@ I cannot explain this)
 
 %2. deep learning performs better than visual features
 
-Our experiments also provide evidence for the latest improvements in image classification -- CNN outperforms traditional vision technique when
+Our experiments also provide evidence for the latest improvement in image classification -- CNN outperforms traditional vision technique when
  we have a large number of training data. The reason is not completely understood. And we only 
 discuss our speculation here.
 Intuitively, deep learning technique learns very high dimensional features in hierarchy way from training data
@@ -180,7 +178,7 @@ classification perform separately.
 
 
 %3. future works
-
+In future, we have some plans to build a more sophisticated system.
 The vegetation coverage changes at different time over places. 
 Instead of trying to create a single binary classifier (to determine whether this image is with or
 without a certain ecology phenomenon),

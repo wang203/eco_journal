@@ -56,9 +56,9 @@ applications, it may not be necessarily to correct classify all
 images, but instead to find some images that most likely contain a
 subject of interest.
 %
-To give a sense for the difficulty and failure modes of our dataset,
-we show a random sample of correct and incorrect classification results
-in Figure~\ref{fig:fp}.
+%To give a sense for the difficulty and failure modes of our dataset,
+%we show a random sample of correct and incorrect classification results
+%in Figure~\ref{fig:fp}.
 
 \begin{figure*}[th!]
 \begin{center}
@@ -396,7 +396,7 @@ We computed our confidence scores based on tags and image-classification, then w
 
 
 Using the method we describe in Section~\ref{sec:method}, we train and test the vision model on our hand-labeled data set.
-There are 4000 images in training set and 2000 images in testing set. In both training and testing set, the number of positive and negative images are the same. Here we present the results on image classification level.
+Here we present the results on image classification level in table ~\ref{table:veg_img_classifier}. In our experiments, CNN works better than combining image features.
 
 %\subsubsection{not using tag in vegetation case}
 %
@@ -595,7 +595,7 @@ While not enough images are collected at certain location during some time,
 there is either no green image found or green images are too few compare to 
 the quantity of non-green images. On the other hand, false positive error is rare 
 (less than 1\%) and complex. We found most images in the false positive bins are actually green vegetation images. 
-\fxnote{here we need some more explanation} 
+\fxnote{here we need some more explanation about why in false positive bins, we found many green images.} 
 In figure~\ref{fig:falseposi}, we show some examples of images in false positive bins.
 
 
@@ -603,10 +603,11 @@ In figure~\ref{fig:falseposi}, we show some examples of images in false positive
 \subsubsection{Performance at single place over time}
 For each single location, we can find out when exactly did the leaves turn yellow as well as when
 did the leaves turn back to green. 
-Figure~\ref{fig:placeinbar} shows vegetation coverage of 6 places over 2009 and 2010. 
-Prediction results on top usually have more data available than groud truth on the bottom. 
+Figure~\ref{fig:placeinbar} shows vegetation coverage of 6 places over 2009 and 2010. From the figure we can see that
+prediction results on top usually have more data available than groud truth on the bottom. 
 And we can see the ground truth is likely missing at the time when the leaves change color. 
 
+\fxnote{This is an advantage of our work, the most important thing Ecologists would be interested in, is when do the leaves change color in each location. And ground truth usually shows missing data for that time period while we don't.}
 % bar plot of 2 places
 \begin{figure}
 %{\small{
@@ -638,9 +639,9 @@ And we can see the ground truth is likely missing at the time when the leaves ch
 
 \subsubsection{Single time over places}
 
-Sample maps are presented in figure~\ref{fig:map}. These maps are visualizaton of the performance
+Sample maps are presented in figure~\ref{fig:map}. These maps are visualization of the performance
 in North America.
-We use public sharing Flickr images.  
+We use public sharing Flickr images to make predictions.  
 These images are more likely taken from more populated or more popular locations. The satellite ground truth, instead, is limited to cloud coverage and other sensor precision issue.
 
 
