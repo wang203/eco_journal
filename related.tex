@@ -1,15 +1,14 @@
 \section{related work}
 \label{sec:relatedwork}
 
-
 A variety of recent work has studied how to apply computational
 techniques to analyze online social datasets in order to aid research
 in many disciplines Lazer\etal~\cite{lazer09}. Much of this work has studied
 questions in sociology and human interaction, such as how friendships
-form Crandall\etal~\cite{feedback08kdd}, how information flows through social
-networks Liben-Nowell and Kleinberg~\cite{libennowell08}, how people move through
-space Brockmann\etal~\cite{brockmann06}, and how people influence their
-peers Anagnostopoulos\etal~\cite{anagnostpopoulos08}.  The goal of these projects is not to
+form~\cite{feedback08kdd}, how information flows through social
+networks~\cite{libennowell08}, how people move through
+space~\cite{brockmann06}, and how people influence their
+peers~\cite{anagnostpopoulos08}.  The goal of these projects is not to
 measure data about the physical world itself, but instead to discover
 interesting properties of human behavior using social networking sites
 as a convenient data source.
@@ -40,11 +39,11 @@ each day for several years.
 Several recent studies have shown the power of social media  for observing
 the world itself, as a special case of `social sensing' Aggarwal\etal~\cite{Aggarwal:2013vh}.
 This work includes using Twitter data to measure collective emotional
-state Golder\etal~\cite{Golder:2011cy} (which, in turn, has found to
-be predictive of stock moves Bollen\etal~\cite{bollen11twitter}),
+state~\cite{Golder:2011cy} (which, in turn, has found to
+be predictive of stock moves~\cite{bollen11twitter}),
 predicting product adoption rates and political election
-outcomes Jin\etal~\cite{jin10prediction}, and collecting data about
-earthquakes and other natural disasters Sakaki\etal~\cite{Sakaki:2010uv}.
+outcomes~\cite{jin10prediction}, and collecting data about
+earthquakes and other natural disasters~\cite{Sakaki:2010uv}.
 
 %Others have tracked the geo-temporal distributions of social media
 %tags, query search terms, and English words in large
@@ -70,12 +69,12 @@ who show that by monitoring the geospatial distribution of search
 engine queries related to flu symptoms, the spread of the H1N1
 flu can be estimated several days before the official statistics produced by traditional
 means.
-DeLongueville \textit{etal}~\cite{delongueville09} study tweets related to a major fire in
+DeLongueville\etal~\cite{delongueville09} study tweets related to a major fire in
 France, but their analysis is at a very small scale (a few dozen
 tweets) and their focus is more on human reactions to the fire as
 opposed to using these tweets to estimate the fire's position and
 severity.  In perhaps the most related existing work to ours,
- Singh \textit{et al}~\cite{singh10socialpixels} create
+Singh\etal~\cite{singh10socialpixels} create
 geospatial heat maps (dubbed ``social pixels'') of various
 tags, including snow and greenery, but their focus is on developing a
 formal database-style algebra for describing queries on these systems
@@ -84,14 +83,13 @@ accurate predictions from these visualizations, nor do they compare to
 any ground truth.
 
 \xhdr{Accuracy of geo and temporal data on Flickr.}
-Over a sample of 10 million images on Flickr.com, 37\% (only a small subset) of them probably have incorrect timestamp Thomee\etal~\cite{thomee2014s}.
+Over a sample of 10 million images on Flickr.com, 37\% (only a small subset) of them probably have incorrect timestamp~\cite{thomee2014s}.
 The accuracy of geo-location is limited due to the camera device, and GPS precision.
 
 Meanwhile, a lot of works are trying to correct estimate or correct geo-location of Flickr images.
 %~\cite{Geo-Clustering of Images With Missing GeoTags} 
-Singh\etal~\cite{singh2010geo}estimates where images are taken for those missing geo-tags. They are optimizing a graph clustering problem. Attributes in their graph include textual tags, timestamps and vision content. It is inspired by an earlier work Crandall\etal~\cite{crandall2009mapping}.
+Singh\etal~\cite{singh2010geo}estimates where images are taken for those missing geo-tags. They are optimizing a graph clustering problem. Attributes in their graph include textual tags, timestamps and vision content. It is inspired by an earlier work by Crandall\etal~\cite{crandall2009mapping}.
 %~\cite{Geo-Location Estimation of Flickr Images: SocialWeb Based Enrichment} 
-
 
 Timestamp is harder to be accurate due to the same reason of geo-tags and the time-zone problem. 
 %In paper %~\cite{Who's Time is it anyway?}, 
@@ -110,21 +108,21 @@ Existing work has analyzed textual content, including text tags and
 Twitter feeds, in order to do this. Hyvarinen and
 Saltikoff~\cite{meteo} use tag search on Flickr to validate
 metereological satellite observations, although the analysis is done
-by hand. Zhang \textit{et al}~\cite{ecology2012www} take a large
-collection of geo-tagged and time-stamped Flickr photos and search for
-snow-related tags to produce estimates of geo-temporal snowfall
-distributions, and evaluate them against satellite snow maps.
-Singh \textit{et al}~\cite{singh10socialpixels} visualize geospatial
+by hand. Singh \textit{et al}~\cite{singh10socialpixels} visualize geospatial
 distributions of photos tagged ``snow'' as an example of
 their Social Pixels framework, but they study the
 database theory needed to perform this analysis
 and do not consider the prediction problem.  
 
 
+%Zhang \textit{et al}~\cite{ecology2012www} take a large collection of geo-tagged and time-stamped Flickr photos and search for snow-related tags to produce estimates of geo-temporal snowfall distributions, and evaluate them against satellite snow maps.
+
+
+
 Few papers have used actual image content
 analysis as we do here. Leung and Newsam~\cite{Leung:2010wa} use scene
 analysis in geo-tagged photos to infer land cover and land use types.
-Murdock \textit{et al}~\cite{murdock} analyze  geo-referenced
+Murdock \textit{et al}~\cite{murdock} analyze geo-referenced
 stationary webcam feeds to estimate cloud cover on a day-by-day
 basis, and then use these estimates to recreate satellite cloud cover
 maps.  Webcams offer a complimentary data source to the social media
@@ -153,27 +151,23 @@ network. They partition the image into segments by thresholding these
 belief values, and assign a label to each segment with a probabilistic
 framework that considers both the beliefs and simple
 contextual information like relative location.
- They find that sky and grass
-are relatively easy to classify, while snow and water are
-most difficult.  Follow-up work Boutell\etal~\cite{boutell2006semanticfeature}, Boutell~\cite{boutell2005exploiting}
-applied more modern techniques like
-support vector machines.  Barnum \textit{et al}~\cite{rain2009IJCV}
-detect falling snow and rain, a complementary problem
-to the one we study here of detecting fallen
+They find that sky and grass are relatively easy to classify, while snow and water are
+most difficult.  Follow-up work Boutell\etal~\cite{boutell2006semanticfeature}, Boutell~\cite{boutell2005exploiting} applied more modern techniques like
+support vector machines.  Barnum \textit{et al}~\cite{rain2009IJCV} detect falling snow and rain, a complementary problem to the one we study here of detecting fallen
 snow.
 
 \xhdr{Scene classification.} Papers in the scene recognition literature have considered
 snowy scenes amongst their scene categories; for instance, Li \textit{et
-  al}~\cite{li2009totalscene,li2007event} mention snow as one possible
+	al}~\cite{li2009totalscene,li2007event} mention snow as one possible
 component of their scene parsing framework, but do not present
 experimental results. The SUN database of Xiao \textit{et
-  al}~\cite{XiaoHEOT10} includes several snow-related classes like
+	al}~\cite{XiaoHEOT10} includes several snow-related classes like
 ``snowfield,'' ``ski slope,'' ``ice shelf,'' and ``mountain snowy,''
 but other categories like ``residential neighborhood'' sometimes have
 snow and sometimes do not, such that detecting these scenes alone
 is not sufficient for our purposes. 
 
-A big advance  on scene classification and object recognition is achieved through deep learning (i.e Conventional Neural Network(CNN)) ~\cite{krizhevsky2012imagenet,chatfield2011devil,zhou2014learning,grangier2009deep}. CNN outperformed all other techniques in the ImageNet challenge (the most famous object category detection competition) ~\cite{ILSVRCarxiv14}. The main advantage for the deep learning is to learn image representation (visual features) and a classifier at the same time, instead of first designing hand-crafted low-level features, then applying a machine learning algorithm. 
+A big advance  on scene classification and object recognition is achieved through deep learning (i.e Conventional Neural Network(CNN)) ~\cite{krizhevsky2012imagenet,chatfield2011devil,zhou2014learning,grangier2009deep}. CNN outperformed all other techniques in the ImageNet challenge (the most famous object category detection competition)~\cite{ilsvrcarxiv14}. The main advantage for the deep learning is to learn image representation (visual features) and a classifier at the same time, instead of first designing hand-crafted low-level features, then applying a machine learning algorithm. 
 
 
 
@@ -192,8 +186,7 @@ Siagian\etal~\cite{siagian2008comparison}introduces multiple Gist models in scen
 
 %~\cite{Detecting subpixel woody vegetation in digital imagery using two artificial intelligence approaches}
 
-Foschi\etal~\cite{foschi1997detecting} is using man-made mask and neural networks.
-(could be compared with deep learning)
+Foschi\etal~\cite{foschi1997detecting} used man-made mask and neural networks.
 
 %a lot of works use remote sensing 
 
@@ -201,8 +194,7 @@ Foschi\etal~\cite{foschi1997detecting} is using man-made mask and neural network
 This paper Balamurugan\etal~\cite{balamurugan2007greenery}
 %~\cite{greenery and non-greenery image classification using adaptive neuro-guzzy inference system}
 is the closest one to our purpose.
-They consider
-color, texture features in images and get good result. But they only test on a very limited dataset where the positive images are either with one tree in the center or full of trees or meadow. This is inadequate when we are working with   very large number of public shared images.
+They consider color, texture features in images and get good result. But they only test on a very limited dataset where the positive images are either with one tree in the center or full of trees or meadow. This is inadequate when we are working with   very large number of public shared images.
 %200 imgs (50*50)
 
 
@@ -219,8 +211,6 @@ cannot.  In addition, the rapidly expanding quantity
 of online images with geo-spatial and temporal metadata creates a
 fine-scale record of what is happening across the globe.  However, to
 unlock the latent information in these vast photo collections, we need
- mining and recognition tools that can efficiently
+mining and recognition tools that can efficiently
 process large numbers of images, and robust statistical models that
 can handle incomplete and incorrect observations.
-
-
