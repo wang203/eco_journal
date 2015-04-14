@@ -113,13 +113,21 @@ at the image's geo-tagged location. In total we labeled 10,000 images.
 %%% Need to describe the training data for build vegetation visual model
 
 
-From our sampling set, we build a data set with over 10000 images. They are taken before 2009, and are composed by images with ``forest'' and ``summer'' like tags and also images without any tag preference. These images are labeled with categories 
-\textit{``Outdoor Greenery'',``Outdoor non-Greenery'',``Indoor'',``Other-modified''},and \textit{``Not available''}.
+We build a data set with over 10,000 images. They are taken before 2009, and are composed of images with "forest" and "summer" tags and also a collection of random images without any tag preference. These images were hand-labeled with categories 
+\textit{``Outdoor Greenery, Outdoor non-Greenery, Indoor, and Other''}.
 
-Finally, we build a positive set with images in category \textit{``Outdoor Greenery''} and a negative set 
-with images in categories \textit{``Outdoor non-Greenery''} and \textit{``Indoor''}. To learn a image classification model, we build a training set with 4000 images and a testing set with 1900 images. In both training and testing set, there are equal number of positive and negative samples.
-To show the diversity of our Flickr image dataset, in figure~\ref{fig:dataset} we present a random sample of images in our vegetation dataset.
+Finally, we build a positive set with images in the category \textit{"Outdoor Greenery"} and a negative set 
+with images in categories \textit{``Outdoor non-Greenery''} and \textit{``Indoor''}. To learn an image classification model, we build a training set with 4,000 images and a testing set with 1,900 images. In training and testing set, there are equal numbers of positive and negative samples.
+To show the diversity of our Flickr image dataset, in Figure~\ref{fig:dataset} we present a random sample of images in our vegetation dataset labeled as positive and negative.
 
+
+%From our sampling set, we build a data set with over 10000 images. They are taken before 2009, and are composed by images with ``forest'' and ``summer'' like tags and also images without any tag preference. These images are labeled with categories 
+%\textit{``Outdoor Greenery'',``Outdoor non-Greenery'',``Indoor'',``Other-modified''},and \textit{``Not available''}.
+%
+%Finally, we build a positive set with images in category \textit{``Outdoor Greenery''} and a negative set 
+%with images in categories \textit{``Outdoor non-Greenery''} and \textit{``Indoor''}. To learn a image classification model, we build a training set with 4000 images and a testing set with 1900 images. In both training and testing set, there are equal number of positive and negative samples.
+%To show the diversity of our Flickr image dataset, in figure~\ref{fig:dataset} we present a random sample of images in our vegetation dataset.
+%
 
 
 
