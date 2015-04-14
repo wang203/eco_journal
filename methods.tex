@@ -209,19 +209,23 @@ In continental-scale prediction, we only look at images on Flickr.com in year 20
 
 \subsection{Extracting semantics using tags from individual images}
 
-We consider two learning paradigms. The first
-is to produce a single exemplar for each bin in time and space
-consisting of the set of all tags used by all users. For each of these
+We consider two learning paradigms. The first is to produce a single exemplar for each bin in time and space consisting of the set of all tags used by all users. For each of these
 exemplars, the NASA and/or NOAA ground truth data gives a label (snow
 or non-snow). We then use standard machine learning algorithms like
 Support Vector Machines and decision trees to identify the most
 discriminative tags and tag combinations. In the second paradigm, our
 goal instead is to classify individual \textit{photos} as containing
 snow or not, and then use these classifier outputs to compute the
-number of positive and non-positive photos in each bin (i.e., to
-compute $m$ and $n$ in the likelihood ratio described in the last
-section).
+number of positive and non-positive photos in each bin. 
 
+
+
+
+
+
+
+
+%(i.e., to compute $m$ and $n$ in the likelihood ratio described in the lastsection).
 
 
 
@@ -338,11 +342,8 @@ type.  Intuitively, color is a very important feature for detecting
 snow, and thus we focused on features that use color to some
 degree.  
 
-Similar to snow , vegetation  has the signature green color. 
-The leaves of plants have distinctive visual texture. 
-So we employ SIFT feature to analyze the local gradient distribution. 
-And we also extract GIST feature to describe texture feature and global context. 
-
+Similar to snow, vegetation has a signature color (green). 
+The leaves of plants also have distinctive visual texture. So we employ SIFT features to analyze the local gradient distribution, and we also extract GIST feature to describe texture feature and global context. 
 We describe our visual feature here.
 
 
