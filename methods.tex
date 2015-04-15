@@ -216,7 +216,7 @@ Support Vector Machines and decision trees to identify the most
 discriminative tags and tag combinations. In the second paradigm, our
 goal instead is to classify individual \textit{photos} as containing
 snow or not, and then use these classifier outputs to compute the
-number of positive and non-positive photos in each bin. 
+number of positive and negative photos in each bin. 
 
 
 
@@ -353,7 +353,7 @@ We describe our visual feature here.
 	dimensions, for a total of 784 bins. We experimented with other
 	quantizations and found that this arrangement worked best.  We encode
 	the histogram as a 784 dimensional feature and use an SVM with a
-	chi-squared distance (as in ~\cite{xiao2010sun}).
+	chi-squared distance (as in ~\cite{XiaoHEOT10}).
 	\item{\textbf{Tiny images:}} 
 	%Tiny images are another very simple way of
 	%representing an image that nevertheless capture coarse color and
@@ -599,7 +599,7 @@ snow prediction precision becomes 100\%, while the same is true for
 non-snow prediction when the number of non-snow voters reaches 33
 if there are no snow voters in the bin.
 
-\fxnote{We probably want to keep this since we mentioned it in figure ~\ref{city_roc}.}
+\fxnote{We probably want to keep this since we mentioned it in figure ~\ref{fig:city_roc}.}
 
 \begin{figure}
 \begin{center}

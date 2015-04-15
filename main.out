@@ -1,23 +1,22 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}
 \BOOKMARK [1][-]{section.2}{related work}{}
-\BOOKMARK [1][-]{section.3}{related work}{}
-\BOOKMARK [1][-]{section.4}{method}{}
-\BOOKMARK [2][-]{subsection.4.1}{DataSet}{section.4}
-\BOOKMARK [3][-]{subsubsection.4.1.1}{Snow DataSet}{subsection.4.1}
-\BOOKMARK [3][-]{subsubsection.4.1.2}{Vegetation DataSet}{subsection.4.1}
-\BOOKMARK [2][-]{subsection.4.2}{Extracting semantics using tags from individual images}{section.4}
-\BOOKMARK [2][-]{subsection.4.3}{Extracting semantics using visual features from individual images}{section.4}
-\BOOKMARK [3][-]{subsubsection.4.3.1}{Deep learning}{subsection.4.3}
-\BOOKMARK [2][-]{subsection.4.4}{Combining evidence together across users}{section.4}
-\BOOKMARK [1][-]{section.5}{experiments and results}{}
-\BOOKMARK [2][-]{subsection.5.1}{Snow Case}{section.5}
-\BOOKMARK [3][-]{subsubsection.5.1.1}{Single Image classification}{subsection.5.1}
-\BOOKMARK [3][-]{subsubsection.5.1.2}{Snow prediction on cities}{subsection.5.1}
-\BOOKMARK [3][-]{subsubsection.5.1.3}{Continental-scale snow prediction}{subsection.5.1}
-\BOOKMARK [2][-]{subsection.5.2}{Vegetation case}{section.5}
-\BOOKMARK [3][-]{subsubsection.5.2.1}{Single image classification}{subsection.5.2}
-\BOOKMARK [3][-]{subsubsection.5.2.2}{Vegetation coverage over time and space}{subsection.5.2}
-\BOOKMARK [3][-]{subsubsection.5.2.3}{Performance at single place over time}{subsection.5.2}
-\BOOKMARK [3][-]{subsubsection.5.2.4}{Single time over places}{subsection.5.2}
-\BOOKMARK [1][-]{section.6}{discussion and conclusion}{}
+\BOOKMARK [1][-]{section.3}{method}{}
+\BOOKMARK [2][-]{subsection.3.1}{DataSet}{section.3}
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Snow DataSet}{subsection.3.1}
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Vegetation DataSet}{subsection.3.1}
+\BOOKMARK [2][-]{subsection.3.2}{Extracting semantics using tags from individual images}{section.3}
+\BOOKMARK [2][-]{subsection.3.3}{Extracting semantics using visual features from individual images}{section.3}
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Deep learning}{subsection.3.3}
+\BOOKMARK [2][-]{subsection.3.4}{Combining evidence together across users}{section.3}
+\BOOKMARK [1][-]{section.4}{experiments and results}{}
+\BOOKMARK [2][-]{subsection.4.1}{Snow Case}{section.4}
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Single Image classification}{subsection.4.1}
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Snow prediction on cities}{subsection.4.1}
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Continental-scale snow prediction}{subsection.4.1}
+\BOOKMARK [2][-]{subsection.4.2}{Vegetation case}{section.4}
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Single image classification}{subsection.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Vegetation coverage over time and space}{subsection.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Performance at single place over time}{subsection.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.4}{Single time over places}{subsection.4.2}
+\BOOKMARK [1][-]{section.5}{discussion and conclusion}{}
 \BOOKMARK [1][-]{section*.10}{References}{}
